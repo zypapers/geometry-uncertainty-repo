@@ -1,0 +1,70 @@
+{
+ "layer": 15,
+ "binary_pair": "known_vs_unknown",
+ "note": "IN-SAMPLE demonstration only; never an out-of-sample estimate",
+ "real_labels": {
+  "insample_binary_auroc_K_vs_U": 1.0,
+  "insample_4class_accuracy": 1.0,
+  "n_binary": 100,
+  "n_4class": 200
+ },
+ "per_shuffle_seed": {
+  "9001": {
+   "insample_binary_auroc_K_vs_U": 1.0,
+   "insample_4class_accuracy": 0.99,
+   "n_binary": 100,
+   "n_4class": 200
+  },
+  "9002": {
+   "insample_binary_auroc_K_vs_U": 0.9988,
+   "insample_4class_accuracy": 0.99,
+   "n_binary": 100,
+   "n_4class": 200
+  },
+  "9003": {
+   "insample_binary_auroc_K_vs_U": 1.0,
+   "insample_4class_accuracy": 0.985,
+   "n_binary": 100,
+   "n_4class": 200
+  },
+  "9004": {
+   "insample_binary_auroc_K_vs_U": 1.0,
+   "insample_4class_accuracy": 1.0,
+   "n_binary": 100,
+   "n_4class": 200
+  },
+  "9005": {
+   "insample_binary_auroc_K_vs_U": 1.0,
+   "insample_4class_accuracy": 1.0,
+   "n_binary": 100,
+   "n_4class": 200
+  }
+ },
+ "_meta": {
+  "model": "qwen7b",
+  "lr_config": {
+   "C": 1.0,
+   "penalty": "l2 (sklearn default)",
+   "solver": "lbfgs",
+   "max_iter": 2000
+  },
+  "shuffle_seeds": [
+   9001,
+   9002,
+   9003,
+   9004,
+   9005
+  ]
+ },
+ "_provenance": {
+  "git_commit_at_run": "c3b56566002b62c9ea333317458272dda5c3f372",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "cuda_visible_devices": "redacted",
+  "file_sha256": {
+   "results/hidden_states_v3_qwen7b.npz": "9da5851e1ef4ab1a6bd1ac48b740d68f30f82f997dc0b44b4d5ab8c939e60dd2",
+   "data/geometry_uncertainty_mvp_base_prompts_v3.csv": "5b2a83b21617146d62cb0971eec8993cfc0422b655f019cc1e1114f65edd1f19",
+   "data/v3_final200_LOCKED.csv": "3b1e013c3c78031cc6b09490772d719b881ac9fec97e27e2769353581fdfdeb7"
+  }
+ }
+}

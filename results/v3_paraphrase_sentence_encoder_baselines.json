@@ -1,0 +1,276 @@
+{
+ "n_prompts": 558,
+ "n_paraphrase_groups": 186,
+ "seeds": [
+  1234,
+  4567,
+  7890,
+  2345,
+  5678
+ ],
+ "n_folds": 5,
+ "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)",
+ "lr_config": {
+  "C": 1.0,
+  "solver": "lbfgs",
+  "max_iter": 2000,
+  "preprocessing": "none"
+ },
+ "encoders": {
+  "MiniLM-L6": {
+   "embedding_dim": 384,
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8081604938271605,
+     "auroc_std": 0.018780671200201354,
+     "auroc_per_seed": [
+      0.8155555555555556,
+      0.792283950617284,
+      0.8411111111111111,
+      0.7899382716049382,
+      0.8019135802469135
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9710493827160492,
+     "probe_minus_encoder": 0.16288888888888875
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.9274222222222221,
+     "auroc_std": 0.004897205048183164,
+     "auroc_per_seed": [
+      0.9192,
+      0.9325777777777777,
+      0.9314222222222224,
+      0.9248,
+      0.929111111111111
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9944444444444445,
+     "probe_minus_encoder": 0.06702222222222232
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.7140622222222222,
+     "auroc_std": 0.01638918282222291,
+     "auroc_per_seed": [
+      0.7414666666666666,
+      0.7220000000000001,
+      0.6991555555555556,
+      0.6968444444444444,
+      0.7108444444444444
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.998568888888889,
+     "probe_minus_encoder": 0.2845066666666668
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.954111111111111,
+     "auroc_std": 0.008265577313654435,
+     "auroc_per_seed": [
+      0.9517283950617283,
+      0.9618518518518518,
+      0.9601851851851853,
+      0.9577160493827159,
+      0.9390740740740741
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.999567901234568,
+     "probe_minus_encoder": 0.045456790123456936
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.8565802469135801,
+     "auroc_std": 0.008844763592755628,
+     "auroc_per_seed": [
+      0.8445679012345679,
+      0.8711728395061727,
+      0.8590123456790123,
+      0.8568518518518519,
+      0.8512962962962962
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9982962962962963,
+     "probe_minus_encoder": 0.1417160493827162
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.9281333333333335,
+     "auroc_std": 0.005664879892595364,
+     "auroc_per_seed": [
+      0.9208,
+      0.9344888888888889,
+      0.9225333333333333,
+      0.9288444444444445,
+      0.934
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9872799999999999,
+     "probe_minus_encoder": 0.05914666666666646
+    }
+   },
+   "overall_mean_pair_auroc": 0.8647449382716048,
+   "overall_min_pair_auroc": 0.7140622222222222
+  },
+  "mpnet-base": {
+   "embedding_dim": 768,
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8619629629629628,
+     "auroc_std": 0.013834125230059353,
+     "auroc_per_seed": [
+      0.8622839506172839,
+      0.8671604938271606,
+      0.8740740740740741,
+      0.835432098765432,
+      0.8708641975308642
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9710493827160492,
+     "probe_minus_encoder": 0.10908641975308642
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.947511111111111,
+     "auroc_std": 0.007198957400507443,
+     "auroc_per_seed": [
+      0.9338222222222222,
+      0.9469777777777777,
+      0.9512,
+      0.9516888888888888,
+      0.9538666666666666
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9944444444444445,
+     "probe_minus_encoder": 0.04693333333333349
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.7829600000000001,
+     "auroc_std": 0.010267593993714038,
+     "auroc_per_seed": [
+      0.8029333333333333,
+      0.7743555555555556,
+      0.7795111111111112,
+      0.7766666666666666,
+      0.7813333333333334
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.998568888888889,
+     "probe_minus_encoder": 0.21560888888888885
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.9619382716049383,
+     "auroc_std": 0.0070495448728403395,
+     "auroc_per_seed": [
+      0.9569753086419752,
+      0.9672222222222222,
+      0.9695679012345678,
+      0.965246913580247,
+      0.9506790123456791
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.999567901234568,
+     "probe_minus_encoder": 0.03762962962962968
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.9315061728395062,
+     "auroc_std": 0.0069264210557816565,
+     "auroc_per_seed": [
+      0.9195061728395062,
+      0.9408641975308643,
+      0.9341358024691359,
+      0.9323456790123457,
+      0.930679012345679
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9982962962962963,
+     "probe_minus_encoder": 0.06679012345679014
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.8994222222222221,
+     "auroc_std": 0.009378093728221562,
+     "auroc_per_seed": [
+      0.8867999999999999,
+      0.9090666666666667,
+      0.8906666666666667,
+      0.9007111111111109,
+      0.9098666666666666
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9872799999999999,
+     "probe_minus_encoder": 0.08785777777777781
+    }
+   },
+   "overall_mean_pair_auroc": 0.8975501234567901,
+   "overall_min_pair_auroc": 0.7829600000000001
+  },
+  "BGE-large": {
+   "embedding_dim": 1024,
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8593333333333334,
+     "auroc_std": 0.008289036359048128,
+     "auroc_per_seed": [
+      0.8524691358024692,
+      0.8650617283950618,
+      0.8721604938271605,
+      0.8495679012345679,
+      0.8574074074074074
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9710493827160492,
+     "probe_minus_encoder": 0.11171604938271584
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.9528355555555557,
+     "auroc_std": 0.0033449161719736166,
+     "auroc_per_seed": [
+      0.9463555555555556,
+      0.9543555555555556,
+      0.9532,
+      0.9544444444444444,
+      0.9558222222222221
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9944444444444445,
+     "probe_minus_encoder": 0.041608888888888806
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.739991111111111,
+     "auroc_std": 0.007409804649130195,
+     "auroc_per_seed": [
+      0.735688888888889,
+      0.7305777777777778,
+      0.7413777777777778,
+      0.7394666666666667,
+      0.7528444444444444
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.998568888888889,
+     "probe_minus_encoder": 0.2585777777777779
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.9888641975308641,
+     "auroc_std": 0.002512762728147722,
+     "auroc_per_seed": [
+      0.9866049382716049,
+      0.9935802469135803,
+      0.9891358024691358,
+      0.987037037037037,
+      0.9879629629629629
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.999567901234568,
+     "probe_minus_encoder": 0.010703703703703882
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.9410493827160493,
+     "auroc_std": 0.00611079934358747,
+     "auroc_per_seed": [
+      0.9293209876543209,
+      0.9437037037037036,
+      0.9471604938271605,
+      0.942962962962963,
+      0.9420987654320988
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9982962962962963,
+     "probe_minus_encoder": 0.05724691358024703
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.938471111111111,
+     "auroc_std": 0.004816235915635974,
+     "auroc_per_seed": [
+      0.9322222222222222,
+      0.9352444444444444,
+      0.9396888888888889,
+      0.9465333333333333,
+      0.9386666666666666
+     ],
+     "qwen7b_paraphrase_probe_ref": 0.9872799999999999,
+     "probe_minus_encoder": 0.0488088888888889
+    }
+   },
+   "overall_mean_pair_auroc": 0.9034241152263375,
+   "overall_min_pair_auroc": 0.739991111111111
+  }
+ }
+}

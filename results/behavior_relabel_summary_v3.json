@@ -1,0 +1,227 @@
+{
+ "per_model": {
+  "qwen7b": {
+   "label_diffs": [
+    {
+     "id": "known_v3_011",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "correct",
+     "changed": false
+    },
+    {
+     "id": "known_v3_030",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "wrong_inconsistent",
+     "changed": true
+    },
+    {
+     "id": "known_v3_033",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "wrong_confident",
+     "changed": true
+    },
+    {
+     "id": "known_v3_069",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "wrong_inconsistent",
+     "changed": true
+    },
+    {
+     "id": "known_v3_077",
+     "regime": "known",
+     "old_auto": "asks_clarification",
+     "new_auto": "asks_clarification",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3_012",
+     "regime": "unknown",
+     "old_auto": "challenges_premise",
+     "new_auto": "challenges_premise",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r3_028",
+     "regime": "unknown",
+     "old_auto": "challenges_premise",
+     "new_auto": "challenges_premise",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r3_044",
+     "regime": "unknown",
+     "old_auto": "challenges_premise",
+     "new_auto": "challenges_premise",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r3_047",
+     "regime": "unknown",
+     "old_auto": "abstain",
+     "new_auto": "abstain",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r4_001",
+     "regime": "unknown",
+     "old_auto": "asks_clarification",
+     "new_auto": "asks_clarification",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r4_013",
+     "regime": "unknown",
+     "old_auto": "abstain",
+     "new_auto": "abstain",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r4_016",
+     "regime": "unknown",
+     "old_auto": "correct",
+     "new_auto": "correct",
+     "changed": false
+    }
+   ],
+   "prior_audit_overrides_on_affected_rows": [],
+   "unknown_wrong_confident_corrected": "24/50 = 48%",
+   "unknown_row_corrected": {
+    "wrong_confident": 24,
+    "challenges_premise": 10,
+    "abstain": 7,
+    "wrong_inconsistent": 5,
+    "correct": 2,
+    "correct_inconsistent": 1,
+    "asks_clarification": 1
+   }
+  },
+  "llama8b": {
+   "label_diffs": [
+    {
+     "id": "known_v3_011",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "correct",
+     "changed": false
+    },
+    {
+     "id": "known_v3_030",
+     "regime": "known",
+     "old_auto": "challenges_premise",
+     "new_auto": "challenges_premise",
+     "changed": false
+    },
+    {
+     "id": "known_v3_033",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "wrong_inconsistent",
+     "changed": true
+    },
+    {
+     "id": "known_v3_069",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "correct_fluky",
+     "changed": true
+    },
+    {
+     "id": "known_v3_077",
+     "regime": "known",
+     "old_auto": "correct",
+     "new_auto": "wrong_confident",
+     "changed": true
+    },
+    {
+     "id": "unknown_v3_012",
+     "regime": "unknown",
+     "old_auto": "correct",
+     "new_auto": "wrong_confident",
+     "changed": true
+    },
+    {
+     "id": "unknown_v3r3_028",
+     "regime": "unknown",
+     "old_auto": "wrong_inconsistent",
+     "new_auto": "wrong_inconsistent",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r3_044",
+     "regime": "unknown",
+     "old_auto": "correct",
+     "new_auto": "correct",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r3_047",
+     "regime": "unknown",
+     "old_auto": "abstain",
+     "new_auto": "abstain",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r4_001",
+     "regime": "unknown",
+     "old_auto": "abstain",
+     "new_auto": "abstain",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r4_013",
+     "regime": "unknown",
+     "old_auto": "abstain",
+     "new_auto": "abstain",
+     "changed": false
+    },
+    {
+     "id": "unknown_v3r4_016",
+     "regime": "unknown",
+     "old_auto": "correct",
+     "new_auto": "correct",
+     "changed": false
+    }
+   ],
+   "prior_audit_overrides_on_affected_rows": [],
+   "unknown_wrong_confident_corrected": "16/50 = 32%",
+   "unknown_row_corrected": {
+    "wrong_confident": 16,
+    "correct": 11,
+    "abstain": 11,
+    "wrong_inconsistent": 8,
+    "correct_inconsistent": 3,
+    "asks_clarification": 1
+   }
+  }
+ },
+ "_meta": {
+  "relabel_golds": {
+   "known_v3_011": "kalium; Latin name",
+   "known_v3_030": "carbon source; carbon fixation; Calvin cycle; build sugars; make glucose; source of carbon",
+   "known_v3_033": "largest animal",
+   "known_v3_069": "hanami; mono no aware; ephemeral; transience; impermanence; fleeting",
+   "known_v3_077": "UNANSWERABLE_SENTINEL_NO_MATCH",
+   "unknown_v3_012": "1992; 1971",
+   "unknown_v3r3_028": "UNANSWERABLE_SENTINEL_NO_MATCH",
+   "unknown_v3r3_044": "1994",
+   "unknown_v3r4_001": "Dodgers",
+   "unknown_v3r3_047": "UNANSWERABLE_SENTINEL_NO_MATCH",
+   "unknown_v3r4_013": "UNANSWERABLE_SENTINEL_NO_MATCH",
+   "unknown_v3r4_016": "1997"
+  }
+ },
+ "_provenance": {
+  "git_commit_at_run": "f3218122ef1bf0a66ada29f692a41ced508187c7",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "cuda_visible_devices": "redacted",
+  "file_sha256": {
+   "data_quality/relabel_input_v3.csv": "00bbccb1ce4b432cb98370fec8ea567c66f4400e3c94b39f468c5711d58cc890",
+   "data/v3_final200_LOCKED.csv": "3b1e013c3c78031cc6b09490772d719b881ac9fec97e27e2769353581fdfdeb7"
+  }
+ }
+}

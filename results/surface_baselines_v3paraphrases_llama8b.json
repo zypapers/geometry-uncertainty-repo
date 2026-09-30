@@ -1,0 +1,105 @@
+{
+ "per_pair": {
+  "known_vs_unknown": {
+   "auroc_mean_across_seeds": 0.8337530864197531,
+   "auroc_std_across_seeds": 0.009909620536630177,
+   "auroc_per_seed": [
+    0.8354320987654321,
+    0.8220370370370371,
+    0.8503703703703703,
+    0.8253086419753086,
+    0.8356172839506174
+   ],
+   "n_pair": 258
+  },
+  "known_vs_ambiguous": {
+   "auroc_mean_across_seeds": 0.8241155555555556,
+   "auroc_std_across_seeds": 0.00719487334628869,
+   "auroc_per_seed": [
+    0.8259555555555556,
+    0.8323111111111111,
+    0.8123111111111112,
+    0.8298666666666666,
+    0.8201333333333333
+   ],
+   "n_pair": 300
+  },
+  "known_vs_misleading": {
+   "auroc_mean_across_seeds": 0.8420622222222223,
+   "auroc_std_across_seeds": 0.010267247698806223,
+   "auroc_per_seed": [
+    0.8593333333333333,
+    0.8462666666666666,
+    0.8295999999999999,
+    0.8403111111111112,
+    0.8348000000000001
+   ],
+   "n_pair": 300
+  },
+  "unknown_vs_ambiguous": {
+   "auroc_mean_across_seeds": 0.8300000000000001,
+   "auroc_std_across_seeds": 0.013250945734984861,
+   "auroc_per_seed": [
+    0.8378395061728394,
+    0.8037037037037037,
+    0.8356172839506173,
+    0.8387654320987654,
+    0.8340740740740742
+   ],
+   "n_pair": 258
+  },
+  "unknown_vs_misleading": {
+   "auroc_mean_across_seeds": 0.7297530864197531,
+   "auroc_std_across_seeds": 0.016763822901371735,
+   "auroc_per_seed": [
+    0.7017283950617285,
+    0.7372222222222221,
+    0.7412345679012345,
+    0.7482716049382716,
+    0.7203086419753086
+   ],
+   "n_pair": 258
+  },
+  "ambiguous_vs_misleading": {
+   "auroc_mean_across_seeds": 0.717911111111111,
+   "auroc_std_across_seeds": 0.017998913547458598,
+   "auroc_per_seed": [
+    0.7292888888888889,
+    0.7386222222222221,
+    0.7145777777777779,
+    0.7213777777777777,
+    0.6856888888888888
+   ],
+   "n_pair": 300
+  }
+ },
+ "_meta": {
+  "seeds": [
+   1234,
+   4567,
+   7890,
+   2345,
+   5678
+  ],
+  "n_cv_folds": 5,
+  "pairs": [
+   "known_vs_unknown",
+   "known_vs_ambiguous",
+   "known_vs_misleading",
+   "unknown_vs_ambiguous",
+   "unknown_vs_misleading",
+   "ambiguous_vs_misleading"
+  ],
+  "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+  "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+ },
+ "_provenance": {
+  "git_commit_at_run": "3526e3b7ddf38b963b05ec8f97b528f7f446409d",
+  "npz_sha256": "75c4a4c9f93b2b774b2c93b6736b3c474a26ebdb31f00c377fd94a67f15f6969",
+  "csv_sha256": "b2bee81870fcb1dba146b128798068e86197dda78aa5979928e4169433113bf0",
+  "script_sha256": "346a377eca90e87b04f5ded805e250a0a905ae4639746f418eb0e1e2cde90df9",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "slug": "llama8b"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "layer": 23,
+ "lda_explained_variance_ratio": [
+  0.458404541015625,
+  0.2705657482147217
+ ],
+ "source": "results/stage6_2_premise_subtype_auroc_corrected.json",
+ "model": "qwen7b"
+}

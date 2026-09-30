@@ -1,0 +1,128 @@
+{
+ "qwen7b": {
+  "peak_layer": 17,
+  "overall_mean_pairwise_auroc": 0.9995296884185773,
+  "per_pair": {
+   "ambiguous_referential_vs_ambiguous_scope": {
+    "auroc_per_seed": [
+     1.0,
+     0.9969135802469136,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 0.9993827160493828,
+    "sd": 0.0012345679012345735,
+    "n": 36
+   },
+   "ambiguous_referential_vs_ambiguous_temporal": {
+    "auroc_per_seed": [
+     1.0,
+     0.996031746031746,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 0.9992063492063492,
+    "sd": 0.0015873015873015817,
+    "n": 32
+   },
+   "ambiguous_scope_vs_ambiguous_temporal": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 32
+   }
+  }
+ },
+ "llama8b": {
+  "peak_layer": 21,
+  "overall_mean_pairwise_auroc": 0.9944738389182833,
+  "per_pair": {
+   "ambiguous_referential_vs_ambiguous_scope": {
+    "auroc_per_seed": [
+     0.9876543209876543,
+     0.9722222222222223,
+     0.9876543209876543,
+     0.9907407407407407,
+     0.9907407407407407
+    ],
+    "mean": 0.9858024691358024,
+    "sd": 0.0069289951606924275,
+    "n": 36
+   },
+   "ambiguous_referential_vs_ambiguous_temporal": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     0.996031746031746,
+     0.996031746031746,
+     0.996031746031746
+    ],
+    "mean": 0.9976190476190476,
+    "sd": 0.0019440394783993406,
+    "n": 32
+   },
+   "ambiguous_scope_vs_ambiguous_temporal": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 32
+   }
+  }
+ },
+ "qwen32b": {
+  "peak_layer": 40,
+  "overall_mean_pairwise_auroc": 0.9989711934156379,
+  "per_pair": {
+   "ambiguous_referential_vs_ambiguous_scope": {
+    "auroc_per_seed": [
+     1.0,
+     0.9938271604938271,
+     1.0,
+     0.9938271604938271,
+     0.9969135802469136
+    ],
+    "mean": 0.9969135802469136,
+    "sd": 0.0027605777499997526,
+    "n": 36
+   },
+   "ambiguous_referential_vs_ambiguous_temporal": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 32
+   },
+   "ambiguous_scope_vs_ambiguous_temporal": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 32
+   }
+  }
+ }
+}

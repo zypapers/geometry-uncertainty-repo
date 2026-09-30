@@ -1,0 +1,5 @@
+regime,abstain,asks_clarification,challenges_premise,correct,correct_inconsistent,wrong_confident,wrong_inconsistent
+ambiguous,3,32,2,0,0,11,2
+known,0,1,2,40,0,4,3
+misleading,0,5,36,0,0,5,4
+unknown,7,1,10,2,1,24,5

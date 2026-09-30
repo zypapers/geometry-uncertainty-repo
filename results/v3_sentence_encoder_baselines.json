@@ -1,0 +1,310 @@
+{
+ "n_prompts": 200,
+ "seeds": [
+  1234,
+  4567,
+  7890,
+  2345,
+  5678
+ ],
+ "n_folds": 5,
+ "lr_config": {
+  "C": 1.0,
+  "solver": "lbfgs",
+  "max_iter": 2000,
+  "preprocessing": "none"
+ },
+ "encoders": {
+  "MiniLM-L6": {
+   "embedding_dim": 384,
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8068,
+     "auroc_std": 0.01878552634343794,
+     "auroc_per_seed": [
+      0.8088,
+      0.8088,
+      0.8368,
+      0.8016,
+      0.7779999999999999
+     ],
+     "qwen7b_probe_ref": 0.9866,
+     "surface_6feat_ref": 0.763,
+     "probe_minus_encoder": 0.17980000000000007,
+     "encoder_minus_surface": 0.04379999999999995
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.9137599999999999,
+     "auroc_std": 0.0054763491488398945,
+     "auroc_per_seed": [
+      0.9136000000000001,
+      0.9164,
+      0.9099999999999999,
+      0.9223999999999999,
+      0.9064000000000001
+     ],
+     "qwen7b_probe_ref": 0.994,
+     "surface_6feat_ref": 0.833,
+     "probe_minus_encoder": 0.08024000000000009,
+     "encoder_minus_surface": 0.08075999999999994
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.7108800000000001,
+     "auroc_std": 0.019071906040036987,
+     "auroc_per_seed": [
+      0.7072,
+      0.7028,
+      0.6872,
+      0.7120000000000001,
+      0.7452
+     ],
+     "qwen7b_probe_ref": 0.9969,
+     "surface_6feat_ref": 0.867,
+     "probe_minus_encoder": 0.28601999999999994,
+     "encoder_minus_surface": -0.15611999999999993
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.9586400000000002,
+     "auroc_std": 0.005076061465348908,
+     "auroc_per_seed": [
+      0.9596,
+      0.9656,
+      0.9504,
+      0.9612,
+      0.9563999999999999
+     ],
+     "qwen7b_probe_ref": 0.9993,
+     "surface_6feat_ref": 0.753,
+     "probe_minus_encoder": 0.04065999999999981,
+     "encoder_minus_surface": 0.20564000000000016
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.8669600000000001,
+     "auroc_std": 0.012953084574725828,
+     "auroc_per_seed": [
+      0.872,
+      0.8544,
+      0.8896000000000001,
+      0.8632,
+      0.8556
+     ],
+     "qwen7b_probe_ref": 0.9976,
+     "surface_6feat_ref": 0.785,
+     "probe_minus_encoder": 0.13063999999999998,
+     "encoder_minus_surface": 0.08196000000000003
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.9248799999999999,
+     "auroc_std": 0.014008911449502417,
+     "auroc_per_seed": [
+      0.9328,
+      0.8992,
+      0.9232,
+      0.9404,
+      0.9288
+     ],
+     "qwen7b_probe_ref": 0.9947,
+     "surface_6feat_ref": 0.718,
+     "probe_minus_encoder": 0.0698200000000001,
+     "encoder_minus_surface": 0.20687999999999995
+    }
+   },
+   "overall_mean_pair_auroc": 0.8636533333333333,
+   "overall_min_pair_auroc": 0.7108800000000001
+  },
+  "mpnet-base": {
+   "embedding_dim": 768,
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.89208,
+     "auroc_std": 0.009657825842289818,
+     "auroc_per_seed": [
+      0.8952,
+      0.8876000000000001,
+      0.9044000000000001,
+      0.8972,
+      0.8759999999999999
+     ],
+     "qwen7b_probe_ref": 0.9866,
+     "surface_6feat_ref": 0.763,
+     "probe_minus_encoder": 0.09452000000000005,
+     "encoder_minus_surface": 0.12907999999999997
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.94336,
+     "auroc_std": 0.004783973244072355,
+     "auroc_per_seed": [
+      0.9448,
+      0.9359999999999999,
+      0.9447999999999999,
+      0.9504,
+      0.9408
+     ],
+     "qwen7b_probe_ref": 0.994,
+     "surface_6feat_ref": 0.833,
+     "probe_minus_encoder": 0.05064000000000002,
+     "encoder_minus_surface": 0.11036000000000001
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.7824,
+     "auroc_std": 0.012837445228704936,
+     "auroc_per_seed": [
+      0.7767999999999999,
+      0.7736,
+      0.7724000000000001,
+      0.782,
+      0.8071999999999999
+     ],
+     "qwen7b_probe_ref": 0.9969,
+     "surface_6feat_ref": 0.867,
+     "probe_minus_encoder": 0.21450000000000002,
+     "encoder_minus_surface": -0.08460000000000001
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.95448,
+     "auroc_std": 0.0038483243106578096,
+     "auroc_per_seed": [
+      0.9504,
+      0.9608,
+      0.9508,
+      0.9563999999999999,
+      0.954
+     ],
+     "qwen7b_probe_ref": 0.9993,
+     "surface_6feat_ref": 0.753,
+     "probe_minus_encoder": 0.04481999999999997,
+     "encoder_minus_surface": 0.20148
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.94184,
+     "auroc_std": 0.007502959416123748,
+     "auroc_per_seed": [
+      0.9408,
+      0.9395999999999999,
+      0.956,
+      0.9391999999999999,
+      0.9336
+     ],
+     "qwen7b_probe_ref": 0.9976,
+     "surface_6feat_ref": 0.785,
+     "probe_minus_encoder": 0.05576000000000003,
+     "encoder_minus_surface": 0.15683999999999998
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.8956,
+     "auroc_std": 0.012529644847321062,
+     "auroc_per_seed": [
+      0.9052000000000001,
+      0.8724000000000001,
+      0.9071999999999999,
+      0.8996,
+      0.8936000000000001
+     ],
+     "qwen7b_probe_ref": 0.9947,
+     "surface_6feat_ref": 0.718,
+     "probe_minus_encoder": 0.09910000000000008,
+     "encoder_minus_surface": 0.17759999999999998
+    }
+   },
+   "overall_mean_pair_auroc": 0.9016266666666667,
+   "overall_min_pair_auroc": 0.7824
+  },
+  "BGE-large": {
+   "embedding_dim": 1024,
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.89904,
+     "auroc_std": 0.011948154669236571,
+     "auroc_per_seed": [
+      0.9016000000000001,
+      0.9067999999999999,
+      0.9139999999999999,
+      0.8936,
+      0.8792
+     ],
+     "qwen7b_probe_ref": 0.9866,
+     "surface_6feat_ref": 0.763,
+     "probe_minus_encoder": 0.08756000000000008,
+     "encoder_minus_surface": 0.13603999999999994
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.94744,
+     "auroc_std": 0.0058711498022107934,
+     "auroc_per_seed": [
+      0.9428,
+      0.9476,
+      0.9528,
+      0.9548,
+      0.9392
+     ],
+     "qwen7b_probe_ref": 0.994,
+     "surface_6feat_ref": 0.833,
+     "probe_minus_encoder": 0.046560000000000046,
+     "encoder_minus_surface": 0.11443999999999999
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.73496,
+     "auroc_std": 0.01746603561200997,
+     "auroc_per_seed": [
+      0.7163999999999999,
+      0.762,
+      0.716,
+      0.7360000000000001,
+      0.7443999999999998
+     ],
+     "qwen7b_probe_ref": 0.9969,
+     "surface_6feat_ref": 0.867,
+     "probe_minus_encoder": 0.26194000000000006,
+     "encoder_minus_surface": -0.13204000000000005
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.9863200000000001,
+     "auroc_std": 0.0021821090715177342,
+     "auroc_per_seed": [
+      0.9828,
+      0.9868,
+      0.9876,
+      0.9892,
+      0.9852
+     ],
+     "qwen7b_probe_ref": 0.9993,
+     "surface_6feat_ref": 0.753,
+     "probe_minus_encoder": 0.01297999999999988,
+     "encoder_minus_surface": 0.23332000000000008
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.9548,
+     "auroc_std": 0.003317830616532434,
+     "auroc_per_seed": [
+      0.96,
+      0.9512,
+      0.9556,
+      0.9511999999999999,
+      0.9560000000000001
+     ],
+     "qwen7b_probe_ref": 0.9976,
+     "surface_6feat_ref": 0.785,
+     "probe_minus_encoder": 0.04280000000000006,
+     "encoder_minus_surface": 0.16979999999999995
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.93696,
+     "auroc_std": 0.010469307522467762,
+     "auroc_per_seed": [
+      0.9448,
+      0.9204,
+      0.9411999999999999,
+      0.9488,
+      0.9295999999999999
+     ],
+     "qwen7b_probe_ref": 0.9947,
+     "surface_6feat_ref": 0.718,
+     "probe_minus_encoder": 0.057740000000000014,
+     "encoder_minus_surface": 0.21896000000000004
+    }
+   },
+   "overall_mean_pair_auroc": 0.90992,
+   "overall_min_pair_auroc": 0.73496
+  }
+ }
+}

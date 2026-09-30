@@ -1,0 +1,105 @@
+{
+ "per_pair": {
+  "known_vs_unknown": {
+   "auroc_mean_across_seeds": 0.8273703703703703,
+   "auroc_std_across_seeds": 0.011344772193371502,
+   "auroc_per_seed": [
+    0.8303703703703704,
+    0.8146296296296296,
+    0.8472222222222223,
+    0.8186419753086419,
+    0.8259876543209876
+   ],
+   "n_pair": 258
+  },
+  "known_vs_ambiguous": {
+   "auroc_mean_across_seeds": 0.7863466666666666,
+   "auroc_std_across_seeds": 0.009856707686634183,
+   "auroc_per_seed": [
+    0.783511111111111,
+    0.7935111111111112,
+    0.7681777777777777,
+    0.7937777777777778,
+    0.7927555555555554
+   ],
+   "n_pair": 300
+  },
+  "known_vs_misleading": {
+   "auroc_mean_across_seeds": 0.7669777777777778,
+   "auroc_std_across_seeds": 0.007617160612883832,
+   "auroc_per_seed": [
+    0.7800888888888888,
+    0.7656444444444445,
+    0.7562222222222222,
+    0.7661333333333332,
+    0.7667999999999999
+   ],
+   "n_pair": 300
+  },
+  "unknown_vs_ambiguous": {
+   "auroc_mean_across_seeds": 0.8121851851851852,
+   "auroc_std_across_seeds": 0.008865504219518556,
+   "auroc_per_seed": [
+    0.817716049382716,
+    0.7948148148148148,
+    0.8177777777777778,
+    0.8175308641975308,
+    0.8130864197530864
+   ],
+   "n_pair": 258
+  },
+  "unknown_vs_misleading": {
+   "auroc_mean_across_seeds": 0.7128765432098766,
+   "auroc_std_across_seeds": 0.020101351185019795,
+   "auroc_per_seed": [
+    0.6831481481481481,
+    0.7235185185185186,
+    0.7338271604938271,
+    0.7290123456790123,
+    0.6948765432098766
+   ],
+   "n_pair": 258
+  },
+  "ambiguous_vs_misleading": {
+   "auroc_mean_across_seeds": 0.7502755555555555,
+   "auroc_std_across_seeds": 0.011736107416173024,
+   "auroc_per_seed": [
+    0.7569333333333335,
+    0.7612888888888889,
+    0.7386666666666666,
+    0.7608444444444444,
+    0.7336444444444444
+   ],
+   "n_pair": 300
+  }
+ },
+ "_meta": {
+  "seeds": [
+   1234,
+   4567,
+   7890,
+   2345,
+   5678
+  ],
+  "n_cv_folds": 5,
+  "pairs": [
+   "known_vs_unknown",
+   "known_vs_ambiguous",
+   "known_vs_misleading",
+   "unknown_vs_ambiguous",
+   "unknown_vs_misleading",
+   "ambiguous_vs_misleading"
+  ],
+  "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+  "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+ },
+ "_provenance": {
+  "git_commit_at_run": "3526e3b7ddf38b963b05ec8f97b528f7f446409d",
+  "npz_sha256": "f96f9ccda90588c47f57d70a1806c49dc8b120ef2b6a759d64cae81b38f1847e",
+  "csv_sha256": "b2bee81870fcb1dba146b128798068e86197dda78aa5979928e4169433113bf0",
+  "script_sha256": "346a377eca90e87b04f5ded805e250a0a905ae4639746f418eb0e1e2cde90df9",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "slug": "qwen7b"
+ }
+}

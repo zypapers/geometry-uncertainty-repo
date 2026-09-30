@@ -1,0 +1,343 @@
+{
+ "author_vs_A": {
+  "comparison": "author_vs_A",
+  "kappa_3way": 0.8943,
+  "percent_agreement": 0.935,
+  "confusion_rows_first_named": {
+   "classes": [
+    "DF",
+    "AMB",
+    "FP"
+   ],
+   "counts": [
+    [
+     99,
+     0,
+     1
+    ],
+    [
+     5,
+     43,
+     2
+    ],
+    [
+     4,
+     1,
+     45
+    ]
+   ]
+  },
+  "per_boundary": {
+   "ambiguous_vs_rest": {
+    "kappa": 0.8889,
+    "percent_agreement": 0.96
+   },
+   "false_premise_vs_rest": {
+    "kappa": 0.8919,
+    "percent_agreement": 0.96
+   }
+  }
+ },
+ "author_vs_B": {
+  "comparison": "author_vs_B",
+  "kappa_3way": 0.8354,
+  "percent_agreement": 0.9,
+  "confusion_rows_first_named": {
+   "classes": [
+    "DF",
+    "AMB",
+    "FP"
+   ],
+   "counts": [
+    [
+     99,
+     1,
+     0
+    ],
+    [
+     9,
+     38,
+     3
+    ],
+    [
+     6,
+     1,
+     43
+    ]
+   ]
+  },
+  "per_boundary": {
+   "ambiguous_vs_rest": {
+    "kappa": 0.8,
+    "percent_agreement": 0.93
+   },
+   "false_premise_vs_rest": {
+    "kappa": 0.863,
+    "percent_agreement": 0.95
+   }
+  }
+ },
+ "A_vs_B": {
+  "comparison": "A_vs_B (author-independent)",
+  "kappa_3way": 0.8061,
+  "percent_agreement": 0.885,
+  "confusion_rows_first_named": {
+   "classes": [
+    "DF",
+    "AMB",
+    "FP"
+   ],
+   "counts": [
+    [
+     102,
+     5,
+     1
+    ],
+    [
+     6,
+     34,
+     4
+    ],
+    [
+     6,
+     1,
+     41
+    ]
+   ]
+  },
+  "per_boundary": {
+   "ambiguous_vs_rest": {
+    "kappa": 0.759,
+    "percent_agreement": 0.92
+   },
+   "false_premise_vs_rest": {
+    "kappa": 0.8331,
+    "percent_agreement": 0.94
+   }
+  }
+ },
+ "fleiss_kappa_three_rater": 0.8456,
+ "B_unsure_rate": 0.05,
+ "consensus_analysis": {
+  "both_disagree_with_author_n": 6,
+  "both_disagree_items": [
+   {
+    "item_id": "A016",
+    "original_id": "ambiguous_v3_029",
+    "question": "When did Apple's iPhone set the 2025 revenue record?",
+    "author": "AMB",
+    "A": "FP",
+    "B": "DF",
+    "annotators_agree_with_each_other": false,
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A037",
+    "original_id": "ambiguous_v3_038",
+    "question": "When did Isaac Newton's famous orchard incident occur?",
+    "author": "AMB",
+    "A": "DF",
+    "B": "DF",
+    "annotators_agree_with_each_other": true,
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A071",
+    "original_id": "misleading_v3_028",
+    "question": "Who wrote the Iliad \u2014 Shakespeare or Homer?",
+    "author": "FP",
+    "A": "DF",
+    "B": "DF",
+    "annotators_agree_with_each_other": true,
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A106",
+    "original_id": "misleading_v3_012",
+    "question": "Why do humans only have five senses according to Aristotle?",
+    "author": "FP",
+    "A": "DF",
+    "B": "DF",
+    "annotators_agree_with_each_other": true,
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A115",
+    "original_id": "ambiguous_v3_028",
+    "question": "When did Washington's State Department announce the COP29 outcome?",
+    "author": "AMB",
+    "A": "FP",
+    "B": "DF",
+    "annotators_agree_with_each_other": false,
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A187",
+    "original_id": "misleading_v3_053",
+    "question": "Which 1959 moon landing changed history?",
+    "author": "FP",
+    "A": "DF",
+    "B": "DF",
+    "annotators_agree_with_each_other": true,
+    "B_unsure": "0",
+    "B_comment": ""
+   }
+  ],
+  "a_only_disagree_n": 7,
+  "b_only_disagree_n": 14,
+  "b_only_items": [
+   {
+    "item_id": "A031",
+    "original_id": "unknown_v3r4_001",
+    "question": "What is the surname of the 2024 World Series winning team?",
+    "author": "DF",
+    "B": "AMB",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A039",
+    "original_id": "ambiguous_v3_081",
+    "question": "What is the most recent SpaceX launch?",
+    "author": "AMB",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A041",
+    "original_id": "ambiguous_v3_015",
+    "question": "Where is Cambridge University located?",
+    "author": "AMB",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A045",
+    "original_id": "ambiguous_v3_061",
+    "question": "Why did the Industrial Revolution change society?",
+    "author": "AMB",
+    "B": "DF",
+    "B_unsure": "1",
+    "B_comment": "Technically subjective so could be AMB?"
+   },
+   {
+    "item_id": "A046",
+    "original_id": "misleading_v3_082",
+    "question": "How fast does ether wind move when measured at Earth's surface?",
+    "author": "FP",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A052",
+    "original_id": "ambiguous_v3_070",
+    "question": "What is the most accurate climate model in the IPCC AR6 report's 2030 forecast?",
+    "author": "AMB",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A084",
+    "original_id": "ambiguous_v3_071",
+    "question": "Which AI assistant performs best on Google's MMLU and HumanEval benchmarks?",
+    "author": "AMB",
+    "B": "FP",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A090",
+    "original_id": "ambiguous_v3_076",
+    "question": "What is the most recent NASA mission to launch?",
+    "author": "AMB",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A093",
+    "original_id": "ambiguous_v3_048",
+    "question": "Why is one startup considered the most successful?",
+    "author": "AMB",
+    "B": "FP",
+    "B_unsure": "0",
+    "B_comment": "Premise is that \u201cone startup is considered the most successful\u201d, which is false obviously"
+   },
+   {
+    "item_id": "A105",
+    "original_id": "misleading_v3_025",
+    "question": "Who invented the light bulb \u2014 Einstein or earlier?",
+    "author": "FP",
+    "B": "DF",
+    "B_unsure": "1",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A129",
+    "original_id": "ambiguous_v3_031",
+    "question": "When did Tesla unveil its 2024 Q3 product?",
+    "author": "AMB",
+    "B": "FP",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A141",
+    "original_id": "misleading_v3_034",
+    "question": "Who invented the printing press \u2014 Galileo or earlier?",
+    "author": "FP",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   },
+   {
+    "item_id": "A175",
+    "original_id": "misleading_v3_043",
+    "question": "Who built the pyramids \u2014 Cleopatra or another ruler?",
+    "author": "FP",
+    "B": "AMB",
+    "B_unsure": "1",
+    "B_comment": "Could be FP because no single ruler built the pyramids??"
+   },
+   {
+    "item_id": "A183",
+    "original_id": "ambiguous_v3_077",
+    "question": "What is today's exchange rate from USD to EUR?",
+    "author": "AMB",
+    "B": "DF",
+    "B_unsure": "0",
+    "B_comment": ""
+   }
+  ]
+ },
+ "_meta": {
+  "annotator_labels": "neutral A/B; file renames documented in iaa_audit/FILE_RENAMES.md",
+  "collapse_rule": {
+   "known": "DF",
+   "unknown": "DF",
+   "ambiguous": "AMB",
+   "misleading": "FP"
+  },
+  "labels_change_policy": "labels NEVER change"
+ },
+ "_provenance": {
+  "git_commit_at_run": "956a929784109c667f526be533598214bcd43da5",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "cuda_visible_devices": "redacted",
+  "file_sha256": {
+   "iaa_audit/returned/annotation_sheet_A.csv": "280c01737455db3ecb84d18b5b673edb22e5ac3650a581ad0898d30a9075e2d0",
+   "iaa_audit/returned/annotation_sheet_B.csv": "0b5c7c80027dc7e942c944142a12ecfa2bd5ef2089f8b62d6ee7f36973337f14",
+   "iaa_audit/key/id_map.csv": "49692701d957f557ceea12579f5e83b522fff893fa94aa53528937606fe41bca"
+  }
+ }
+}

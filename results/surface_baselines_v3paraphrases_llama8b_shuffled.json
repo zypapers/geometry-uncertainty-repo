@@ -1,0 +1,510 @@
+{
+ "per_shuffle_seed": {
+  "9001": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean_across_seeds": 0.39866666666666667,
+     "auroc_std_across_seeds": 0.018081577744815495,
+     "auroc_per_seed": [
+      0.4127777777777778,
+      0.3810493827160494,
+      0.37376543209876545,
+      0.40574074074074074,
+      0.41999999999999993
+     ],
+     "n_pair": 258
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.48908444444444443,
+     "auroc_std_across_seeds": 0.009463164714816754,
+     "auroc_per_seed": [
+      0.48035555555555565,
+      0.4997333333333333,
+      0.5010222222222223,
+      0.47902222222222224,
+      0.4852888888888888
+     ],
+     "n_pair": 300
+    },
+    "known_vs_misleading": {
+     "auroc_mean_across_seeds": 0.41341333333333335,
+     "auroc_std_across_seeds": 0.017056093947347417,
+     "auroc_per_seed": [
+      0.3991111111111111,
+      0.38893333333333335,
+      0.4285777777777778,
+      0.41680000000000006,
+      0.4336444444444445
+     ],
+     "n_pair": 300
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.6175555555555555,
+     "auroc_std_across_seeds": 0.016889168649765775,
+     "auroc_per_seed": [
+      0.6227777777777778,
+      0.625432098765432,
+      0.6423456790123456,
+      0.6001234567901234,
+      0.5970987654320988
+     ],
+     "n_pair": 258
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean_across_seeds": 0.4609629629629629,
+     "auroc_std_across_seeds": 0.008758874263979321,
+     "auroc_per_seed": [
+      0.4672222222222222,
+      0.46561728395061724,
+      0.47098765432098766,
+      0.44925925925925925,
+      0.4517283950617284
+     ],
+     "n_pair": 258
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean_across_seeds": 0.5461422222222222,
+     "auroc_std_across_seeds": 0.02418021883102073,
+     "auroc_per_seed": [
+      0.5697333333333333,
+      0.564711111111111,
+      0.5524888888888888,
+      0.5018222222222222,
+      0.5419555555555555
+     ],
+     "n_pair": 300
+    }
+   },
+   "_meta": {
+    "seeds": [
+     1234,
+     4567,
+     7890,
+     2345,
+     5678
+    ],
+    "n_cv_folds": 5,
+    "pairs": [
+     "known_vs_unknown",
+     "known_vs_ambiguous",
+     "known_vs_misleading",
+     "unknown_vs_ambiguous",
+     "unknown_vs_misleading",
+     "ambiguous_vs_misleading"
+    ],
+    "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+    "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+   }
+  },
+  "9002": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean_across_seeds": 0.5355679012345679,
+     "auroc_std_across_seeds": 0.012672669624161245,
+     "auroc_per_seed": [
+      0.5346296296296296,
+      0.5258024691358024,
+      0.5180246913580248,
+      0.5495679012345679,
+      0.5498148148148148
+     ],
+     "n_pair": 258
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.4826222222222222,
+     "auroc_std_across_seeds": 0.015024220774354419,
+     "auroc_per_seed": [
+      0.49186666666666656,
+      0.5008,
+      0.4670222222222222,
+      0.46257777777777775,
+      0.49084444444444436
+     ],
+     "n_pair": 300
+    },
+    "known_vs_misleading": {
+     "auroc_mean_across_seeds": 0.45192,
+     "auroc_std_across_seeds": 0.01223468939905535,
+     "auroc_per_seed": [
+      0.4576888888888888,
+      0.44857777777777774,
+      0.4297777777777778,
+      0.46488888888888885,
+      0.45866666666666667
+     ],
+     "n_pair": 300
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.5252222222222223,
+     "auroc_std_across_seeds": 0.02064980801241382,
+     "auroc_per_seed": [
+      0.5619753086419753,
+      0.5133950617283951,
+      0.5294444444444444,
+      0.5206172839506173,
+      0.500679012345679
+     ],
+     "n_pair": 258
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean_across_seeds": 0.3551481481481481,
+     "auroc_std_across_seeds": 0.03155980573784698,
+     "auroc_per_seed": [
+      0.3853086419753087,
+      0.34987654320987654,
+      0.397037037037037,
+      0.316358024691358,
+      0.3271604938271605
+     ],
+     "n_pair": 258
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean_across_seeds": 0.46528,
+     "auroc_std_across_seeds": 0.038255328298289086,
+     "auroc_per_seed": [
+      0.47751111111111116,
+      0.4265333333333333,
+      0.5116888888888889,
+      0.49604444444444445,
+      0.41462222222222217
+     ],
+     "n_pair": 300
+    }
+   },
+   "_meta": {
+    "seeds": [
+     1234,
+     4567,
+     7890,
+     2345,
+     5678
+    ],
+    "n_cv_folds": 5,
+    "pairs": [
+     "known_vs_unknown",
+     "known_vs_ambiguous",
+     "known_vs_misleading",
+     "unknown_vs_ambiguous",
+     "unknown_vs_misleading",
+     "ambiguous_vs_misleading"
+    ],
+    "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+    "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+   }
+  },
+  "9003": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean_across_seeds": 0.430716049382716,
+     "auroc_std_across_seeds": 0.03373327965642535,
+     "auroc_per_seed": [
+      0.4730864197530864,
+      0.38129629629629636,
+      0.42629629629629634,
+      0.4103086419753086,
+      0.4625925925925926
+     ],
+     "n_pair": 258
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.5297511111111111,
+     "auroc_std_across_seeds": 0.02015892609328599,
+     "auroc_per_seed": [
+      0.5452444444444444,
+      0.5454222222222221,
+      0.5049333333333333,
+      0.5052444444444445,
+      0.5479111111111111
+     ],
+     "n_pair": 300
+    },
+    "known_vs_misleading": {
+     "auroc_mean_across_seeds": 0.5418133333333333,
+     "auroc_std_across_seeds": 0.029306376839466002,
+     "auroc_per_seed": [
+      0.5640888888888889,
+      0.5299111111111111,
+      0.5666222222222222,
+      0.5590222222222222,
+      0.48942222222222226
+     ],
+     "n_pair": 300
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.5595308641975307,
+     "auroc_std_across_seeds": 0.037539363072801306,
+     "auroc_per_seed": [
+      0.5874074074074074,
+      0.6088271604938271,
+      0.5689506172839507,
+      0.5155555555555555,
+      0.5169135802469136
+     ],
+     "n_pair": 258
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean_across_seeds": 0.5002222222222222,
+     "auroc_std_across_seeds": 0.009723160840444662,
+     "auroc_per_seed": [
+      0.49617283950617286,
+      0.5066049382716049,
+      0.5156172839506172,
+      0.4946296296296296,
+      0.4880864197530865
+     ],
+     "n_pair": 258
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean_across_seeds": 0.6548977777777777,
+     "auroc_std_across_seeds": 0.007484708361670433,
+     "auroc_per_seed": [
+      0.6618222222222222,
+      0.6573777777777778,
+      0.6419555555555555,
+      0.6515555555555556,
+      0.6617777777777777
+     ],
+     "n_pair": 300
+    }
+   },
+   "_meta": {
+    "seeds": [
+     1234,
+     4567,
+     7890,
+     2345,
+     5678
+    ],
+    "n_cv_folds": 5,
+    "pairs": [
+     "known_vs_unknown",
+     "known_vs_ambiguous",
+     "known_vs_misleading",
+     "unknown_vs_ambiguous",
+     "unknown_vs_misleading",
+     "ambiguous_vs_misleading"
+    ],
+    "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+    "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+   }
+  },
+  "9004": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean_across_seeds": 0.4856172839506172,
+     "auroc_std_across_seeds": 0.012819369299359024,
+     "auroc_per_seed": [
+      0.48932098765432097,
+      0.4707407407407408,
+      0.47932098765432096,
+      0.5083950617283951,
+      0.48030864197530865
+     ],
+     "n_pair": 258
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.44793777777777777,
+     "auroc_std_across_seeds": 0.029705538910703343,
+     "auroc_per_seed": [
+      0.45164444444444446,
+      0.4610222222222222,
+      0.4778666666666667,
+      0.3911111111111111,
+      0.4580444444444445
+     ],
+     "n_pair": 300
+    },
+    "known_vs_misleading": {
+     "auroc_mean_across_seeds": 0.3770755555555555,
+     "auroc_std_across_seeds": 0.021205159400136203,
+     "auroc_per_seed": [
+      0.4032,
+      0.3737333333333333,
+      0.39688888888888885,
+      0.3444888888888889,
+      0.36706666666666665
+     ],
+     "n_pair": 300
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.488320987654321,
+     "auroc_std_across_seeds": 0.008339449059028958,
+     "auroc_per_seed": [
+      0.4919135802469136,
+      0.4727160493827161,
+      0.4961728395061729,
+      0.493641975308642,
+      0.48716049382716053
+     ],
+     "n_pair": 258
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean_across_seeds": 0.49537037037037035,
+     "auroc_std_across_seeds": 0.024320830982762907,
+     "auroc_per_seed": [
+      0.46129629629629626,
+      0.5061728395061728,
+      0.48253086419753083,
+      0.4926543209876544,
+      0.5341975308641975
+     ],
+     "n_pair": 258
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean_across_seeds": 0.5049244444444444,
+     "auroc_std_across_seeds": 0.024034122245232208,
+     "auroc_per_seed": [
+      0.5348888888888889,
+      0.48519999999999996,
+      0.4832888888888888,
+      0.5337333333333333,
+      0.48751111111111106
+     ],
+     "n_pair": 300
+    }
+   },
+   "_meta": {
+    "seeds": [
+     1234,
+     4567,
+     7890,
+     2345,
+     5678
+    ],
+    "n_cv_folds": 5,
+    "pairs": [
+     "known_vs_unknown",
+     "known_vs_ambiguous",
+     "known_vs_misleading",
+     "unknown_vs_ambiguous",
+     "unknown_vs_misleading",
+     "ambiguous_vs_misleading"
+    ],
+    "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+    "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+   }
+  },
+  "9005": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean_across_seeds": 0.5257037037037036,
+     "auroc_std_across_seeds": 0.010239443953048046,
+     "auroc_per_seed": [
+      0.54,
+      0.5119753086419753,
+      0.529753086419753,
+      0.5161728395061728,
+      0.5306172839506172
+     ],
+     "n_pair": 258
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.519991111111111,
+     "auroc_std_across_seeds": 0.015576782976636594,
+     "auroc_per_seed": [
+      0.5383555555555556,
+      0.5096888888888889,
+      0.5045333333333333,
+      0.5395555555555556,
+      0.5078222222222222
+     ],
+     "n_pair": 300
+    },
+    "known_vs_misleading": {
+     "auroc_mean_across_seeds": 0.48666666666666664,
+     "auroc_std_across_seeds": 0.03919575688801901,
+     "auroc_per_seed": [
+      0.4701777777777778,
+      0.5024888888888889,
+      0.4203555555555556,
+      0.5040444444444444,
+      0.5362666666666667
+     ],
+     "n_pair": 300
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean_across_seeds": 0.3957777777777778,
+     "auroc_std_across_seeds": 0.033161849709830896,
+     "auroc_per_seed": [
+      0.41617283950617284,
+      0.377037037037037,
+      0.3390740740740741,
+      0.42265432098765426,
+      0.4239506172839506
+     ],
+     "n_pair": 258
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean_across_seeds": 0.5451234567901234,
+     "auroc_std_across_seeds": 0.031195872190098475,
+     "auroc_per_seed": [
+      0.5717901234567901,
+      0.5521604938271605,
+      0.5541358024691357,
+      0.5632098765432099,
+      0.484320987654321
+     ],
+     "n_pair": 258
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean_across_seeds": 0.51448,
+     "auroc_std_across_seeds": 0.01563998421267869,
+     "auroc_per_seed": [
+      0.5423555555555555,
+      0.49417777777777777,
+      0.5115555555555555,
+      0.5148444444444444,
+      0.5094666666666667
+     ],
+     "n_pair": 300
+    }
+   },
+   "_meta": {
+    "seeds": [
+     1234,
+     4567,
+     7890,
+     2345,
+     5678
+    ],
+    "n_cv_folds": 5,
+    "pairs": [
+     "known_vs_unknown",
+     "known_vs_ambiguous",
+     "known_vs_misleading",
+     "unknown_vs_ambiguous",
+     "unknown_vs_misleading",
+     "ambiguous_vs_misleading"
+    ],
+    "feature_set": "all_surface (6-feature: wc, NE, qform-one-hot, ptc, entropy, sent_cos)",
+    "cv": "StratifiedGroupKFold(groups=paraphrase_group_id)"
+   }
+  }
+ },
+ "_meta": {
+  "shuffle_seeds": [
+   9001,
+   9002,
+   9003,
+   9004,
+   9005
+  ],
+  "kind": "group_level_shuffled_regime_control_surface"
+ },
+ "_provenance": {
+  "git_commit_at_run": "3526e3b7ddf38b963b05ec8f97b528f7f446409d",
+  "npz_sha256": "75c4a4c9f93b2b774b2c93b6736b3c474a26ebdb31f00c377fd94a67f15f6969",
+  "csv_sha256": "b2bee81870fcb1dba146b128798068e86197dda78aa5979928e4169433113bf0",
+  "script_sha256": "346a377eca90e87b04f5ded805e250a0a905ae4639746f418eb0e1e2cde90df9",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "slug": "llama8b",
+  "shuffle_seeds": [
+   9001,
+   9002,
+   9003,
+   9004,
+   9005
+  ]
+ }
+}

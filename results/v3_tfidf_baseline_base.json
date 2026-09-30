@@ -1,0 +1,357 @@
+{
+ "n_prompts": 200,
+ "seeds": [
+  1234,
+  4567,
+  7890,
+  2345,
+  5678
+ ],
+ "n_folds": 5,
+ "variants": {
+  "word": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8878,
+     "auroc_std": 0.011343368106519314,
+     "auroc_per_seed": [
+      0.8892000000000001,
+      0.8790000000000001,
+      0.8828,
+      0.9092,
+      0.8788
+     ],
+     "surface_ref": 0.763,
+     "bge_ref": 0.899,
+     "probe_ref": 0.9866,
+     "probe_minus_tfidf": 0.0988,
+     "tfidf_minus_max_other": -0.011199999999999988
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.94544,
+     "auroc_std": 0.0069402017261748,
+     "auroc_per_seed": [
+      0.9471999999999999,
+      0.9568,
+      0.9392,
+      0.9468,
+      0.9372
+     ],
+     "surface_ref": 0.833,
+     "bge_ref": 0.9474,
+     "probe_ref": 0.994,
+     "probe_minus_tfidf": 0.04856000000000005,
+     "tfidf_minus_max_other": -0.001960000000000073
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.6892799999999999,
+     "auroc_std": 0.018623683846113813,
+     "auroc_per_seed": [
+      0.6784,
+      0.6971999999999999,
+      0.6616,
+      0.7172000000000001,
+      0.6919999999999998
+     ],
+     "surface_ref": 0.867,
+     "bge_ref": 0.735,
+     "probe_ref": 0.9969,
+     "probe_minus_tfidf": 0.3076200000000001,
+     "tfidf_minus_max_other": -0.1777200000000001
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.9856,
+     "auroc_std": 0.0036397802131447558,
+     "auroc_per_seed": [
+      0.9896,
+      0.9788,
+      0.9856,
+      0.9868000000000001,
+      0.9872
+     ],
+     "surface_ref": 0.753,
+     "bge_ref": 0.9863,
+     "probe_ref": 0.9993,
+     "probe_minus_tfidf": 0.013699999999999934,
+     "tfidf_minus_max_other": -0.0006999999999999229
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.8983599999999999,
+     "auroc_std": 0.009819490821829792,
+     "auroc_per_seed": [
+      0.8868,
+      0.8904000000000001,
+      0.9034,
+      0.8967999999999999,
+      0.9144
+     ],
+     "surface_ref": 0.785,
+     "bge_ref": 0.9548,
+     "probe_ref": 0.9976,
+     "probe_minus_tfidf": 0.0992400000000001,
+     "tfidf_minus_max_other": -0.056440000000000046
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.9030400000000001,
+     "auroc_std": 0.015571461074671167,
+     "auroc_per_seed": [
+      0.9056,
+      0.8892,
+      0.8856,
+      0.9296,
+      0.9051999999999999
+     ],
+     "surface_ref": 0.718,
+     "bge_ref": 0.937,
+     "probe_ref": 0.9947,
+     "probe_minus_tfidf": 0.09165999999999996,
+     "tfidf_minus_max_other": -0.03395999999999999
+    }
+   },
+   "overall_mean": 0.88492,
+   "overall_min": 0.6892799999999999
+  },
+  "char": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8751999999999999,
+     "auroc_std": 0.008730635715685307,
+     "auroc_per_seed": [
+      0.8888,
+      0.8684000000000001,
+      0.8812,
+      0.8728,
+      0.8648
+     ],
+     "surface_ref": 0.763,
+     "bge_ref": 0.899,
+     "probe_ref": 0.9866,
+     "probe_minus_tfidf": 0.11140000000000017,
+     "tfidf_minus_max_other": -0.023800000000000154
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.91472,
+     "auroc_std": 0.006336686831460089,
+     "auroc_per_seed": [
+      0.9192,
+      0.9196,
+      0.9184,
+      0.9028,
+      0.9136000000000001
+     ],
+     "surface_ref": 0.833,
+     "bge_ref": 0.9474,
+     "probe_ref": 0.994,
+     "probe_minus_tfidf": 0.07928000000000002,
+     "tfidf_minus_max_other": -0.03268000000000004
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.7060000000000001,
+     "auroc_std": 0.012498959956732414,
+     "auroc_per_seed": [
+      0.6944,
+      0.724,
+      0.69,
+      0.7140000000000001,
+      0.7076
+     ],
+     "surface_ref": 0.867,
+     "bge_ref": 0.735,
+     "probe_ref": 0.9969,
+     "probe_minus_tfidf": 0.29089999999999994,
+     "tfidf_minus_max_other": -0.16099999999999992
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.98056,
+     "auroc_std": 0.011363379778921401,
+     "auroc_per_seed": [
+      0.9928,
+      0.9592,
+      0.9852000000000001,
+      0.9807999999999999,
+      0.9848
+     ],
+     "surface_ref": 0.753,
+     "bge_ref": 0.9863,
+     "probe_ref": 0.9993,
+     "probe_minus_tfidf": 0.01873999999999998,
+     "tfidf_minus_max_other": -0.005739999999999967
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.92792,
+     "auroc_std": 0.007591152745136944,
+     "auroc_per_seed": [
+      0.9248,
+      0.9148,
+      0.9368,
+      0.9312,
+      0.9319999999999999
+     ],
+     "surface_ref": 0.785,
+     "bge_ref": 0.9548,
+     "probe_ref": 0.9976,
+     "probe_minus_tfidf": 0.06968000000000008,
+     "tfidf_minus_max_other": -0.026880000000000015
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.9278400000000001,
+     "auroc_std": 0.012743876961113535,
+     "auroc_per_seed": [
+      0.9339999999999999,
+      0.9124,
+      0.9199999999999999,
+      0.9492,
+      0.9236000000000001
+     ],
+     "surface_ref": 0.718,
+     "bge_ref": 0.937,
+     "probe_ref": 0.9947,
+     "probe_minus_tfidf": 0.06685999999999992,
+     "tfidf_minus_max_other": -0.009159999999999946
+    }
+   },
+   "overall_mean": 0.8887066666666666,
+   "overall_min": 0.7060000000000001
+  },
+  "combined": {
+   "per_pair": {
+    "known_vs_unknown": {
+     "auroc_mean": 0.8895200000000001,
+     "auroc_std": 0.011034201375722662,
+     "auroc_per_seed": [
+      0.8984,
+      0.8792,
+      0.8864000000000001,
+      0.906,
+      0.8776
+     ],
+     "surface_ref": 0.763,
+     "bge_ref": 0.899,
+     "probe_ref": 0.9866,
+     "probe_minus_tfidf": 0.09707999999999994,
+     "tfidf_minus_max_other": -0.009479999999999933
+    },
+    "known_vs_ambiguous": {
+     "auroc_mean": 0.9587199999999999,
+     "auroc_std": 0.0038400000000000053,
+     "auroc_per_seed": [
+      0.9576,
+      0.9652000000000001,
+      0.9588,
+      0.9587999999999999,
+      0.9532
+     ],
+     "surface_ref": 0.833,
+     "bge_ref": 0.9474,
+     "probe_ref": 0.994,
+     "probe_minus_tfidf": 0.03528000000000009,
+     "tfidf_minus_max_other": 0.011319999999999886
+    },
+    "known_vs_misleading": {
+     "auroc_mean": 0.7056800000000001,
+     "auroc_std": 0.019252262204738482,
+     "auroc_per_seed": [
+      0.6923999999999999,
+      0.7188000000000001,
+      0.6776,
+      0.7324,
+      0.7072
+     ],
+     "surface_ref": 0.867,
+     "bge_ref": 0.735,
+     "probe_ref": 0.9969,
+     "probe_minus_tfidf": 0.2912199999999999,
+     "tfidf_minus_max_other": -0.1613199999999999
+    },
+    "unknown_vs_ambiguous": {
+     "auroc_mean": 0.99128,
+     "auroc_std": 0.0047220334602795745,
+     "auroc_per_seed": [
+      0.996,
+      0.9824,
+      0.9916,
+      0.992,
+      0.9944000000000001
+     ],
+     "surface_ref": 0.753,
+     "bge_ref": 0.9863,
+     "probe_ref": 0.9993,
+     "probe_minus_tfidf": 0.008019999999999916,
+     "tfidf_minus_max_other": 0.0049800000000000955
+    },
+    "unknown_vs_misleading": {
+     "auroc_mean": 0.9228,
+     "auroc_std": 0.006002666074337285,
+     "auroc_per_seed": [
+      0.9164000000000001,
+      0.9148,
+      0.9268,
+      0.9264,
+      0.9296
+     ],
+     "surface_ref": 0.785,
+     "bge_ref": 0.9548,
+     "probe_ref": 0.9976,
+     "probe_minus_tfidf": 0.07480000000000009,
+     "tfidf_minus_max_other": -0.03200000000000003
+    },
+    "ambiguous_vs_misleading": {
+     "auroc_mean": 0.9268000000000001,
+     "auroc_std": 0.009872790892143896,
+     "auroc_per_seed": [
+      0.9296,
+      0.9168000000000002,
+      0.9188,
+      0.9444,
+      0.9244000000000001
+     ],
+     "surface_ref": 0.718,
+     "bge_ref": 0.937,
+     "probe_ref": 0.9947,
+     "probe_minus_tfidf": 0.06789999999999996,
+     "tfidf_minus_max_other": -0.010199999999999987
+    }
+   },
+   "overall_mean": 0.8991333333333333,
+   "overall_min": 0.7056800000000001
+  }
+ },
+ "strongest_non_hidden_per_pair": {
+  "known_vs_unknown": {
+   "best_non_hidden": 0.899,
+   "best_source": "BGE",
+   "probe": 0.9866,
+   "gap": 0.08760000000000001
+  },
+  "known_vs_ambiguous": {
+   "best_non_hidden": 0.9587199999999999,
+   "best_source": "TF-IDF",
+   "probe": 0.994,
+   "gap": 0.03528000000000009
+  },
+  "known_vs_misleading": {
+   "best_non_hidden": 0.867,
+   "best_source": "surface",
+   "probe": 0.9969,
+   "gap": 0.12990000000000002
+  },
+  "unknown_vs_ambiguous": {
+   "best_non_hidden": 0.99128,
+   "best_source": "TF-IDF",
+   "probe": 0.9993,
+   "gap": 0.008019999999999916
+  },
+  "unknown_vs_misleading": {
+   "best_non_hidden": 0.9548,
+   "best_source": "BGE",
+   "probe": 0.9976,
+   "gap": 0.04280000000000006
+  },
+  "ambiguous_vs_misleading": {
+   "best_non_hidden": 0.937,
+   "best_source": "BGE",
+   "probe": 0.9947,
+   "gap": 0.057699999999999974
+  }
+ }
+}

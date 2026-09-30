@@ -1,0 +1,431 @@
+{
+ "per_model": {
+  "qwen7b": {
+   "corrected_counts": {
+    "misleading_impossible_premise": 7,
+    "misleading_misconception": 12,
+    "misleading_nonexistent_entity": 8,
+    "misleading_wrong_attribution": 12,
+    "misleading_wrong_date": 11
+   },
+   "peak_layer": 23,
+   "per_pair": {
+    "misleading_misconception__vs__misleading_wrong_attribution": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 24
+    },
+    "misleading_misconception__vs__misleading_nonexistent_entity": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 20
+    },
+    "misleading_misconception__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 23
+    },
+    "misleading_misconception__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      0.9523809523809524,
+      0.9880952380952381,
+      1.0,
+      0.9761904761904763,
+      1.0
+     ],
+     "mean": 0.9833333333333334,
+     "sd": 0.017817416127494937,
+     "n": 19
+    },
+    "misleading_wrong_attribution__vs__misleading_nonexistent_entity": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      0.9895833333333334,
+      1.0,
+      0.9895833333333334
+     ],
+     "mean": 0.9958333333333333,
+     "sd": 0.00510310363079827,
+     "n": 20
+    },
+    "misleading_wrong_attribution__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 23
+    },
+    "misleading_wrong_attribution__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 19
+    },
+    "misleading_nonexistent_entity__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      0.9886363636363636,
+      0.9886363636363636,
+      0.9886363636363636,
+      0.9886363636363636,
+      0.9886363636363636
+     ],
+     "mean": 0.9886363636363636,
+     "sd": 0.0,
+     "n": 19
+    },
+    "misleading_nonexistent_entity__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      0.9642857142857143,
+      0.9107142857142858,
+      0.9285714285714286,
+      0.9107142857142858,
+      0.9464285714285715
+     ],
+     "mean": 0.9321428571428572,
+     "sd": 0.020824828195876048,
+     "n": 15
+    },
+    "misleading_wrong_date__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 18
+    }
+   },
+   "mean_pairwise_auroc_corrected": 0.99,
+   "published_mean": 0.9466833333333333,
+   "published_peak_layer": 14,
+   "delta_mean_corrected_minus_published": 0.0433
+  },
+  "llama8b": {
+   "corrected_counts": {
+    "misleading_impossible_premise": 7,
+    "misleading_misconception": 12,
+    "misleading_nonexistent_entity": 8,
+    "misleading_wrong_attribution": 12,
+    "misleading_wrong_date": 11
+   },
+   "peak_layer": 32,
+   "per_pair": {
+    "misleading_misconception__vs__misleading_wrong_attribution": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 24
+    },
+    "misleading_misconception__vs__misleading_nonexistent_entity": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 20
+    },
+    "misleading_misconception__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 23
+    },
+    "misleading_misconception__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      0.9047619047619048,
+      0.9523809523809523,
+      0.9523809523809523,
+      0.8928571428571428,
+      0.9166666666666666
+     ],
+     "mean": 0.9238095238095237,
+     "sd": 0.02451340509758809,
+     "n": 19
+    },
+    "misleading_wrong_attribution__vs__misleading_nonexistent_entity": {
+     "auroc_per_seed": [
+      0.9270833333333334,
+      0.9270833333333334,
+      0.9166666666666666,
+      0.9166666666666666,
+      0.9166666666666666
+     ],
+     "mean": 0.9208333333333334,
+     "sd": 0.0051031036307983245,
+     "n": 20
+    },
+    "misleading_wrong_attribution__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      0.9393939393939393,
+      0.9469696969696969,
+      0.9393939393939393,
+      0.9545454545454545,
+      0.9469696969696969
+     ],
+     "mean": 0.9454545454545455,
+     "sd": 0.005669177858748391,
+     "n": 23
+    },
+    "misleading_wrong_attribution__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 19
+    },
+    "misleading_nonexistent_entity__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      0.9431818181818181,
+      0.9318181818181819,
+      0.9431818181818181,
+      0.9545454545454546,
+      0.9545454545454546
+     ],
+     "mean": 0.9454545454545455,
+     "sd": 0.008503766788122598,
+     "n": 19
+    },
+    "misleading_nonexistent_entity__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      0.9464285714285715,
+      0.9464285714285715,
+      0.9464285714285715,
+      0.9464285714285715,
+      0.9464285714285715
+     ],
+     "mean": 0.9464285714285715,
+     "sd": 0.0,
+     "n": 15
+    },
+    "misleading_wrong_date__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 18
+    }
+   },
+   "mean_pairwise_auroc_corrected": 0.9682,
+   "published_mean": 0.9308666666666665,
+   "published_peak_layer": 16,
+   "delta_mean_corrected_minus_published": 0.0373
+  },
+  "qwen32b": {
+   "corrected_counts": {
+    "misleading_impossible_premise": 7,
+    "misleading_misconception": 12,
+    "misleading_nonexistent_entity": 8,
+    "misleading_wrong_attribution": 12,
+    "misleading_wrong_date": 11
+   },
+   "peak_layer": 33,
+   "per_pair": {
+    "misleading_misconception__vs__misleading_wrong_attribution": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 24
+    },
+    "misleading_misconception__vs__misleading_nonexistent_entity": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 20
+    },
+    "misleading_misconception__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 23
+    },
+    "misleading_misconception__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      0.9523809523809523,
+      0.9642857142857142,
+      0.9642857142857142,
+      0.9761904761904762,
+      0.9642857142857142
+     ],
+     "mean": 0.9642857142857142,
+     "sd": 0.007529232524210435,
+     "n": 19
+    },
+    "misleading_wrong_attribution__vs__misleading_nonexistent_entity": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      0.9895833333333334,
+      0.9895833333333334
+     ],
+     "mean": 0.9958333333333333,
+     "sd": 0.00510310363079827,
+     "n": 20
+    },
+    "misleading_wrong_attribution__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      0.9772727272727273,
+      0.9696969696969697,
+      0.9696969696969697,
+      1.0,
+      1.0
+     ],
+     "mean": 0.9833333333333334,
+     "sd": 0.013886593015017686,
+     "n": 23
+    },
+    "misleading_wrong_attribution__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 19
+    },
+    "misleading_nonexistent_entity__vs__misleading_wrong_date": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 19
+    },
+    "misleading_nonexistent_entity__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      0.9821428571428572,
+      0.9821428571428572,
+      0.9642857142857143,
+      0.9642857142857143,
+      0.9821428571428572
+     ],
+     "mean": 0.975,
+     "sd": 0.008748177652797088,
+     "n": 15
+    },
+    "misleading_wrong_date__vs__misleading_impossible_premise": {
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "mean": 1.0,
+     "sd": 0.0,
+     "n": 18
+    }
+   },
+   "mean_pairwise_auroc_corrected": 0.9918,
+   "published_mean": 0.9533444444444443,
+   "published_peak_layer": 42,
+   "delta_mean_corrected_minus_published": 0.0385
+  }
+ },
+ "_meta": {
+  "corrections_applied": {
+   "misleading_v3_053": "misleading_wrong_date",
+   "misleading_v3_057": "misleading_wrong_date",
+   "misleading_v3_073": "misleading_impossible_premise"
+  },
+  "protocol": "identical to stage6_2_premise_swaps.py (module reused for probes and peak selection)",
+  "locked_csv_modified": false
+ },
+ "_provenance": {
+  "git_commit_at_run": "9fe16541a8cfcb613fc8de6b4f88b39d9fb4023b",
+  "host": "redacted",
+  "python_version": "3.12.3",
+  "cuda_visible_devices": "redacted",
+  "file_sha256": {
+   "data/geometry_uncertainty_mvp_base_prompts_v3.csv": "5b2a83b21617146d62cb0971eec8993cfc0422b655f019cc1e1114f65edd1f19",
+   "results/stage6_2_premise_subtype_auroc.json": "cc8ba0035258af9291e7d308a9b63b00f29fbc77caf8aee1a49cca082f969fdd"
+  }
+ }
+}

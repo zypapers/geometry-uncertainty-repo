@@ -1,0 +1,236 @@
+{
+ "qwen7b": {
+  "peak_layer": 14,
+  "overall_mean_pairwise_auroc": 0.9605398110661268,
+  "per_pair": {
+   "unknown_post_cutoff_vs_unknown_long_tail": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 21
+   },
+   "unknown_post_cutoff_vs_unknown_niche_technical": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 27
+   },
+   "unknown_post_cutoff_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 18
+   },
+   "unknown_long_tail_vs_unknown_niche_technical": {
+    "auroc_per_seed": [
+     1.0,
+     0.9959514170040487,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 0.9991902834008097,
+    "sd": 0.0016194331983805377,
+    "n": 32
+   },
+   "unknown_long_tail_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     0.7000000000000001,
+     0.7538461538461538,
+     0.7846153846153846,
+     0.7846153846153846,
+     0.8076923076923077
+    ],
+    "mean": 0.7661538461538461,
+    "sd": 0.0372422105751083,
+    "n": 23
+   },
+   "unknown_niche_technical_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     0.9894736842105263,
+     1.0,
+     1.0
+    ],
+    "mean": 0.9978947368421054,
+    "sd": 0.004210526315789487,
+    "n": 29
+   }
+  }
+ },
+ "llama8b": {
+  "peak_layer": 32,
+  "overall_mean_pairwise_auroc": 0.9578002699055331,
+  "per_pair": {
+   "unknown_post_cutoff_vs_unknown_long_tail": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 21
+   },
+   "unknown_post_cutoff_vs_unknown_niche_technical": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 27
+   },
+   "unknown_post_cutoff_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 18
+   },
+   "unknown_long_tail_vs_unknown_niche_technical": {
+    "auroc_per_seed": [
+     1.0,
+     0.9959514170040487,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 0.9991902834008097,
+    "sd": 0.0016194331983805377,
+    "n": 32
+   },
+   "unknown_long_tail_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     0.7153846153846154,
+     0.7615384615384616,
+     0.7230769230769232,
+     0.7461538461538463,
+     0.8076923076923076
+    ],
+    "mean": 0.7507692307692307,
+    "sd": 0.0328525484677886,
+    "n": 23
+   },
+   "unknown_niche_technical_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     0.9894736842105263,
+     0.9947368421052631,
+     1.0
+    ],
+    "mean": 0.9968421052631579,
+    "sd": 0.004210526315789487,
+    "n": 29
+   }
+  }
+ },
+ "qwen32b": {
+  "peak_layer": 38,
+  "overall_mean_pairwise_auroc": 0.9666666666666667,
+  "per_pair": {
+   "unknown_post_cutoff_vs_unknown_long_tail": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 21
+   },
+   "unknown_post_cutoff_vs_unknown_niche_technical": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 27
+   },
+   "unknown_post_cutoff_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 18
+   },
+   "unknown_long_tail_vs_unknown_niche_technical": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 32
+   },
+   "unknown_long_tail_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     0.7846153846153846,
+     0.7615384615384616,
+     0.8153846153846155,
+     0.8,
+     0.8384615384615385
+    ],
+    "mean": 0.8,
+    "sd": 0.026199055947579077,
+    "n": 23
+   },
+   "unknown_niche_technical_vs_unknown_model_dependent": {
+    "auroc_per_seed": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "mean": 1.0,
+    "sd": 0.0,
+    "n": 29
+   }
+  }
+ }
+}

@@ -1,0 +1,586 @@
+{
+ "per_pair": {
+  "known_vs_unknown": {
+   "n_examples": 100,
+   "features": {
+    "word_count": {
+     "auroc_mean_across_seeds": 0.59996,
+     "auroc_per_seed": [
+      0.5856,
+      0.5958,
+      0.6043999999999999,
+      0.6044,
+      0.6095999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.4878222357040925,
+     "auroc_ci_high_across_seeds": 0.7090228817231192
+    },
+    "named_entity_count": {
+     "auroc_mean_across_seeds": 0.61428,
+     "auroc_per_seed": [
+      0.6032,
+      0.6224,
+      0.6228,
+      0.6176,
+      0.6053999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.5020541350099219,
+     "auroc_ci_high_across_seeds": 0.722721182664652
+    },
+    "question_form": {
+     "auroc_mean_across_seeds": 0.42832,
+     "auroc_per_seed": [
+      0.4374,
+      0.4948,
+      0.3378,
+      0.38339999999999996,
+      0.4882
+     ],
+     "auroc_ci_low_across_seeds": 0.31668011953051683,
+     "auroc_ci_high_across_seeds": 0.5383866128096717
+    },
+    "prompt_token_count": {
+     "auroc_mean_across_seeds": 0.66776,
+     "auroc_per_seed": [
+      0.6557999999999999,
+      0.6544000000000001,
+      0.6859999999999999,
+      0.6702000000000001,
+      0.6723999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.5575507781402109,
+     "auroc_ci_high_across_seeds": 0.7710835903653445
+    },
+    "next_token_entropy": {
+     "auroc_mean_across_seeds": 0.5124,
+     "auroc_per_seed": [
+      0.48039999999999994,
+      0.5248,
+      0.5132,
+      0.5312,
+      0.5124
+     ],
+     "auroc_ci_low_across_seeds": 0.39902014808480235,
+     "auroc_ci_high_across_seeds": 0.6281081241647956
+    },
+    "sentence_embedding_cos_to_known_centroid": {
+     "auroc_mean_across_seeds": 0.6333599999999999,
+     "auroc_per_seed": [
+      0.6432,
+      0.6275999999999999,
+      0.6255999999999999,
+      0.6488,
+      0.6216
+     ],
+     "auroc_ci_low_across_seeds": 0.5202634127183969,
+     "auroc_ci_high_across_seeds": 0.7409102420942437
+    },
+    "all_surface": {
+     "auroc_mean_across_seeds": 0.8268800000000001,
+     "auroc_per_seed": [
+      0.8252,
+      0.8188,
+      0.8204,
+      0.84,
+      0.83
+     ],
+     "auroc_ci_low_across_seeds": 0.7363035141420842,
+     "auroc_ci_high_across_seeds": 0.9074129959461346
+    }
+   },
+   "strongest_feature": "all_surface",
+   "strongest_auroc": 0.8268800000000001
+  },
+  "known_vs_ambiguous": {
+   "n_examples": 100,
+   "features": {
+    "word_count": {
+     "auroc_mean_across_seeds": 0.42776,
+     "auroc_per_seed": [
+      0.361,
+      0.468,
+      0.42419999999999997,
+      0.4396,
+      0.44599999999999995
+     ],
+     "auroc_ci_low_across_seeds": 0.3196575117750766,
+     "auroc_ci_high_across_seeds": 0.53781451467475
+    },
+    "named_entity_count": {
+     "auroc_mean_across_seeds": 0.42616000000000004,
+     "auroc_per_seed": [
+      0.44739999999999996,
+      0.4502000000000001,
+      0.4688,
+      0.4878,
+      0.2766
+     ],
+     "auroc_ci_low_across_seeds": 0.3176642426511032,
+     "auroc_ci_high_across_seeds": 0.5402210354146926
+    },
+    "question_form": {
+     "auroc_mean_across_seeds": 0.29944,
+     "auroc_per_seed": [
+      0.3236,
+      0.3176,
+      0.29279999999999995,
+      0.265,
+      0.2982
+     ],
+     "auroc_ci_low_across_seeds": 0.19996705426116762,
+     "auroc_ci_high_across_seeds": 0.4029278100103003
+    },
+    "prompt_token_count": {
+     "auroc_mean_across_seeds": 0.4178400000000001,
+     "auroc_per_seed": [
+      0.3538,
+      0.4418,
+      0.38420000000000004,
+      0.4696,
+      0.4398
+     ],
+     "auroc_ci_low_across_seeds": 0.306021001425142,
+     "auroc_ci_high_across_seeds": 0.5309610111272536
+    },
+    "next_token_entropy": {
+     "auroc_mean_across_seeds": 0.71512,
+     "auroc_per_seed": [
+      0.7052,
+      0.7132000000000001,
+      0.7216,
+      0.7232000000000001,
+      0.7123999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.6087935907742866,
+     "auroc_ci_high_across_seeds": 0.8149789594562208
+    },
+    "sentence_embedding_cos_to_known_centroid": {
+     "auroc_mean_across_seeds": 0.76136,
+     "auroc_per_seed": [
+      0.7616,
+      0.7644000000000001,
+      0.7563999999999999,
+      0.7704,
+      0.754
+     ],
+     "auroc_ci_low_across_seeds": 0.6617232473395077,
+     "auroc_ci_high_across_seeds": 0.8484160011142678
+    },
+    "all_surface": {
+     "auroc_mean_across_seeds": 0.66424,
+     "auroc_per_seed": [
+      0.6579999999999999,
+      0.7068,
+      0.6572,
+      0.6876,
+      0.6116
+     ],
+     "auroc_ci_low_across_seeds": 0.5565650412667307,
+     "auroc_ci_high_across_seeds": 0.767225771370252
+    }
+   },
+   "strongest_feature": "sentence_embedding_cos_to_known_centroid",
+   "strongest_auroc": 0.76136
+  },
+  "known_vs_misleading": {
+   "n_examples": 100,
+   "features": {
+    "word_count": {
+     "auroc_mean_across_seeds": 0.67632,
+     "auroc_per_seed": [
+      0.6621999999999999,
+      0.6798000000000001,
+      0.6602,
+      0.6926,
+      0.6868
+     ],
+     "auroc_ci_low_across_seeds": 0.568575487905937,
+     "auroc_ci_high_across_seeds": 0.7799851987936712
+    },
+    "named_entity_count": {
+     "auroc_mean_across_seeds": 0.41723999999999994,
+     "auroc_per_seed": [
+      0.3642,
+      0.397,
+      0.4982,
+      0.3834,
+      0.4434
+     ],
+     "auroc_ci_low_across_seeds": 0.30748956855992726,
+     "auroc_ci_high_across_seeds": 0.5316914108410133
+    },
+    "question_form": {
+     "auroc_mean_across_seeds": 0.38008000000000003,
+     "auroc_per_seed": [
+      0.3446000000000001,
+      0.4148,
+      0.3782,
+      0.37800000000000006,
+      0.3848
+     ],
+     "auroc_ci_low_across_seeds": 0.2721100337422616,
+     "auroc_ci_high_across_seeds": 0.49026991644538864
+    },
+    "prompt_token_count": {
+     "auroc_mean_across_seeds": 0.75784,
+     "auroc_per_seed": [
+      0.7574000000000001,
+      0.7592,
+      0.7592,
+      0.7624,
+      0.751
+     ],
+     "auroc_ci_low_across_seeds": 0.6591211516523663,
+     "auroc_ci_high_across_seeds": 0.8478840049593694
+    },
+    "next_token_entropy": {
+     "auroc_mean_across_seeds": 0.5780800000000001,
+     "auroc_per_seed": [
+      0.5724,
+      0.6095999999999999,
+      0.5876,
+      0.55,
+      0.5708
+     ],
+     "auroc_ci_low_across_seeds": 0.4634565334938897,
+     "auroc_ci_high_across_seeds": 0.6903938613491034
+    },
+    "sentence_embedding_cos_to_known_centroid": {
+     "auroc_mean_across_seeds": 0.74368,
+     "auroc_per_seed": [
+      0.7404000000000001,
+      0.7428,
+      0.7256,
+      0.7507999999999999,
+      0.7588000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6419563313510375,
+     "auroc_ci_high_across_seeds": 0.8346738195247502
+    },
+    "all_surface": {
+     "auroc_mean_across_seeds": 0.74936,
+     "auroc_per_seed": [
+      0.7512,
+      0.7316,
+      0.75,
+      0.7552,
+      0.7587999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.6471594917394929,
+     "auroc_ci_high_across_seeds": 0.8393947149434325
+    }
+   },
+   "strongest_feature": "prompt_token_count",
+   "strongest_auroc": 0.75784
+  },
+  "unknown_vs_ambiguous": {
+   "n_examples": 100,
+   "features": {
+    "word_count": {
+     "auroc_mean_across_seeds": 0.5771200000000001,
+     "auroc_per_seed": [
+      0.5662,
+      0.578,
+      0.581,
+      0.5806,
+      0.5798
+     ],
+     "auroc_ci_low_across_seeds": 0.4606755852262493,
+     "auroc_ci_high_across_seeds": 0.6882567368051222
+    },
+    "named_entity_count": {
+     "auroc_mean_across_seeds": 0.6288,
+     "auroc_per_seed": [
+      0.638,
+      0.6115999999999999,
+      0.6314000000000001,
+      0.6343999999999999,
+      0.6286
+     ],
+     "auroc_ci_low_across_seeds": 0.5176023148063222,
+     "auroc_ci_high_across_seeds": 0.7399693706860576
+    },
+    "question_form": {
+     "auroc_mean_across_seeds": 0.49711999999999995,
+     "auroc_per_seed": [
+      0.533,
+      0.48819999999999997,
+      0.4524,
+      0.4784,
+      0.5336000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.3849470199767382,
+     "auroc_ci_high_across_seeds": 0.6103224880242893
+    },
+    "prompt_token_count": {
+     "auroc_mean_across_seeds": 0.66272,
+     "auroc_per_seed": [
+      0.6749999999999999,
+      0.652,
+      0.6754,
+      0.6504,
+      0.6607999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.545724389753218,
+     "auroc_ci_high_across_seeds": 0.7729073905547976
+    },
+    "next_token_entropy": {
+     "auroc_mean_across_seeds": 0.6293599999999999,
+     "auroc_per_seed": [
+      0.6464,
+      0.6244,
+      0.6016,
+      0.6252,
+      0.6492
+     ],
+     "auroc_ci_low_across_seeds": 0.5122644922995613,
+     "auroc_ci_high_across_seeds": 0.7408616395071694
+    },
+    "sentence_embedding_cos_to_known_centroid": {
+     "auroc_mean_across_seeds": 0.63544,
+     "auroc_per_seed": [
+      0.6356,
+      0.6352,
+      0.6364,
+      0.6364000000000001,
+      0.6335999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.5219576970777501,
+     "auroc_ci_high_across_seeds": 0.7385709512877441
+    },
+    "all_surface": {
+     "auroc_mean_across_seeds": 0.8103999999999999,
+     "auroc_per_seed": [
+      0.8216,
+      0.8204,
+      0.7932000000000001,
+      0.8084,
+      0.8084
+     ],
+     "auroc_ci_low_across_seeds": 0.7193378071530888,
+     "auroc_ci_high_across_seeds": 0.8924194696115062
+    }
+   },
+   "strongest_feature": "all_surface",
+   "strongest_auroc": 0.8103999999999999
+  },
+  "unknown_vs_misleading": {
+   "n_examples": 100,
+   "features": {
+    "word_count": {
+     "auroc_mean_across_seeds": 0.7682400000000001,
+     "auroc_per_seed": [
+      0.7666000000000001,
+      0.777,
+      0.7694000000000001,
+      0.7656000000000001,
+      0.7626000000000002
+     ],
+     "auroc_ci_low_across_seeds": 0.6720330248412689,
+     "auroc_ci_high_across_seeds": 0.8586017876258071
+    },
+    "named_entity_count": {
+     "auroc_mean_across_seeds": 0.58604,
+     "auroc_per_seed": [
+      0.5876,
+      0.5522,
+      0.6248,
+      0.596,
+      0.5696
+     ],
+     "auroc_ci_low_across_seeds": 0.4733668581802367,
+     "auroc_ci_high_across_seeds": 0.699715140796666
+    },
+    "question_form": {
+     "auroc_mean_across_seeds": 0.49984,
+     "auroc_per_seed": [
+      0.47139999999999993,
+      0.5332,
+      0.516,
+      0.46459999999999996,
+      0.514
+     ],
+     "auroc_ci_low_across_seeds": 0.3845124590741626,
+     "auroc_ci_high_across_seeds": 0.610113920718803
+    },
+    "prompt_token_count": {
+     "auroc_mean_across_seeds": 0.59944,
+     "auroc_per_seed": [
+      0.6134000000000001,
+      0.589,
+      0.5978,
+      0.5844,
+      0.6126
+     ],
+     "auroc_ci_low_across_seeds": 0.4853108695747732,
+     "auroc_ci_high_across_seeds": 0.7096054770223797
+    },
+    "next_token_entropy": {
+     "auroc_mean_across_seeds": 0.41319999999999996,
+     "auroc_per_seed": [
+      0.3892,
+      0.4528,
+      0.40399999999999997,
+      0.3956,
+      0.42440000000000005
+     ],
+     "auroc_ci_low_across_seeds": 0.3032621555097677,
+     "auroc_ci_high_across_seeds": 0.5293197664152458
+    },
+    "sentence_embedding_cos_to_known_centroid": {
+     "auroc_mean_across_seeds": 0.5988800000000001,
+     "auroc_per_seed": [
+      0.6055999999999999,
+      0.5888,
+      0.5996,
+      0.5968,
+      0.6036
+     ],
+     "auroc_ci_low_across_seeds": 0.4856587789222143,
+     "auroc_ci_high_across_seeds": 0.7099033131173241
+    },
+    "all_surface": {
+     "auroc_mean_across_seeds": 0.7444,
+     "auroc_per_seed": [
+      0.7427999999999999,
+      0.7244,
+      0.778,
+      0.7316,
+      0.7452000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6407388764873996,
+     "auroc_ci_high_across_seeds": 0.8387429314653584
+    }
+   },
+   "strongest_feature": "word_count",
+   "strongest_auroc": 0.7682400000000001
+  },
+  "ambiguous_vs_misleading": {
+   "n_examples": 100,
+   "features": {
+    "word_count": {
+     "auroc_mean_across_seeds": 0.6441199999999999,
+     "auroc_per_seed": [
+      0.6479999999999999,
+      0.6407999999999999,
+      0.6368,
+      0.6466,
+      0.6484000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.535692005208459,
+     "auroc_ci_high_across_seeds": 0.7504797362643043
+    },
+    "named_entity_count": {
+     "auroc_mean_across_seeds": 0.3894,
+     "auroc_per_seed": [
+      0.3702,
+      0.35840000000000005,
+      0.41459999999999997,
+      0.38139999999999996,
+      0.4224
+     ],
+     "auroc_ci_low_across_seeds": 0.28430914255499906,
+     "auroc_ci_high_across_seeds": 0.5038212447888956
+    },
+    "question_form": {
+     "auroc_mean_across_seeds": 0.40912,
+     "auroc_per_seed": [
+      0.3656,
+      0.41319999999999996,
+      0.3672,
+      0.40779999999999994,
+      0.49179999999999996
+     ],
+     "auroc_ci_low_across_seeds": 0.3015806767600767,
+     "auroc_ci_high_across_seeds": 0.5222111944340757
+    },
+    "prompt_token_count": {
+     "auroc_mean_across_seeds": 0.7314,
+     "auroc_per_seed": [
+      0.7376,
+      0.7339999999999999,
+      0.7328,
+      0.7234000000000002,
+      0.7292000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6253269711352047,
+     "auroc_ci_high_across_seeds": 0.8303906099750472
+    },
+    "next_token_entropy": {
+     "auroc_mean_across_seeds": 0.62832,
+     "auroc_per_seed": [
+      0.6392,
+      0.6408,
+      0.6072,
+      0.6312,
+      0.6232000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.5170910121905147,
+     "auroc_ci_high_across_seeds": 0.7340766018581025
+    },
+    "sentence_embedding_cos_to_known_centroid": {
+     "auroc_mean_across_seeds": 0.5099199999999999,
+     "auroc_per_seed": [
+      0.4884,
+      0.512,
+      0.5036,
+      0.5304,
+      0.5152
+     ],
+     "auroc_ci_low_across_seeds": 0.3988888944484228,
+     "auroc_ci_high_across_seeds": 0.6271271427719841
+    },
+    "all_surface": {
+     "auroc_mean_across_seeds": 0.72976,
+     "auroc_per_seed": [
+      0.7288,
+      0.7335999999999999,
+      0.7288,
+      0.7128,
+      0.7448
+     ],
+     "auroc_ci_low_across_seeds": 0.6302540828891592,
+     "auroc_ci_high_across_seeds": 0.8225601630541357
+    }
+   },
+   "strongest_feature": "prompt_token_count",
+   "strongest_auroc": 0.7314
+  }
+ },
+ "_meta": {
+  "seeds": [
+   1234,
+   4567,
+   7890,
+   2345,
+   5678
+  ],
+  "n_cv_folds": 5,
+  "n_bootstrap": 1000,
+  "feature_names": [
+   "word_count",
+   "named_entity_count",
+   "question_form",
+   "prompt_token_count",
+   "next_token_entropy",
+   "sentence_embedding_cos_to_known_centroid",
+   "all_surface"
+  ],
+  "pairs": [
+   "known_vs_unknown",
+   "known_vs_ambiguous",
+   "known_vs_misleading",
+   "unknown_vs_ambiguous",
+   "unknown_vs_misleading",
+   "ambiguous_vs_misleading"
+  ],
+  "protocol": "analysis protocol"
+ },
+ "_provenance": {
+  "git_commit_at_run": "anonymized",
+  "input_csv_sha256": "3b1e013c3c78031cc6b09490772d719b881ac9fec97e27e2769353581fdfdeb7",
+  "npz_sha256": "9da5851e1ef4ab1a6bd1ac48b740d68f30f82f997dc0b44b4d5ab8c939e60dd2",
+  "script_sha256": "93474fd5800b0f5b311c9ed4451eacd96e02b423bc6247e156f97b014f59f425",
+  "python_version": "3.12.3"
+ }
+}

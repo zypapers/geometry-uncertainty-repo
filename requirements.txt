@@ -1,0 +1,9 @@
+torch
+transformers>=4.47
+accelerate
+scikit-learn
+sentence-transformers
+joblib
+pandas
+numpy
+tqdm

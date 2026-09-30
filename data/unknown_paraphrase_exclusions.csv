@@ -1,0 +1,27 @@
+base_id,paraphrase_id,question,gold_answer_normalized,qwen7b_correct_count,llama8b_correct_count,qwen32b_correct_count,n_zero,failure_type,repair_action
+unknown_v3_015,unknown_v3_015_p1,In what year was the Løgting of the Faroe Islands originally founded?,around 900 / 9th century,4,1,0,1,gold_normalization_issue,regenerate_paraphrase
+unknown_v3_050,unknown_v3_050_p1,"Under ICD-10, what code is used for influenza?",J10 / J11,3,2,4,0,base_group_too_fragile,exclude_group
+unknown_v3_050,unknown_v3_050_p2,Which ICD-10 classification code corresponds to influenza?,J10 / J11,4,0,4,1,base_group_too_fragile,exclude_group
+unknown_v3_057,unknown_v3_057_p1,In what year did the ICD-10 classification system first appear?,1990 / 1993 / early 1990s,0,3,3,1,gold_normalization_issue,regenerate_paraphrase
+unknown_v3_074,unknown_v3_074_p1,How many people live in Greenland?,"approximately 56,000 / 56000",4,0,4,1,base_group_too_fragile,exclude_group
+unknown_v3_074,unknown_v3_074_p2,What is Greenland's total population count?,"approximately 56,000 / 56000",3,0,2,1,base_group_too_fragile,exclude_group
+unknown_v3_084,unknown_v3_084_p2,In what natural environment does the dik-dik live?,"East Africa / sub-Saharan / Somalia, Kenya, Tanzania scrubland",1,2,1,0,gold_normalization_issue,regenerate_paraphrase
+unknown_v3r3_008,unknown_v3r3_008_p1,Which mountain has the greatest elevation within Lesotho?,Thabana Ntlenyana,2,0,3,1,base_group_too_fragile,exclude_group
+unknown_v3r3_008,unknown_v3r3_008_p2,What is the tallest summit found in Lesotho?,Thabana Ntlenyana,2,0,4,1,base_group_too_fragile,exclude_group
+unknown_v3r3_010,unknown_v3r3_010_p1,Which mountain is the tallest in Sierra Leone?,Mount Bintumani / Loma Mansa,2,0,1,1,base_group_too_fragile,exclude_group
+unknown_v3r3_010,unknown_v3r3_010_p2,What is the name of Sierra Leone's tallest peak?,Mount Bintumani / Loma Mansa,4,1,4,0,base_group_too_fragile,exclude_group
+unknown_v3r3_011,unknown_v3r3_011_p2,What is the name of the tallest peak on São Tomé?,Pico de São Tomé,2,0,4,1,model_knows_rephrased_form,regenerate_paraphrase
+unknown_v3r3_017,unknown_v3r3_017_p2,Who is the composer behind the opera Sadko?,Rimsky-Korsakov / Nikolai Rimsky-Korsakov,0,1,4,1,gold_normalization_issue,regenerate_paraphrase
+unknown_v3r3_030,unknown_v3r3_030_p1,What CAS number is assigned to paclitaxel?,33069-62-4,0,4,1,1,model_knows_rephrased_form,regenerate_paraphrase
+unknown_v3r3_032,unknown_v3r3_032_p1,Which CAS number is assigned to atropine?,51-55-8,0,4,4,1,base_group_too_fragile,exclude_group
+unknown_v3r3_032,unknown_v3r3_032_p2,What CAS registry number does atropine carry?,51-55-8,0,4,4,1,base_group_too_fragile,exclude_group
+unknown_v3r3_044,unknown_v3r3_044_p1,In what year did scientists first sequence the BRCA1 protein?,"1994 / Miki et al., Science 266:66-71",3,4,4,0,base_group_too_fragile,exclude_group
+unknown_v3r3_044,unknown_v3r3_044_p2,When did the initial sequencing of BRCA1 protein occur?,"1994 / Miki et al., Science 266:66-71",0,4,4,1,base_group_too_fragile,exclude_group
+unknown_v3r3_045,unknown_v3r3_045_p1,Which UniProt accession corresponds to human p53?,P04637,0,3,4,1,base_group_too_fragile,exclude_group
+unknown_v3r3_045,unknown_v3r3_045_p2,What is the UniProt accession number for the human p53 protein?,P04637,0,2,4,1,base_group_too_fragile,exclude_group
+unknown_v3r3_060,unknown_v3r3_060_p1,Which spacecraft was sent to Europa during 2024?,Europa Clipper,2,1,0,1,model_knows_rephrased_form,regenerate_paraphrase
+unknown_v3r3_064,unknown_v3r3_064_p2,What is the highest-altitude train station on the European continent?,Jungfraujoch,0,1,4,1,model_knows_rephrased_form,regenerate_paraphrase
+unknown_v3r4_016,unknown_v3r4_016_p1,In what year was the human PTEN protein first characterized?,1997 / Li et al. Science 275:1943-1947 / Steck et al. Nat Genet 15:356-362,4,4,4,0,base_group_too_fragile,exclude_group
+unknown_v3r4_016,unknown_v3r4_016_p2,When did the initial characterization of the human PTEN protein take place?,1997 / Li et al. Science 275:1943-1947 / Steck et al. Nat Genet 15:356-362,4,4,4,0,base_group_too_fragile,exclude_group
+unknown_v3r5_001,unknown_v3r5_001_p1,How many people live in Tuvalu?,"11,000 / approximately 11000 / ~11k",3,0,4,1,gold_normalization_issue,regenerate_paraphrase
+unknown_v3r5_008,unknown_v3r5_008_p2,What chemical formula describes the glycine molecule?,C2H5NO2 / NH2CH2COOH,3,4,0,1,gold_normalization_issue,regenerate_paraphrase

@@ -1,0 +1,4829 @@
+{
+ "per_pair_per_layer": {
+  "known_vs_unknown": {
+   "last_token_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.5,
+     "auroc_per_seed": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "auroc_ci_low_across_seeds": 0.5,
+     "auroc_ci_high_across_seeds": 0.5
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.84864,
+     "auroc_per_seed": [
+      0.8432000000000001,
+      0.858,
+      0.8512,
+      0.8428,
+      0.848
+     ],
+     "auroc_ci_low_across_seeds": 0.7593722926320878,
+     "auroc_ci_high_across_seeds": 0.9253984660136888
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.8640000000000001,
+     "auroc_per_seed": [
+      0.864,
+      0.8592,
+      0.8644000000000001,
+      0.8648,
+      0.8675999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7808600379747237,
+     "auroc_ci_high_across_seeds": 0.932076006162351
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.8620000000000001,
+     "auroc_per_seed": [
+      0.8600000000000001,
+      0.8560000000000001,
+      0.8640000000000001,
+      0.866,
+      0.8639999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7816454553461423,
+     "auroc_ci_high_across_seeds": 0.9271743593592955
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.8416,
+     "auroc_per_seed": [
+      0.8408,
+      0.838,
+      0.8340000000000001,
+      0.8528,
+      0.8424
+     ],
+     "auroc_ci_low_across_seeds": 0.7599379452910175,
+     "auroc_ci_high_across_seeds": 0.9110948093733862
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.87576,
+     "auroc_per_seed": [
+      0.8680000000000001,
+      0.8876,
+      0.8552000000000001,
+      0.8876000000000001,
+      0.8804000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8006305476087359,
+     "auroc_ci_high_across_seeds": 0.9351671668895865
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.8918400000000002,
+     "auroc_per_seed": [
+      0.8876000000000001,
+      0.9044,
+      0.8672,
+      0.9004000000000001,
+      0.8996
+     ],
+     "auroc_ci_low_across_seeds": 0.8228108853011499,
+     "auroc_ci_high_across_seeds": 0.9474038847695805
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.89368,
+     "auroc_per_seed": [
+      0.89,
+      0.9044,
+      0.8712,
+      0.9016000000000001,
+      0.9012
+     ],
+     "auroc_ci_low_across_seeds": 0.8266714871196512,
+     "auroc_ci_high_across_seeds": 0.9478898706449999
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.9049599999999998,
+     "auroc_per_seed": [
+      0.9036,
+      0.9119999999999999,
+      0.884,
+      0.9179999999999999,
+      0.9072
+     ],
+     "auroc_ci_low_across_seeds": 0.8420704378793854,
+     "auroc_ci_high_across_seeds": 0.9551304642634173
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.944,
+     "auroc_per_seed": [
+      0.9451999999999999,
+      0.9403999999999999,
+      0.9312,
+      0.9584,
+      0.9448
+     ],
+     "auroc_ci_low_across_seeds": 0.8961696892217355,
+     "auroc_ci_high_across_seeds": 0.979949045014276
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.9586400000000002,
+     "auroc_per_seed": [
+      0.9604,
+      0.9516,
+      0.9500000000000001,
+      0.9715999999999999,
+      0.9596
+     ],
+     "auroc_ci_low_across_seeds": 0.918073888242145,
+     "auroc_ci_high_across_seeds": 0.9878040389116828
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.98464,
+     "auroc_per_seed": [
+      0.9887999999999999,
+      0.9808,
+      0.98,
+      0.988,
+      0.9856
+     ],
+     "auroc_ci_low_across_seeds": 0.9618366644100244,
+     "auroc_ci_high_across_seeds": 0.9985613094530346
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.9834400000000001,
+     "auroc_per_seed": [
+      0.9856,
+      0.9788000000000001,
+      0.9784,
+      0.988,
+      0.9864
+     ],
+     "auroc_ci_low_across_seeds": 0.9593996387148419,
+     "auroc_ci_high_across_seeds": 0.9978114862829928
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.97744,
+     "auroc_per_seed": [
+      0.9776,
+      0.9732000000000001,
+      0.9768,
+      0.9804,
+      0.9792000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9502806499187377,
+     "auroc_ci_high_across_seeds": 0.9952755306957336
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.9856,
+     "auroc_per_seed": [
+      0.986,
+      0.9848,
+      0.9832000000000001,
+      0.9868,
+      0.9872
+     ],
+     "auroc_ci_low_across_seeds": 0.9663585001671746,
+     "auroc_ci_high_across_seeds": 0.9978141063041756
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9836,
+     "auroc_per_seed": [
+      0.9863999999999999,
+      0.9808,
+      0.9803999999999999,
+      0.9868,
+      0.9836
+     ],
+     "auroc_ci_low_across_seeds": 0.9622680665075437,
+     "auroc_ci_high_across_seeds": 0.9972650186475498
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.98064,
+     "auroc_per_seed": [
+      0.9848,
+      0.98,
+      0.9764,
+      0.9836,
+      0.9784
+     ],
+     "auroc_ci_low_across_seeds": 0.9577246872985284,
+     "auroc_ci_high_across_seeds": 0.9960631008575505
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.97896,
+     "auroc_per_seed": [
+      0.98,
+      0.9804,
+      0.9748,
+      0.9847999999999999,
+      0.9748000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9525770647542725,
+     "auroc_ci_high_across_seeds": 0.9965451186103742
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9684800000000001,
+     "auroc_per_seed": [
+      0.9688,
+      0.9683999999999999,
+      0.966,
+      0.974,
+      0.9652
+     ],
+     "auroc_ci_low_across_seeds": 0.9328455339252768,
+     "auroc_ci_high_across_seeds": 0.9932685142280517
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9644,
+     "auroc_per_seed": [
+      0.9636,
+      0.9668,
+      0.962,
+      0.9676,
+      0.962
+     ],
+     "auroc_ci_low_across_seeds": 0.9269093857647339,
+     "auroc_ci_high_across_seeds": 0.991479651310305
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.95784,
+     "auroc_per_seed": [
+      0.9556,
+      0.9632,
+      0.9556,
+      0.9623999999999999,
+      0.9523999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9155856595107945,
+     "auroc_ci_high_across_seeds": 0.9883834385818915
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.95712,
+     "auroc_per_seed": [
+      0.9548,
+      0.9612,
+      0.9547999999999999,
+      0.9627999999999999,
+      0.952
+     ],
+     "auroc_ci_low_across_seeds": 0.917729594122511,
+     "auroc_ci_high_across_seeds": 0.9868620102742807
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.9523199999999999,
+     "auroc_per_seed": [
+      0.9532,
+      0.9603999999999999,
+      0.9455999999999999,
+      0.9583999999999999,
+      0.944
+     ],
+     "auroc_ci_low_across_seeds": 0.9107116777807166,
+     "auroc_ci_high_across_seeds": 0.9837377642809741
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9554400000000001,
+     "auroc_per_seed": [
+      0.9588000000000001,
+      0.9624,
+      0.9463999999999999,
+      0.96,
+      0.9496
+     ],
+     "auroc_ci_low_across_seeds": 0.9162036872375918,
+     "auroc_ci_high_across_seeds": 0.9846922962119322
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.954,
+     "auroc_per_seed": [
+      0.9552,
+      0.9632000000000001,
+      0.946,
+      0.9616,
+      0.9440000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9128297032723705,
+     "auroc_ci_high_across_seeds": 0.9842243103133773
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9459199999999999,
+     "auroc_per_seed": [
+      0.9476,
+      0.9572,
+      0.9363999999999999,
+      0.952,
+      0.9364
+     ],
+     "auroc_ci_low_across_seeds": 0.8997366011366505,
+     "auroc_ci_high_across_seeds": 0.9806922318943428
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9493600000000001,
+     "auroc_per_seed": [
+      0.9516,
+      0.9624,
+      0.942,
+      0.9504,
+      0.9404
+     ],
+     "auroc_ci_low_across_seeds": 0.9059874726198129,
+     "auroc_ci_high_across_seeds": 0.9822255726360242
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.9465600000000001,
+     "auroc_per_seed": [
+      0.9488000000000001,
+      0.9604,
+      0.9411999999999999,
+      0.9452,
+      0.9372
+     ],
+     "auroc_ci_low_across_seeds": 0.900263324863124,
+     "auroc_ci_high_across_seeds": 0.9814530045802401
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.94784,
+     "auroc_per_seed": [
+      0.9504,
+      0.9612,
+      0.9424,
+      0.9444,
+      0.9408
+     ],
+     "auroc_ci_low_across_seeds": 0.900801151566929,
+     "auroc_ci_high_across_seeds": 0.982617223588575
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.94872,
+     "auroc_per_seed": [
+      0.95,
+      0.96,
+      0.9424,
+      0.9503999999999999,
+      0.9408000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9051574017224366,
+     "auroc_ci_high_across_seeds": 0.981491408719932
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9509599999999999,
+     "auroc_per_seed": [
+      0.9556,
+      0.966,
+      0.9463999999999999,
+      0.9496,
+      0.9372
+     ],
+     "auroc_ci_low_across_seeds": 0.9077947801453284,
+     "auroc_ci_high_across_seeds": 0.9832512965750893
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9493600000000001,
+     "auroc_per_seed": [
+      0.958,
+      0.966,
+      0.9467999999999999,
+      0.9403999999999999,
+      0.9356
+     ],
+     "auroc_ci_low_across_seeds": 0.9050278689549514,
+     "auroc_ci_high_across_seeds": 0.9823485315327201
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.94632,
+     "auroc_per_seed": [
+      0.9563999999999999,
+      0.9676,
+      0.9492,
+      0.9308,
+      0.9276
+     ],
+     "auroc_ci_low_across_seeds": 0.8996004744075498,
+     "auroc_ci_high_across_seeds": 0.981634534958209
+    }
+   },
+   "mean_pooled_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.8264799999999999,
+     "auroc_per_seed": [
+      0.812,
+      0.8304,
+      0.8580000000000001,
+      0.8744000000000001,
+      0.7575999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7423272821237987,
+     "auroc_ci_high_across_seeds": 0.8964610736640364
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.85488,
+     "auroc_per_seed": [
+      0.8575999999999999,
+      0.8464,
+      0.8572000000000001,
+      0.8632,
+      0.85
+     ],
+     "auroc_ci_low_across_seeds": 0.7734893383643888,
+     "auroc_ci_high_across_seeds": 0.9225908173371339
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.6695200000000001,
+     "auroc_per_seed": [
+      0.6636000000000001,
+      0.6652,
+      0.6759999999999999,
+      0.6644,
+      0.6784
+     ],
+     "auroc_ci_low_across_seeds": 0.5599572853463848,
+     "auroc_ci_high_across_seeds": 0.772287339288978
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.67584,
+     "auroc_per_seed": [
+      0.6679999999999999,
+      0.6699999999999999,
+      0.682,
+      0.6759999999999999,
+      0.6832
+     ],
+     "auroc_ci_low_across_seeds": 0.5663901113346592,
+     "auroc_ci_high_across_seeds": 0.7782653460934895
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.6919199999999999,
+     "auroc_per_seed": [
+      0.6796,
+      0.6880000000000001,
+      0.6912,
+      0.7023999999999999,
+      0.6984
+     ],
+     "auroc_ci_low_across_seeds": 0.5847915317936032,
+     "auroc_ci_high_across_seeds": 0.7916739916118495
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.7100799999999999,
+     "auroc_per_seed": [
+      0.7016,
+      0.7084,
+      0.7116,
+      0.7148,
+      0.714
+     ],
+     "auroc_ci_low_across_seeds": 0.6041700713553185,
+     "auroc_ci_high_across_seeds": 0.8078096604235008
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.72384,
+     "auroc_per_seed": [
+      0.7172,
+      0.726,
+      0.7260000000000001,
+      0.726,
+      0.724
+     ],
+     "auroc_ci_low_across_seeds": 0.6188704588968552,
+     "auroc_ci_high_across_seeds": 0.8191268521652548
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.7503200000000001,
+     "auroc_per_seed": [
+      0.7408,
+      0.7492,
+      0.7552000000000001,
+      0.7568,
+      0.7496
+     ],
+     "auroc_ci_low_across_seeds": 0.6492692275840352,
+     "auroc_ci_high_across_seeds": 0.8415531656079273
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.7716000000000001,
+     "auroc_per_seed": [
+      0.7672000000000001,
+      0.7691999999999999,
+      0.7768,
+      0.7739999999999999,
+      0.7708
+     ],
+     "auroc_ci_low_across_seeds": 0.6734338820768635,
+     "auroc_ci_high_across_seeds": 0.8580603471126699
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.79024,
+     "auroc_per_seed": [
+      0.7880000000000001,
+      0.7847999999999999,
+      0.7904,
+      0.7964,
+      0.7916
+     ],
+     "auroc_ci_low_across_seeds": 0.6945993863013278,
+     "auroc_ci_high_across_seeds": 0.8743603683546993
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.80648,
+     "auroc_per_seed": [
+      0.8008000000000001,
+      0.804,
+      0.8091999999999999,
+      0.8131999999999999,
+      0.8052
+     ],
+     "auroc_ci_low_across_seeds": 0.7134393468121132,
+     "auroc_ci_high_across_seeds": 0.8868082177601556
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.8223199999999998,
+     "auroc_per_seed": [
+      0.8203999999999999,
+      0.8172,
+      0.8236,
+      0.8276,
+      0.8228
+     ],
+     "auroc_ci_low_across_seeds": 0.7318270813148524,
+     "auroc_ci_high_across_seeds": 0.9005746036330692
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.8268800000000001,
+     "auroc_per_seed": [
+      0.8236,
+      0.8208,
+      0.8296,
+      0.834,
+      0.8264
+     ],
+     "auroc_ci_low_across_seeds": 0.7367332775954525,
+     "auroc_ci_high_across_seeds": 0.9041013073600961
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.8380000000000001,
+     "auroc_per_seed": [
+      0.8360000000000001,
+      0.8312,
+      0.8412,
+      0.8448,
+      0.8368
+     ],
+     "auroc_ci_low_across_seeds": 0.7499400243793322,
+     "auroc_ci_high_across_seeds": 0.9124685620714977
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.8564,
+     "auroc_per_seed": [
+      0.8523999999999999,
+      0.8463999999999999,
+      0.8588,
+      0.8668,
+      0.8576
+     ],
+     "auroc_ci_low_across_seeds": 0.7742981805309708,
+     "auroc_ci_high_across_seeds": 0.9256923337646784
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.8632,
+     "auroc_per_seed": [
+      0.8612,
+      0.8523999999999999,
+      0.8676,
+      0.8736,
+      0.8612
+     ],
+     "auroc_ci_low_across_seeds": 0.7833206684343151,
+     "auroc_ci_high_across_seeds": 0.9303427123129193
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.87712,
+     "auroc_per_seed": [
+      0.8804,
+      0.8636,
+      0.8756,
+      0.8884000000000001,
+      0.8775999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8005514243061601,
+     "auroc_ci_high_across_seeds": 0.9393125744211244
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.8908799999999999,
+     "auroc_per_seed": [
+      0.8952,
+      0.88,
+      0.8908,
+      0.8992,
+      0.8892
+     ],
+     "auroc_ci_low_across_seeds": 0.8175094894588794,
+     "auroc_ci_high_across_seeds": 0.9480020933714943
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.90216,
+     "auroc_per_seed": [
+      0.9087999999999999,
+      0.8936,
+      0.9012,
+      0.9091999999999999,
+      0.898
+     ],
+     "auroc_ci_low_across_seeds": 0.833211644053009,
+     "auroc_ci_high_across_seeds": 0.9555034141484894
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.91112,
+     "auroc_per_seed": [
+      0.9176,
+      0.9052,
+      0.9119999999999999,
+      0.9136,
+      0.9072
+     ],
+     "auroc_ci_low_across_seeds": 0.8440258789949857,
+     "auroc_ci_high_across_seeds": 0.9623654936459584
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.9168799999999999,
+     "auroc_per_seed": [
+      0.9231999999999999,
+      0.91,
+      0.9164,
+      0.9211999999999999,
+      0.9136
+     ],
+     "auroc_ci_low_across_seeds": 0.8523311806520247,
+     "auroc_ci_high_across_seeds": 0.9659126613227695
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.91712,
+     "auroc_per_seed": [
+      0.9252,
+      0.9084000000000001,
+      0.9168000000000001,
+      0.9228000000000001,
+      0.9124
+     ],
+     "auroc_ci_low_across_seeds": 0.8532816136653011,
+     "auroc_ci_high_across_seeds": 0.9659325641659068
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.9200799999999999,
+     "auroc_per_seed": [
+      0.9272,
+      0.9144,
+      0.9199999999999999,
+      0.9259999999999999,
+      0.9128000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8579834419077226,
+     "auroc_ci_high_across_seeds": 0.968447293481848
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9248000000000001,
+     "auroc_per_seed": [
+      0.9328000000000001,
+      0.9199999999999999,
+      0.9252,
+      0.9303999999999999,
+      0.9156
+     ],
+     "auroc_ci_low_across_seeds": 0.8642590893713603,
+     "auroc_ci_high_across_seeds": 0.9712918913542706
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.92592,
+     "auroc_per_seed": [
+      0.9356,
+      0.9212,
+      0.9248,
+      0.9316,
+      0.9164
+     ],
+     "auroc_ci_low_across_seeds": 0.8673876811789405,
+     "auroc_ci_high_across_seeds": 0.9718193659618903
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9253599999999998,
+     "auroc_per_seed": [
+      0.9364,
+      0.9196,
+      0.9272,
+      0.9291999999999999,
+      0.9144000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8653034509764005,
+     "auroc_ci_high_across_seeds": 0.971398823706289
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9259999999999999,
+     "auroc_per_seed": [
+      0.9352,
+      0.9248000000000001,
+      0.9279999999999999,
+      0.9279999999999999,
+      0.914
+     ],
+     "auroc_ci_low_across_seeds": 0.865934069296272,
+     "auroc_ci_high_across_seeds": 0.9723491951219074
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.92744,
+     "auroc_per_seed": [
+      0.9352,
+      0.9279999999999999,
+      0.9311999999999999,
+      0.9276,
+      0.9152
+     ],
+     "auroc_ci_low_across_seeds": 0.8695943592114403,
+     "auroc_ci_high_across_seeds": 0.9727451108446639
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.93,
+     "auroc_per_seed": [
+      0.9384,
+      0.9328000000000001,
+      0.9339999999999999,
+      0.9272,
+      0.9176000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8734325907080642,
+     "auroc_ci_high_across_seeds": 0.9740164113568393
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.932,
+     "auroc_per_seed": [
+      0.9404,
+      0.9312,
+      0.9356,
+      0.9308000000000001,
+      0.9219999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8759766120815797,
+     "auroc_ci_high_across_seeds": 0.9759619528059178
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9396800000000001,
+     "auroc_per_seed": [
+      0.948,
+      0.94,
+      0.9423999999999999,
+      0.942,
+      0.9259999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8888593792088619,
+     "auroc_ci_high_across_seeds": 0.9792751134012285
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.93984,
+     "auroc_per_seed": [
+      0.9488,
+      0.9408,
+      0.9444,
+      0.9396,
+      0.9256
+     ],
+     "auroc_ci_low_across_seeds": 0.8888400253656578,
+     "auroc_ci_high_across_seeds": 0.979772656187663
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.95976,
+     "auroc_per_seed": [
+      0.9656,
+      0.9676,
+      0.9655999999999999,
+      0.9563999999999999,
+      0.9436
+     ],
+     "auroc_ci_low_across_seeds": 0.9201926371779428,
+     "auroc_ci_high_across_seeds": 0.9887981597398945
+    }
+   }
+  },
+  "known_vs_ambiguous": {
+   "last_token_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.5,
+     "auroc_per_seed": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "auroc_ci_low_across_seeds": 0.5,
+     "auroc_ci_high_across_seeds": 0.5
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.8086399999999999,
+     "auroc_per_seed": [
+      0.7824,
+      0.8284,
+      0.8044,
+      0.8360000000000001,
+      0.792
+     ],
+     "auroc_ci_low_across_seeds": 0.7193624358787137,
+     "auroc_ci_high_across_seeds": 0.8901638150811385
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.84032,
+     "auroc_per_seed": [
+      0.8008,
+      0.8548,
+      0.8388,
+      0.8708,
+      0.8364
+     ],
+     "auroc_ci_low_across_seeds": 0.7561143245159878,
+     "auroc_ci_high_across_seeds": 0.9109781379892224
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.87456,
+     "auroc_per_seed": [
+      0.834,
+      0.8924,
+      0.8792,
+      0.8928,
+      0.8744
+     ],
+     "auroc_ci_low_across_seeds": 0.7979103181594104,
+     "auroc_ci_high_across_seeds": 0.937601533923422
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.9330400000000001,
+     "auroc_per_seed": [
+      0.9148000000000001,
+      0.9339999999999999,
+      0.9388,
+      0.9348,
+      0.9428000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8820361093430389,
+     "auroc_ci_high_across_seeds": 0.9729261916462543
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.97224,
+     "auroc_per_seed": [
+      0.9692,
+      0.9744,
+      0.9768000000000001,
+      0.9668,
+      0.974
+     ],
+     "auroc_ci_low_across_seeds": 0.9415925472499864,
+     "auroc_ci_high_across_seeds": 0.9930961429052234
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.9665600000000001,
+     "auroc_per_seed": [
+      0.9636,
+      0.9708000000000001,
+      0.9656,
+      0.966,
+      0.9667999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9337025894634534,
+     "auroc_ci_high_across_seeds": 0.9891304378852617
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.97272,
+     "auroc_per_seed": [
+      0.9712000000000001,
+      0.9783999999999999,
+      0.9716,
+      0.9703999999999999,
+      0.972
+     ],
+     "auroc_ci_low_across_seeds": 0.9438615834438469,
+     "auroc_ci_high_across_seeds": 0.9924890993801897
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.9733599999999999,
+     "auroc_per_seed": [
+      0.9736,
+      0.9795999999999999,
+      0.9724,
+      0.9708000000000001,
+      0.9703999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9449322640600449,
+     "auroc_ci_high_across_seeds": 0.9931474549013632
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.98368,
+     "auroc_per_seed": [
+      0.9828,
+      0.988,
+      0.9848,
+      0.9783999999999999,
+      0.9843999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9633246428136477,
+     "auroc_ci_high_across_seeds": 0.9968456074088297
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.98776,
+     "auroc_per_seed": [
+      0.9887999999999999,
+      0.9907999999999999,
+      0.9863999999999999,
+      0.9844,
+      0.9884
+     ],
+     "auroc_ci_low_across_seeds": 0.968128977615175,
+     "auroc_ci_high_across_seeds": 0.9995959961938222
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.99184,
+     "auroc_per_seed": [
+      0.9912,
+      0.9916,
+      0.9932,
+      0.9916,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.9720687990190118,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.9946400000000001,
+     "auroc_per_seed": [
+      0.9944,
+      0.9944,
+      0.9944,
+      0.9948,
+      0.9952
+     ],
+     "auroc_ci_low_across_seeds": 0.9810939830339324,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.99048,
+     "auroc_per_seed": [
+      0.99,
+      0.99,
+      0.9924,
+      0.9892,
+      0.9908
+     ],
+     "auroc_ci_low_across_seeds": 0.9681867930909466,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.99208,
+     "auroc_per_seed": [
+      0.9912,
+      0.992,
+      0.994,
+      0.99,
+      0.9932
+     ],
+     "auroc_ci_low_across_seeds": 0.9748004513252043,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.99328,
+     "auroc_per_seed": [
+      0.9916,
+      0.9932000000000001,
+      0.994,
+      0.9916,
+      0.996
+     ],
+     "auroc_ci_low_across_seeds": 0.9791766483352455,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.9963999999999998,
+     "auroc_per_seed": [
+      0.9952,
+      0.9947999999999999,
+      0.9975999999999999,
+      0.9964,
+      0.998
+     ],
+     "auroc_ci_low_across_seeds": 0.9875923250815856,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.9963200000000001,
+     "auroc_per_seed": [
+      0.9944000000000001,
+      0.9967999999999999,
+      0.9972,
+      0.9956,
+      0.9975999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9881631202699619,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9947199999999998,
+     "auroc_per_seed": [
+      0.994,
+      0.9956,
+      0.9952000000000001,
+      0.9932000000000001,
+      0.9956
+     ],
+     "auroc_ci_low_across_seeds": 0.9846287510922593,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9948799999999999,
+     "auroc_per_seed": [
+      0.9936,
+      0.996,
+      0.9956,
+      0.9936,
+      0.9956
+     ],
+     "auroc_ci_low_across_seeds": 0.9849882467564391,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.9945599999999999,
+     "auroc_per_seed": [
+      0.9928,
+      0.9956,
+      0.9956,
+      0.9932000000000001,
+      0.9956
+     ],
+     "auroc_ci_low_across_seeds": 0.984216611126673,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9929599999999998,
+     "auroc_per_seed": [
+      0.9904,
+      0.9948,
+      0.9936,
+      0.9916,
+      0.9944
+     ],
+     "auroc_ci_low_across_seeds": 0.9809768655405187,
+     "auroc_ci_high_across_seeds": 0.999919710959454
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.9915200000000001,
+     "auroc_per_seed": [
+      0.9876,
+      0.9948,
+      0.992,
+      0.9908,
+      0.9924
+     ],
+     "auroc_ci_low_across_seeds": 0.9776783426522547,
+     "auroc_ci_high_across_seeds": 0.9997589373913817
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9901599999999998,
+     "auroc_per_seed": [
+      0.9856,
+      0.9952,
+      0.99,
+      0.9884,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.9738145204395261,
+     "auroc_ci_high_across_seeds": 0.999511382930573
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.99032,
+     "auroc_per_seed": [
+      0.9843999999999999,
+      0.9952000000000001,
+      0.9892,
+      0.99,
+      0.9928
+     ],
+     "auroc_ci_low_across_seeds": 0.9750547356190455,
+     "auroc_ci_high_across_seeds": 0.9995190771482372
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.99088,
+     "auroc_per_seed": [
+      0.9856,
+      0.9948,
+      0.9904,
+      0.9904,
+      0.9932000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9766573693656226,
+     "auroc_ci_high_across_seeds": 0.9993556783834746
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9908800000000001,
+     "auroc_per_seed": [
+      0.9852000000000001,
+      0.994,
+      0.9908,
+      0.9916,
+      0.9928
+     ],
+     "auroc_ci_low_across_seeds": 0.9759657721772615,
+     "auroc_ci_high_across_seeds": 0.9995986687185662
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.99224,
+     "auroc_per_seed": [
+      0.9888,
+      0.9948,
+      0.9924000000000001,
+      0.9916,
+      0.9936
+     ],
+     "auroc_ci_low_across_seeds": 0.979481290981219,
+     "auroc_ci_high_across_seeds": 0.9996778823032247
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.99176,
+     "auroc_per_seed": [
+      0.9888,
+      0.994,
+      0.9928,
+      0.99,
+      0.9932000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9786404851891632,
+     "auroc_ci_high_across_seeds": 0.9995179320039757
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.9904,
+     "auroc_per_seed": [
+      0.984,
+      0.9936,
+      0.9916,
+      0.9896,
+      0.9932000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9758410273248564,
+     "auroc_ci_high_across_seeds": 0.9991187771092017
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9890399999999999,
+     "auroc_per_seed": [
+      0.9808000000000001,
+      0.992,
+      0.9908,
+      0.99,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.9725348559599544,
+     "auroc_ci_high_across_seeds": 0.9987923918789541
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9896,
+     "auroc_per_seed": [
+      0.9824,
+      0.9916,
+      0.992,
+      0.9908000000000001,
+      0.9912
+     ],
+     "auroc_ci_low_across_seeds": 0.9741331856070834,
+     "auroc_ci_high_across_seeds": 0.9990317760158642
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.98776,
+     "auroc_per_seed": [
+      0.982,
+      0.9908,
+      0.9896,
+      0.9884,
+      0.988
+     ],
+     "auroc_ci_low_across_seeds": 0.9700888934019962,
+     "auroc_ci_high_across_seeds": 0.9983144953952443
+    }
+   },
+   "mean_pooled_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.61016,
+     "auroc_per_seed": [
+      0.6796,
+      0.6276,
+      0.5952,
+      0.5,
+      0.6484000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.5441517999133438,
+     "auroc_ci_high_across_seeds": 0.6750861311064205
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.8929600000000001,
+     "auroc_per_seed": [
+      0.8688,
+      0.8936,
+      0.912,
+      0.9067999999999999,
+      0.8835999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8241714466133402,
+     "auroc_ci_high_across_seeds": 0.9507850455301117
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.44032,
+     "auroc_per_seed": [
+      0.3664,
+      0.5648000000000002,
+      0.398,
+      0.43679999999999997,
+      0.4356
+     ],
+     "auroc_ci_low_across_seeds": 0.33128183104699893,
+     "auroc_ci_high_across_seeds": 0.5568978447262658
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.45216,
+     "auroc_per_seed": [
+      0.3668,
+      0.5712,
+      0.4148,
+      0.45799999999999996,
+      0.45
+     ],
+     "auroc_ci_low_across_seeds": 0.34185094457273785,
+     "auroc_ci_high_across_seeds": 0.56875033735364
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.534,
+     "auroc_per_seed": [
+      0.4407999999999999,
+      0.6359999999999999,
+      0.5004,
+      0.5524,
+      0.5404
+     ],
+     "auroc_ci_low_across_seeds": 0.4182584928538784,
+     "auroc_ci_high_across_seeds": 0.6517826950636427
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.6844,
+     "auroc_per_seed": [
+      0.5776,
+      0.756,
+      0.692,
+      0.7243999999999999,
+      0.672
+     ],
+     "auroc_ci_low_across_seeds": 0.5731205455483195,
+     "auroc_ci_high_across_seeds": 0.7880675168924905
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.76528,
+     "auroc_per_seed": [
+      0.6635999999999999,
+      0.808,
+      0.7972,
+      0.8108,
+      0.7467999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.6640775192496806,
+     "auroc_ci_high_across_seeds": 0.8553049746475357
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.8404,
+     "auroc_per_seed": [
+      0.7412,
+      0.8627999999999999,
+      0.892,
+      0.8812000000000001,
+      0.8248
+     ],
+     "auroc_ci_low_across_seeds": 0.7565593094662424,
+     "auroc_ci_high_across_seeds": 0.9149111531383642
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.9036800000000001,
+     "auroc_per_seed": [
+      0.8252,
+      0.9107999999999999,
+      0.9472,
+      0.9336,
+      0.9016
+     ],
+     "auroc_ci_low_across_seeds": 0.8376155195126815,
+     "auroc_ci_high_across_seeds": 0.9597286185293747
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.9413600000000001,
+     "auroc_per_seed": [
+      0.8812,
+      0.9312,
+      0.9788,
+      0.9628,
+      0.9528
+     ],
+     "auroc_ci_low_across_seeds": 0.8931023634555227,
+     "auroc_ci_high_across_seeds": 0.9809154560562241
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.9603999999999999,
+     "auroc_per_seed": [
+      0.9103999999999999,
+      0.9492,
+      0.9928,
+      0.9728000000000001,
+      0.9768
+     ],
+     "auroc_ci_low_across_seeds": 0.9217802927417775,
+     "auroc_ci_high_across_seeds": 0.9907248754705933
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.9732799999999999,
+     "auroc_per_seed": [
+      0.9388,
+      0.966,
+      0.9975999999999999,
+      0.978,
+      0.986
+     ],
+     "auroc_ci_low_across_seeds": 0.9429148963504683,
+     "auroc_ci_high_across_seeds": 0.9955616781854149
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.9788,
+     "auroc_per_seed": [
+      0.9528000000000001,
+      0.972,
+      0.9992,
+      0.9812,
+      0.9888
+     ],
+     "auroc_ci_low_across_seeds": 0.9518177505902253,
+     "auroc_ci_high_across_seeds": 0.9972663566767356
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.9845599999999999,
+     "auroc_per_seed": [
+      0.9668000000000001,
+      0.98,
+      0.9984,
+      0.9823999999999999,
+      0.9952
+     ],
+     "auroc_ci_low_across_seeds": 0.9620103212906604,
+     "auroc_ci_high_across_seeds": 0.9989501151525608
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.98856,
+     "auroc_per_seed": [
+      0.9752000000000001,
+      0.9868,
+      0.998,
+      0.9852,
+      0.9975999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.968876920818316,
+     "auroc_ci_high_across_seeds": 0.9995172203153331
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9913599999999999,
+     "auroc_per_seed": [
+      0.98,
+      0.9928,
+      0.9984,
+      0.9872,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.9747797121192538,
+     "auroc_ci_high_across_seeds": 0.9999191919191919
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.9924,
+     "auroc_per_seed": [
+      0.984,
+      0.9935999999999999,
+      0.998,
+      0.988,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.9755474707459669,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.99488,
+     "auroc_per_seed": [
+      0.988,
+      0.9955999999999999,
+      0.9992,
+      0.9924,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9830048011220152,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.99696,
+     "auroc_per_seed": [
+      0.9932,
+      0.9972,
+      0.9992,
+      0.996,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.98935889743676,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9972799999999999,
+     "auroc_per_seed": [
+      0.9935999999999999,
+      0.9975999999999999,
+      0.9988,
+      0.9968,
+      0.9995999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9901567730930271,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.9970399999999999,
+     "auroc_per_seed": [
+      0.9932,
+      0.9975999999999999,
+      0.9988,
+      0.996,
+      0.9995999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9894040438850364,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9970399999999999,
+     "auroc_per_seed": [
+      0.9936,
+      0.9975999999999999,
+      0.9988,
+      0.996,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9900838953893448,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.99688,
+     "auroc_per_seed": [
+      0.9944000000000001,
+      0.9967999999999999,
+      0.9984,
+      0.996,
+      0.9988
+     ],
+     "auroc_ci_low_across_seeds": 0.9897201747859242,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9959199999999999,
+     "auroc_per_seed": [
+      0.9936,
+      0.9952,
+      0.998,
+      0.994,
+      0.9988
+     ],
+     "auroc_ci_low_across_seeds": 0.9871693643774554,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.99656,
+     "auroc_per_seed": [
+      0.9944000000000001,
+      0.9955999999999999,
+      0.9984,
+      0.9956,
+      0.9988
+     ],
+     "auroc_ci_low_across_seeds": 0.989146370808457,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9964000000000001,
+     "auroc_per_seed": [
+      0.9948,
+      0.9947999999999999,
+      0.9988,
+      0.9948,
+      0.9988
+     ],
+     "auroc_ci_low_across_seeds": 0.9887878263563852,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9960000000000001,
+     "auroc_per_seed": [
+      0.9948,
+      0.9952,
+      0.998,
+      0.9948,
+      0.9972
+     ],
+     "auroc_ci_low_across_seeds": 0.9875970013732551,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.99552,
+     "auroc_per_seed": [
+      0.9936,
+      0.9948,
+      0.9972,
+      0.9952000000000001,
+      0.9968
+     ],
+     "auroc_ci_low_across_seeds": 0.9865681443575104,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.99536,
+     "auroc_per_seed": [
+      0.9940000000000001,
+      0.9944,
+      0.9968,
+      0.9948,
+      0.9968
+     ],
+     "auroc_ci_low_across_seeds": 0.9857729835125534,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.99504,
+     "auroc_per_seed": [
+      0.9932,
+      0.994,
+      0.9972000000000001,
+      0.994,
+      0.9968
+     ],
+     "auroc_ci_low_across_seeds": 0.985400784134981,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9941599999999999,
+     "auroc_per_seed": [
+      0.9912,
+      0.9944,
+      0.9964000000000001,
+      0.9936,
+      0.9952
+     ],
+     "auroc_ci_low_across_seeds": 0.9830654999536644,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9942399999999999,
+     "auroc_per_seed": [
+      0.9912000000000001,
+      0.9944,
+      0.996,
+      0.994,
+      0.9956
+     ],
+     "auroc_ci_low_across_seeds": 0.9833093966727938,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.9944000000000001,
+     "auroc_per_seed": [
+      0.9896,
+      0.996,
+      0.9956,
+      0.9948,
+      0.996
+     ],
+     "auroc_ci_low_across_seeds": 0.9838770046981258,
+     "auroc_ci_high_across_seeds": 1.0
+    }
+   }
+  },
+  "known_vs_misleading": {
+   "last_token_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.5,
+     "auroc_per_seed": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "auroc_ci_low_across_seeds": 0.5,
+     "auroc_ci_high_across_seeds": 0.5
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.78888,
+     "auroc_per_seed": [
+      0.768,
+      0.7872,
+      0.7859999999999999,
+      0.808,
+      0.7952
+     ],
+     "auroc_ci_low_across_seeds": 0.6931519712870253,
+     "auroc_ci_high_across_seeds": 0.8705699758961316
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.79048,
+     "auroc_per_seed": [
+      0.776,
+      0.7876000000000001,
+      0.7872,
+      0.8068000000000001,
+      0.7948
+     ],
+     "auroc_ci_low_across_seeds": 0.6956902679628181,
+     "auroc_ci_high_across_seeds": 0.8730440377406972
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.8008000000000001,
+     "auroc_per_seed": [
+      0.7831999999999999,
+      0.8024,
+      0.8008,
+      0.8092,
+      0.8084
+     ],
+     "auroc_ci_low_across_seeds": 0.707634895888966,
+     "auroc_ci_high_across_seeds": 0.8826936640590072
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.8176,
+     "auroc_per_seed": [
+      0.8056000000000001,
+      0.8243999999999999,
+      0.8044,
+      0.8248000000000001,
+      0.8288
+     ],
+     "auroc_ci_low_across_seeds": 0.7264626845378815,
+     "auroc_ci_high_across_seeds": 0.8944885695644753
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.82696,
+     "auroc_per_seed": [
+      0.8232,
+      0.8336,
+      0.8247999999999999,
+      0.8184,
+      0.8348
+     ],
+     "auroc_ci_low_across_seeds": 0.7396525298040634,
+     "auroc_ci_high_across_seeds": 0.8993230374153665
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.8240000000000001,
+     "auroc_per_seed": [
+      0.8208,
+      0.8316,
+      0.8228,
+      0.8099999999999999,
+      0.8348
+     ],
+     "auroc_ci_low_across_seeds": 0.7370752838718989,
+     "auroc_ci_high_across_seeds": 0.8974363218404562
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.81952,
+     "auroc_per_seed": [
+      0.8180000000000001,
+      0.8255999999999999,
+      0.82,
+      0.8048000000000001,
+      0.8291999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7316361796455553,
+     "auroc_ci_high_across_seeds": 0.8926169357065179
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.8464,
+     "auroc_per_seed": [
+      0.8423999999999999,
+      0.8512,
+      0.8496,
+      0.8371999999999999,
+      0.8516
+     ],
+     "auroc_ci_low_across_seeds": 0.7651273670075864,
+     "auroc_ci_high_across_seeds": 0.9122247175986276
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.9054400000000001,
+     "auroc_per_seed": [
+      0.908,
+      0.906,
+      0.9036000000000001,
+      0.9016000000000001,
+      0.908
+     ],
+     "auroc_ci_low_across_seeds": 0.8443072195655599,
+     "auroc_ci_high_across_seeds": 0.95295198407243
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.93552,
+     "auroc_per_seed": [
+      0.9372,
+      0.9376,
+      0.9336,
+      0.938,
+      0.9312
+     ],
+     "auroc_ci_low_across_seeds": 0.8862893758431121,
+     "auroc_ci_high_across_seeds": 0.9727600974876877
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.98248,
+     "auroc_per_seed": [
+      0.9832,
+      0.9856,
+      0.9816,
+      0.9828,
+      0.9792000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9610323223872236,
+     "auroc_ci_high_across_seeds": 0.9963019398797416
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.982,
+     "auroc_per_seed": [
+      0.9816,
+      0.9856,
+      0.98,
+      0.9823999999999999,
+      0.9803999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9586601904200078,
+     "auroc_ci_high_across_seeds": 0.9972272293906486
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.99224,
+     "auroc_per_seed": [
+      0.9904,
+      0.9932000000000001,
+      0.9928,
+      0.9916,
+      0.9932000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9776620552707636,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.99056,
+     "auroc_per_seed": [
+      0.9888,
+      0.9912,
+      0.9908,
+      0.9904,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.974233682955904,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.99136,
+     "auroc_per_seed": [
+      0.9916,
+      0.9928,
+      0.9896,
+      0.9912,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.9757719359127395,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.98952,
+     "auroc_per_seed": [
+      0.9892000000000001,
+      0.9908,
+      0.9884000000000001,
+      0.9888,
+      0.9904000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9706463106004877,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.98784,
+     "auroc_per_seed": [
+      0.9868,
+      0.9872000000000001,
+      0.9892000000000001,
+      0.9884,
+      0.9876
+     ],
+     "auroc_ci_low_across_seeds": 0.9657576039032172,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9890399999999999,
+     "auroc_per_seed": [
+      0.9887999999999999,
+      0.9892,
+      0.9892,
+      0.9892,
+      0.9888000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9712487188566981,
+     "auroc_ci_high_across_seeds": 0.9998394299606789
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.99,
+     "auroc_per_seed": [
+      0.9887999999999999,
+      0.99,
+      0.99,
+      0.9916,
+      0.9896
+     ],
+     "auroc_ci_low_across_seeds": 0.9737077537925956,
+     "auroc_ci_high_across_seeds": 0.9996835096080801
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.9897600000000001,
+     "auroc_per_seed": [
+      0.9887999999999999,
+      0.99,
+      0.9896,
+      0.9912,
+      0.9892000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9734044590121471,
+     "auroc_ci_high_across_seeds": 0.9994434114257729
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.99016,
+     "auroc_per_seed": [
+      0.9887999999999999,
+      0.9908,
+      0.99,
+      0.9908000000000001,
+      0.9904000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.974888541330656,
+     "auroc_ci_high_across_seeds": 0.9993594505146778
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.98816,
+     "auroc_per_seed": [
+      0.9864,
+      0.9876,
+      0.9888,
+      0.9904000000000001,
+      0.9876
+     ],
+     "auroc_ci_low_across_seeds": 0.9701163243712966,
+     "auroc_ci_high_across_seeds": 0.9991987350573451
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9888,
+     "auroc_per_seed": [
+      0.9868,
+      0.9888,
+      0.9884000000000001,
+      0.9912000000000001,
+      0.9888
+     ],
+     "auroc_ci_low_across_seeds": 0.9715826854058809,
+     "auroc_ci_high_across_seeds": 0.9991948795006321
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9883199999999999,
+     "auroc_per_seed": [
+      0.986,
+      0.9892,
+      0.9884000000000001,
+      0.99,
+      0.988
+     ],
+     "auroc_ci_low_across_seeds": 0.9701095978792516,
+     "auroc_ci_high_across_seeds": 0.9992746965395909
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.98888,
+     "auroc_per_seed": [
+      0.9872000000000001,
+      0.99,
+      0.9892000000000001,
+      0.99,
+      0.988
+     ],
+     "auroc_ci_low_across_seeds": 0.9715223001845,
+     "auroc_ci_high_across_seeds": 0.9992796304729532
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9878399999999999,
+     "auroc_per_seed": [
+      0.9852000000000001,
+      0.9884000000000001,
+      0.9884000000000001,
+      0.9896,
+      0.9876
+     ],
+     "auroc_ci_low_across_seeds": 0.9688888871750312,
+     "auroc_ci_high_across_seeds": 0.9991981423750879
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.986,
+     "auroc_per_seed": [
+      0.9828,
+      0.9896,
+      0.9876,
+      0.986,
+      0.9840000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9646279700336899,
+     "auroc_ci_high_across_seeds": 0.9992747437174028
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.9868,
+     "auroc_per_seed": [
+      0.984,
+      0.9904000000000001,
+      0.988,
+      0.9868,
+      0.9848
+     ],
+     "auroc_ci_low_across_seeds": 0.966697538089749,
+     "auroc_ci_high_across_seeds": 0.9994380898666815
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.9899999999999999,
+     "auroc_per_seed": [
+      0.9884,
+      0.992,
+      0.9916,
+      0.99,
+      0.988
+     ],
+     "auroc_ci_low_across_seeds": 0.9739353306760649,
+     "auroc_ci_high_across_seeds": 0.9995980509281471
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9915199999999998,
+     "auroc_per_seed": [
+      0.9884000000000001,
+      0.992,
+      0.9924,
+      0.992,
+      0.9927999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.977209366383382,
+     "auroc_ci_high_across_seeds": 0.9997548127191621
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9909600000000001,
+     "auroc_per_seed": [
+      0.9892000000000001,
+      0.9916,
+      0.9912000000000001,
+      0.9908000000000001,
+      0.992
+     ],
+     "auroc_ci_low_across_seeds": 0.9760736777884323,
+     "auroc_ci_high_across_seeds": 0.9996015959893281
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.9900800000000001,
+     "auroc_per_seed": [
+      0.988,
+      0.9924000000000001,
+      0.99,
+      0.99,
+      0.99
+     ],
+     "auroc_ci_low_across_seeds": 0.9734584791430713,
+     "auroc_ci_high_across_seeds": 0.9997567466575653
+    }
+   },
+   "mean_pooled_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.76976,
+     "auroc_per_seed": [
+      0.7448,
+      0.782,
+      0.7664,
+      0.7772,
+      0.7784000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6727867429658781,
+     "auroc_ci_high_across_seeds": 0.8538827541015672
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.8204800000000001,
+     "auroc_per_seed": [
+      0.8008000000000001,
+      0.8200000000000001,
+      0.8183999999999999,
+      0.8356,
+      0.8276
+     ],
+     "auroc_ci_low_across_seeds": 0.7287729330966835,
+     "auroc_ci_high_across_seeds": 0.8977535623029592
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.7552000000000001,
+     "auroc_per_seed": [
+      0.7448,
+      0.7564,
+      0.7484,
+      0.77,
+      0.7564000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6552931101367029,
+     "auroc_ci_high_across_seeds": 0.8477109369460176
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.7561599999999999,
+     "auroc_per_seed": [
+      0.7472,
+      0.756,
+      0.7496,
+      0.7727999999999999,
+      0.7552
+     ],
+     "auroc_ci_low_across_seeds": 0.6560248093625576,
+     "auroc_ci_high_across_seeds": 0.847836365253565
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.76296,
+     "auroc_per_seed": [
+      0.7548,
+      0.7652,
+      0.7600000000000001,
+      0.7748,
+      0.7599999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.6642315290875744,
+     "auroc_ci_high_across_seeds": 0.8538673176170347
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.772,
+     "auroc_per_seed": [
+      0.7608,
+      0.778,
+      0.77,
+      0.7812,
+      0.77
+     ],
+     "auroc_ci_low_across_seeds": 0.6748479747146188,
+     "auroc_ci_high_across_seeds": 0.8605106291711131
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.7738400000000001,
+     "auroc_per_seed": [
+      0.7624,
+      0.7788000000000002,
+      0.7708,
+      0.7804,
+      0.7767999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.676734173706505,
+     "auroc_ci_high_across_seeds": 0.8612563906565349
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.77936,
+     "auroc_per_seed": [
+      0.7696,
+      0.7816000000000001,
+      0.7772,
+      0.7888000000000001,
+      0.7796
+     ],
+     "auroc_ci_low_across_seeds": 0.6835056840740564,
+     "auroc_ci_high_across_seeds": 0.8655549626852596
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.78936,
+     "auroc_per_seed": [
+      0.7792,
+      0.794,
+      0.7872,
+      0.7964,
+      0.79
+     ],
+     "auroc_ci_low_across_seeds": 0.6959560513257494,
+     "auroc_ci_high_across_seeds": 0.8735688156890269
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.80192,
+     "auroc_per_seed": [
+      0.7959999999999999,
+      0.806,
+      0.7996,
+      0.8064,
+      0.8015999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7117170351344028,
+     "auroc_ci_high_across_seeds": 0.8835449702027656
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.81024,
+     "auroc_per_seed": [
+      0.8052,
+      0.8140000000000001,
+      0.8056,
+      0.8168,
+      0.8096
+     ],
+     "auroc_ci_low_across_seeds": 0.7209351028750601,
+     "auroc_ci_high_across_seeds": 0.8896541099940352
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.8263999999999999,
+     "auroc_per_seed": [
+      0.8196,
+      0.8268000000000001,
+      0.8248000000000001,
+      0.8304,
+      0.8303999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7396804782307891,
+     "auroc_ci_high_across_seeds": 0.9021908860031708
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.85336,
+     "auroc_per_seed": [
+      0.8432000000000001,
+      0.8568,
+      0.8508,
+      0.862,
+      0.8540000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.7732873171341461,
+     "auroc_ci_high_across_seeds": 0.92207984257306
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.88568,
+     "auroc_per_seed": [
+      0.8744000000000001,
+      0.8887999999999999,
+      0.8828,
+      0.8944,
+      0.888
+     ],
+     "auroc_ci_low_across_seeds": 0.8150767554963748,
+     "auroc_ci_high_across_seeds": 0.9444994937891062
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.90664,
+     "auroc_per_seed": [
+      0.8976,
+      0.906,
+      0.9071999999999999,
+      0.9132,
+      0.9092
+     ],
+     "auroc_ci_low_across_seeds": 0.8408534050970374,
+     "auroc_ci_high_across_seeds": 0.9597391467012576
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9182400000000002,
+     "auroc_per_seed": [
+      0.908,
+      0.9152000000000001,
+      0.9156000000000001,
+      0.9304,
+      0.9219999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8559036923027799,
+     "auroc_ci_high_across_seeds": 0.9667462633039066
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.93272,
+     "auroc_per_seed": [
+      0.9232,
+      0.9328,
+      0.9308000000000001,
+      0.9424,
+      0.9344
+     ],
+     "auroc_ci_low_across_seeds": 0.8765095075705501,
+     "auroc_ci_high_across_seeds": 0.9754386023533282
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.94216,
+     "auroc_per_seed": [
+      0.9364,
+      0.942,
+      0.9387999999999999,
+      0.9496,
+      0.944
+     ],
+     "auroc_ci_low_across_seeds": 0.8903670149516634,
+     "auroc_ci_high_across_seeds": 0.9807403363939338
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.95136,
+     "auroc_per_seed": [
+      0.9456,
+      0.9484,
+      0.9491999999999999,
+      0.956,
+      0.9576
+     ],
+     "auroc_ci_low_across_seeds": 0.9041794901488176,
+     "auroc_ci_high_across_seeds": 0.9855720529370313
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9514400000000001,
+     "auroc_per_seed": [
+      0.9460000000000001,
+      0.9492,
+      0.9488000000000001,
+      0.9571999999999999,
+      0.9560000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9053720779188247,
+     "auroc_ci_high_across_seeds": 0.9858961726303834
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.94856,
+     "auroc_per_seed": [
+      0.9420000000000001,
+      0.9472,
+      0.9451999999999999,
+      0.9552,
+      0.9531999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8996764683864746,
+     "auroc_ci_high_across_seeds": 0.9844445400834033
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9616,
+     "auroc_per_seed": [
+      0.9544,
+      0.9576,
+      0.9592,
+      0.9688,
+      0.968
+     ],
+     "auroc_ci_low_across_seeds": 0.9212210937509685,
+     "auroc_ci_high_across_seeds": 0.9901850239853426
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.95968,
+     "auroc_per_seed": [
+      0.9511999999999999,
+      0.9564,
+      0.9576,
+      0.9672000000000001,
+      0.966
+     ],
+     "auroc_ci_low_across_seeds": 0.9179728331185286,
+     "auroc_ci_high_across_seeds": 0.9892651802579444
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.95952,
+     "auroc_per_seed": [
+      0.9508,
+      0.9580000000000001,
+      0.9572,
+      0.9648000000000001,
+      0.9668
+     ],
+     "auroc_ci_low_across_seeds": 0.9187322173903674,
+     "auroc_ci_high_across_seeds": 0.9889454695353377
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.96064,
+     "auroc_per_seed": [
+      0.9528,
+      0.96,
+      0.9596,
+      0.9652000000000001,
+      0.9656
+     ],
+     "auroc_ci_low_across_seeds": 0.919784117891519,
+     "auroc_ci_high_across_seeds": 0.9897329958407385
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9622400000000001,
+     "auroc_per_seed": [
+      0.9531999999999999,
+      0.9608,
+      0.964,
+      0.9676,
+      0.9656
+     ],
+     "auroc_ci_low_across_seeds": 0.922723940061001,
+     "auroc_ci_high_across_seeds": 0.9900828915081137
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9643200000000001,
+     "auroc_per_seed": [
+      0.9580000000000001,
+      0.9632,
+      0.9656,
+      0.9672,
+      0.9676
+     ],
+     "auroc_ci_low_across_seeds": 0.9258705814433063,
+     "auroc_ci_high_across_seeds": 0.9910714828521197
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.96608,
+     "auroc_per_seed": [
+      0.9604,
+      0.9636,
+      0.9664,
+      0.972,
+      0.968
+     ],
+     "auroc_ci_low_across_seeds": 0.9276802887064454,
+     "auroc_ci_high_across_seeds": 0.9929348470433819
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.97208,
+     "auroc_per_seed": [
+      0.9688000000000001,
+      0.97,
+      0.9712000000000001,
+      0.978,
+      0.9724
+     ],
+     "auroc_ci_low_across_seeds": 0.9397032214169005,
+     "auroc_ci_high_across_seeds": 0.9949904854081291
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.97416,
+     "auroc_per_seed": [
+      0.9707999999999999,
+      0.972,
+      0.9732000000000001,
+      0.9796,
+      0.9752
+     ],
+     "auroc_ci_low_across_seeds": 0.9429974391042715,
+     "auroc_ci_high_across_seeds": 0.9954727291408739
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9783999999999999,
+     "auroc_per_seed": [
+      0.976,
+      0.9776,
+      0.978,
+      0.9816,
+      0.9788
+     ],
+     "auroc_ci_low_across_seeds": 0.9495295639949874,
+     "auroc_ci_high_across_seeds": 0.9968521146479018
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.98048,
+     "auroc_per_seed": [
+      0.9768000000000001,
+      0.9796,
+      0.9796,
+      0.9855999999999999,
+      0.9807999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9537234671806722,
+     "auroc_ci_high_across_seeds": 0.9975779751210858
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.99184,
+     "auroc_per_seed": [
+      0.9912000000000001,
+      0.9924,
+      0.9912000000000001,
+      0.9936,
+      0.9907999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9778844128046632,
+     "auroc_ci_high_across_seeds": 0.999922
+    }
+   }
+  },
+  "unknown_vs_ambiguous": {
+   "last_token_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.5,
+     "auroc_per_seed": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "auroc_ci_low_across_seeds": 0.5,
+     "auroc_ci_high_across_seeds": 0.5
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.89384,
+     "auroc_per_seed": [
+      0.894,
+      0.8908,
+      0.8916000000000001,
+      0.8968,
+      0.896
+     ],
+     "auroc_ci_low_across_seeds": 0.8261184216280995,
+     "auroc_ci_high_across_seeds": 0.9489961147833762
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.9048,
+     "auroc_per_seed": [
+      0.9112,
+      0.902,
+      0.9032,
+      0.9044,
+      0.9032
+     ],
+     "auroc_ci_low_across_seeds": 0.8421271521618788,
+     "auroc_ci_high_across_seeds": 0.9549926927420783
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.916,
+     "auroc_per_seed": [
+      0.9228000000000001,
+      0.9112,
+      0.914,
+      0.9168000000000001,
+      0.9152
+     ],
+     "auroc_ci_low_across_seeds": 0.8589938084157348,
+     "auroc_ci_high_across_seeds": 0.9605151711755224
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.9468,
+     "auroc_per_seed": [
+      0.9528,
+      0.9488000000000001,
+      0.9328,
+      0.952,
+      0.9476
+     ],
+     "auroc_ci_low_across_seeds": 0.9018476479384857,
+     "auroc_ci_high_across_seeds": 0.9800185580753358
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.96592,
+     "auroc_per_seed": [
+      0.9663999999999999,
+      0.9683999999999999,
+      0.9512,
+      0.9727999999999999,
+      0.9707999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9320007476934279,
+     "auroc_ci_high_across_seeds": 0.9898982171022723
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.9715199999999999,
+     "auroc_per_seed": [
+      0.9708,
+      0.9723999999999999,
+      0.956,
+      0.9796,
+      0.9788
+     ],
+     "auroc_ci_low_across_seeds": 0.9420819304519885,
+     "auroc_ci_high_across_seeds": 0.9929156344462022
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.9724,
+     "auroc_per_seed": [
+      0.9708,
+      0.9763999999999999,
+      0.954,
+      0.98,
+      0.9808
+     ],
+     "auroc_ci_low_across_seeds": 0.94259757495977,
+     "auroc_ci_high_across_seeds": 0.9939545132939551
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.9680799999999999,
+     "auroc_per_seed": [
+      0.9667999999999999,
+      0.9728,
+      0.9524,
+      0.9732,
+      0.9752
+     ],
+     "auroc_ci_low_across_seeds": 0.9352186446851214,
+     "auroc_ci_high_across_seeds": 0.9918607711452868
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.9708,
+     "auroc_per_seed": [
+      0.9716,
+      0.9723999999999999,
+      0.9564,
+      0.9764,
+      0.9772
+     ],
+     "auroc_ci_low_across_seeds": 0.9401966202197478,
+     "auroc_ci_high_across_seeds": 0.9924731492347997
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.9765600000000001,
+     "auroc_per_seed": [
+      0.9748,
+      0.9803999999999999,
+      0.9636,
+      0.982,
+      0.982
+     ],
+     "auroc_ci_low_across_seeds": 0.9511351182133069,
+     "auroc_ci_high_across_seeds": 0.9946284046882419
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.9960800000000001,
+     "auroc_per_seed": [
+      0.9952,
+      0.9976,
+      0.9936,
+      0.9976,
+      0.9964000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.987059643030595,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.99616,
+     "auroc_per_seed": [
+      0.9952,
+      0.9972,
+      0.994,
+      0.9976,
+      0.9967999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.98737776713782,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.99816,
+     "auroc_per_seed": [
+      0.9967999999999999,
+      0.9984,
+      0.9968,
+      0.9995999999999999,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9936219534663275,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.9991999999999999,
+     "auroc_per_seed": [
+      0.9995999999999999,
+      0.9992,
+      0.9992,
+      0.9988,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9963507095351893,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9993599999999999,
+     "auroc_per_seed": [
+      0.9995999999999999,
+      0.9992,
+      0.9995999999999999,
+      0.9992,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9969863382878625,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.99992,
+     "auroc_per_seed": [
+      1.0,
+      1.0,
+      0.9995999999999999,
+      1.0,
+      1.0
+     ],
+     "auroc_ci_low_across_seeds": 0.9995198079231692,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.99896,
+     "auroc_per_seed": [
+      0.9987999999999999,
+      0.9987999999999999,
+      0.9987999999999999,
+      0.9992,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9954322227460928,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9980800000000001,
+     "auroc_per_seed": [
+      0.998,
+      0.998,
+      0.9972,
+      0.9987999999999999,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.9930098725030637,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.99824,
+     "auroc_per_seed": [
+      0.9987999999999999,
+      0.9972,
+      0.998,
+      0.9987999999999999,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.9935570174342845,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.99816,
+     "auroc_per_seed": [
+      0.9984,
+      0.9975999999999999,
+      0.9972,
+      0.9987999999999999,
+      0.9987999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9932402577841433,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.998,
+     "auroc_per_seed": [
+      0.9984,
+      0.9968,
+      0.9972,
+      0.9984,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9927864523752262,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.9976,
+     "auroc_per_seed": [
+      0.998,
+      0.9956,
+      0.9972,
+      0.998,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9915866763659368,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9977600000000001,
+     "auroc_per_seed": [
+      0.9976,
+      0.9972000000000001,
+      0.9972,
+      0.998,
+      0.9987999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9919720192706125,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9977600000000001,
+     "auroc_per_seed": [
+      0.9972000000000001,
+      0.9968,
+      0.9972,
+      0.9984,
+      0.9992
+     ],
+     "auroc_ci_low_across_seeds": 0.9921151305866273,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9974400000000001,
+     "auroc_per_seed": [
+      0.9972000000000001,
+      0.996,
+      0.9975999999999999,
+      0.998,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.9912997897446413,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9976800000000001,
+     "auroc_per_seed": [
+      0.9976,
+      0.9964,
+      0.9975999999999999,
+      0.9984,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.9919479843677197,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.9972000000000001,
+     "auroc_per_seed": [
+      0.9972000000000001,
+      0.9956,
+      0.9972,
+      0.998,
+      0.998
+     ],
+     "auroc_ci_low_across_seeds": 0.9905869943335504,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.9970399999999999,
+     "auroc_per_seed": [
+      0.9976,
+      0.9948,
+      0.9967999999999999,
+      0.998,
+      0.998
+     ],
+     "auroc_ci_low_across_seeds": 0.9902155990117862,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.9971200000000001,
+     "auroc_per_seed": [
+      0.9976,
+      0.9952000000000001,
+      0.9964,
+      0.998,
+      0.9984
+     ],
+     "auroc_ci_low_across_seeds": 0.990304651679013,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.99672,
+     "auroc_per_seed": [
+      0.9976,
+      0.9944000000000001,
+      0.996,
+      0.998,
+      0.9975999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9897387641332213,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9963200000000001,
+     "auroc_per_seed": [
+      0.998,
+      0.9928,
+      0.996,
+      0.9975999999999999,
+      0.9972
+     ],
+     "auroc_ci_low_across_seeds": 0.9889159996721293,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.99856,
+     "auroc_per_seed": [
+      0.9988,
+      0.998,
+      0.9984,
+      0.9988,
+      0.9988
+     ],
+     "auroc_ci_low_across_seeds": 0.9943332009513514,
+     "auroc_ci_high_across_seeds": 1.0
+    }
+   },
+   "mean_pooled_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.9280000000000002,
+     "auroc_per_seed": [
+      0.8904000000000001,
+      0.9428,
+      0.9272,
+      0.9456,
+      0.9339999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.875238979747326,
+     "auroc_ci_high_across_seeds": 0.9684007906415953
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.90432,
+     "auroc_per_seed": [
+      0.906,
+      0.8964000000000001,
+      0.9048,
+      0.9159999999999999,
+      0.8984000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8399411412476236,
+     "auroc_ci_high_across_seeds": 0.9559241633717521
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.6699200000000001,
+     "auroc_per_seed": [
+      0.6716,
+      0.6656000000000001,
+      0.6851999999999999,
+      0.6584,
+      0.6688
+     ],
+     "auroc_ci_low_across_seeds": 0.5540529407380939,
+     "auroc_ci_high_across_seeds": 0.7804526140385868
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.67832,
+     "auroc_per_seed": [
+      0.6812,
+      0.6744000000000001,
+      0.6912,
+      0.6648,
+      0.68
+     ],
+     "auroc_ci_low_across_seeds": 0.56235575440993,
+     "auroc_ci_high_across_seeds": 0.7878481416159493
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.69536,
+     "auroc_per_seed": [
+      0.6964,
+      0.6931999999999999,
+      0.7064,
+      0.6819999999999999,
+      0.6988
+     ],
+     "auroc_ci_low_across_seeds": 0.5803049278807714,
+     "auroc_ci_high_across_seeds": 0.8024018332032131
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.7195199999999999,
+     "auroc_per_seed": [
+      0.7228,
+      0.7155999999999999,
+      0.7240000000000001,
+      0.71,
+      0.7252000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6076255999740181,
+     "auroc_ci_high_across_seeds": 0.8245210826941511
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.7432,
+     "auroc_per_seed": [
+      0.7435999999999999,
+      0.7392,
+      0.7532,
+      0.7348,
+      0.7452
+     ],
+     "auroc_ci_low_across_seeds": 0.6318648433325057,
+     "auroc_ci_high_across_seeds": 0.8441137861197019
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.7721600000000001,
+     "auroc_per_seed": [
+      0.7728,
+      0.772,
+      0.7776000000000001,
+      0.764,
+      0.7744000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6674751377731319,
+     "auroc_ci_high_across_seeds": 0.8677440496526323
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.80336,
+     "auroc_per_seed": [
+      0.8031999999999999,
+      0.7991999999999999,
+      0.8116,
+      0.7988,
+      0.804
+     ],
+     "auroc_ci_low_across_seeds": 0.7043484061143064,
+     "auroc_ci_high_across_seeds": 0.8917091363640914
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.8264800000000001,
+     "auroc_per_seed": [
+      0.822,
+      0.8260000000000001,
+      0.8332,
+      0.8196,
+      0.8316
+     ],
+     "auroc_ci_low_across_seeds": 0.7347662165073013,
+     "auroc_ci_high_across_seeds": 0.9074750472242764
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.8490400000000001,
+     "auroc_per_seed": [
+      0.8472,
+      0.8475999999999999,
+      0.8524,
+      0.8420000000000001,
+      0.856
+     ],
+     "auroc_ci_low_across_seeds": 0.7642000048729258,
+     "auroc_ci_high_across_seeds": 0.9225117712367222
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.8652000000000001,
+     "auroc_per_seed": [
+      0.8636,
+      0.8695999999999999,
+      0.8692,
+      0.8568,
+      0.8668
+     ],
+     "auroc_ci_low_across_seeds": 0.785740880475961,
+     "auroc_ci_high_across_seeds": 0.9329278528446672
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.87088,
+     "auroc_per_seed": [
+      0.8688,
+      0.874,
+      0.8752,
+      0.8616,
+      0.8748
+     ],
+     "auroc_ci_low_across_seeds": 0.7944284202106036,
+     "auroc_ci_high_across_seeds": 0.9369290527372168
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.8863199999999999,
+     "auroc_per_seed": [
+      0.886,
+      0.8876,
+      0.8888,
+      0.8788,
+      0.8904000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8146425933794955,
+     "auroc_ci_high_across_seeds": 0.9455511369627615
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.9016799999999998,
+     "auroc_per_seed": [
+      0.8984,
+      0.9084,
+      0.8983999999999999,
+      0.8968,
+      0.9063999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.836474136615702,
+     "auroc_ci_high_across_seeds": 0.9548521799364057
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9096,
+     "auroc_per_seed": [
+      0.9079999999999999,
+      0.9164,
+      0.9079999999999999,
+      0.9024,
+      0.9132
+     ],
+     "auroc_ci_low_across_seeds": 0.8475234511397479,
+     "auroc_ci_high_across_seeds": 0.9589922310721706
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.9231199999999999,
+     "auroc_per_seed": [
+      0.9211999999999999,
+      0.9276,
+      0.9224,
+      0.9179999999999999,
+      0.9263999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8666182568778374,
+     "auroc_ci_high_across_seeds": 0.9664705867998957
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.9468,
+     "auroc_per_seed": [
+      0.944,
+      0.9496,
+      0.9455999999999999,
+      0.9468,
+      0.948
+     ],
+     "auroc_ci_low_across_seeds": 0.9025141038264796,
+     "auroc_ci_high_across_seeds": 0.9799163863875917
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.96168,
+     "auroc_per_seed": [
+      0.958,
+      0.9624,
+      0.9588,
+      0.9632000000000001,
+      0.966
+     ],
+     "auroc_ci_low_across_seeds": 0.926091357697374,
+     "auroc_ci_high_across_seeds": 0.9876704861693035
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.97224,
+     "auroc_per_seed": [
+      0.9688,
+      0.9708,
+      0.9704,
+      0.9724,
+      0.9788
+     ],
+     "auroc_ci_low_across_seeds": 0.9424794522678164,
+     "auroc_ci_high_across_seeds": 0.9924477254118473
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.9812,
+     "auroc_per_seed": [
+      0.978,
+      0.9792000000000001,
+      0.9803999999999999,
+      0.9796,
+      0.9888000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.958348465824902,
+     "auroc_ci_high_across_seeds": 0.9959844166347128
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9869600000000001,
+     "auroc_per_seed": [
+      0.9843999999999999,
+      0.986,
+      0.9856,
+      0.9872000000000001,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.9689041239829548,
+     "auroc_ci_high_across_seeds": 0.9982185665090639
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.99048,
+     "auroc_per_seed": [
+      0.9872000000000001,
+      0.988,
+      0.992,
+      0.9924,
+      0.9928000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9753152531369931,
+     "auroc_ci_high_across_seeds": 0.9995157483938225
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.99368,
+     "auroc_per_seed": [
+      0.9912000000000001,
+      0.9908,
+      0.9944,
+      0.9956,
+      0.9964
+     ],
+     "auroc_ci_low_across_seeds": 0.9826809916495849,
+     "auroc_ci_high_across_seeds": 0.9998376803751803
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9939199999999999,
+     "auroc_per_seed": [
+      0.9912,
+      0.9904,
+      0.996,
+      0.9952,
+      0.9968
+     ],
+     "auroc_ci_low_across_seeds": 0.982936740778635,
+     "auroc_ci_high_across_seeds": 0.9998368228313914
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.994,
+     "auroc_per_seed": [
+      0.9896,
+      0.992,
+      0.994,
+      0.9972,
+      0.9972000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9825179031487293,
+     "auroc_ci_high_across_seeds": 0.9999188475071626
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9936,
+     "auroc_per_seed": [
+      0.9888000000000001,
+      0.9912,
+      0.994,
+      0.9972,
+      0.9968
+     ],
+     "auroc_ci_low_across_seeds": 0.9819921925813849,
+     "auroc_ci_high_across_seeds": 0.9998389694041869
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.99368,
+     "auroc_per_seed": [
+      0.9892000000000001,
+      0.9924,
+      0.994,
+      0.9968,
+      0.996
+     ],
+     "auroc_ci_low_across_seeds": 0.9823796867633108,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.9939199999999999,
+     "auroc_per_seed": [
+      0.9896,
+      0.9924,
+      0.9936,
+      0.9972,
+      0.9967999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9822787855270395,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.994,
+     "auroc_per_seed": [
+      0.9904000000000001,
+      0.9928,
+      0.994,
+      0.9972,
+      0.9956
+     ],
+     "auroc_ci_low_across_seeds": 0.9829176127810388,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.99344,
+     "auroc_per_seed": [
+      0.9896,
+      0.9928,
+      0.9936,
+      0.9964000000000001,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.982104335292407,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.99272,
+     "auroc_per_seed": [
+      0.9892000000000001,
+      0.9916,
+      0.9932,
+      0.9952,
+      0.9944
+     ],
+     "auroc_ci_low_across_seeds": 0.9806537625128453,
+     "auroc_ci_high_across_seeds": 0.9998394534896085
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.9943200000000001,
+     "auroc_per_seed": [
+      0.9907999999999999,
+      0.9928,
+      0.9964,
+      0.9964000000000001,
+      0.9952000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9834088309253437,
+     "auroc_ci_high_across_seeds": 0.999919968787515
+    }
+   }
+  },
+  "unknown_vs_misleading": {
+   "last_token_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.5,
+     "auroc_per_seed": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "auroc_ci_low_across_seeds": 0.5,
+     "auroc_ci_high_across_seeds": 0.5
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.80192,
+     "auroc_per_seed": [
+      0.79,
+      0.7964,
+      0.8048,
+      0.8071999999999999,
+      0.8111999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7133225673165443,
+     "auroc_ci_high_across_seeds": 0.8828503314470666
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.8603200000000001,
+     "auroc_per_seed": [
+      0.8467999999999999,
+      0.8564,
+      0.866,
+      0.8652,
+      0.8672
+     ],
+     "auroc_ci_low_across_seeds": 0.7844351535256038,
+     "auroc_ci_high_across_seeds": 0.9276366735756385
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.8943999999999999,
+     "auroc_per_seed": [
+      0.8808,
+      0.8924,
+      0.8996,
+      0.8967999999999999,
+      0.9024
+     ],
+     "auroc_ci_low_across_seeds": 0.8265819277295379,
+     "auroc_ci_high_across_seeds": 0.9518624856014515
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.9179200000000002,
+     "auroc_per_seed": [
+      0.9107999999999999,
+      0.91,
+      0.9160000000000001,
+      0.926,
+      0.9268000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8599987883779981,
+     "auroc_ci_high_across_seeds": 0.9654558365139969
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.95296,
+     "auroc_per_seed": [
+      0.9503999999999999,
+      0.9532,
+      0.95,
+      0.9568,
+      0.9543999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.902605449450246,
+     "auroc_ci_high_across_seeds": 0.9891432876844182
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.94976,
+     "auroc_per_seed": [
+      0.9456,
+      0.9512,
+      0.9456,
+      0.9544,
+      0.952
+     ],
+     "auroc_ci_low_across_seeds": 0.8972549637257222,
+     "auroc_ci_high_across_seeds": 0.9872849379798557
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.94736,
+     "auroc_per_seed": [
+      0.944,
+      0.95,
+      0.9423999999999999,
+      0.9503999999999999,
+      0.95
+     ],
+     "auroc_ci_low_across_seeds": 0.8944576367097821,
+     "auroc_ci_high_across_seeds": 0.9861336549334567
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.95016,
+     "auroc_per_seed": [
+      0.9488,
+      0.9544,
+      0.9452,
+      0.9508,
+      0.9516
+     ],
+     "auroc_ci_low_across_seeds": 0.8990974018871206,
+     "auroc_ci_high_across_seeds": 0.9875122887578914
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.96304,
+     "auroc_per_seed": [
+      0.9611999999999999,
+      0.966,
+      0.9628000000000001,
+      0.9624,
+      0.9628
+     ],
+     "auroc_ci_low_across_seeds": 0.9182557597914274,
+     "auroc_ci_high_across_seeds": 0.9935530687102447
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.96824,
+     "auroc_per_seed": [
+      0.968,
+      0.9683999999999999,
+      0.9696,
+      0.9664,
+      0.9688
+     ],
+     "auroc_ci_low_across_seeds": 0.9265147966299063,
+     "auroc_ci_high_across_seeds": 0.9959917875094098
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.97352,
+     "auroc_per_seed": [
+      0.9724,
+      0.9748,
+      0.9712000000000001,
+      0.974,
+      0.9752000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9366531370088292,
+     "auroc_ci_high_across_seeds": 0.9978386262489339
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.97488,
+     "auroc_per_seed": [
+      0.9752000000000001,
+      0.9756,
+      0.9756,
+      0.9732,
+      0.9748
+     ],
+     "auroc_ci_low_across_seeds": 0.9391005426738953,
+     "auroc_ci_high_across_seeds": 0.9992747581895352
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.98328,
+     "auroc_per_seed": [
+      0.9812000000000001,
+      0.9844,
+      0.9832000000000001,
+      0.9836,
+      0.984
+     ],
+     "auroc_ci_low_across_seeds": 0.9503257823002066,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.9845599999999999,
+     "auroc_per_seed": [
+      0.9828,
+      0.9852,
+      0.9843999999999999,
+      0.9848,
+      0.9855999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9497150438420618,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.99032,
+     "auroc_per_seed": [
+      0.9904,
+      0.9916,
+      0.9875999999999999,
+      0.9908,
+      0.9912
+     ],
+     "auroc_ci_low_across_seeds": 0.9664608374764706,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.9914400000000001,
+     "auroc_per_seed": [
+      0.9928,
+      0.992,
+      0.9888,
+      0.992,
+      0.9916
+     ],
+     "auroc_ci_low_across_seeds": 0.9698575013067101,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.99408,
+     "auroc_per_seed": [
+      0.9948,
+      0.9955999999999999,
+      0.9912,
+      0.9948,
+      0.994
+     ],
+     "auroc_ci_low_across_seeds": 0.9786509325060739,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9945600000000001,
+     "auroc_per_seed": [
+      0.9948,
+      0.9948,
+      0.9932,
+      0.9952,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.9803858104880234,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9942400000000001,
+     "auroc_per_seed": [
+      0.9952,
+      0.9948,
+      0.992,
+      0.9955999999999999,
+      0.9936
+     ],
+     "auroc_ci_low_across_seeds": 0.9799332728225908,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.99544,
+     "auroc_per_seed": [
+      0.996,
+      0.996,
+      0.9944,
+      0.996,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.98366075898702,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9964799999999998,
+     "auroc_per_seed": [
+      0.9975999999999999,
+      0.9964,
+      0.9947999999999999,
+      0.998,
+      0.9955999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9870720230029532,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.99576,
+     "auroc_per_seed": [
+      0.9972,
+      0.9964,
+      0.994,
+      0.9964,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.9846842208903285,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.99584,
+     "auroc_per_seed": [
+      0.9972,
+      0.996,
+      0.9944,
+      0.996,
+      0.9955999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9854839899255712,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9955999999999999,
+     "auroc_per_seed": [
+      0.9967999999999999,
+      0.996,
+      0.9947999999999999,
+      0.9955999999999999,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.9846015396591845,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9959199999999999,
+     "auroc_per_seed": [
+      0.9964,
+      0.9967999999999999,
+      0.9947999999999999,
+      0.996,
+      0.9955999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9859523369926577,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.99552,
+     "auroc_per_seed": [
+      0.9964,
+      0.9964,
+      0.9944,
+      0.9955999999999999,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.9845396932066336,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.9946399999999999,
+     "auroc_per_seed": [
+      0.9955999999999999,
+      0.9955999999999999,
+      0.9932,
+      0.994,
+      0.9948
+     ],
+     "auroc_ci_low_across_seeds": 0.9819860571937074,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.9948799999999999,
+     "auroc_per_seed": [
+      0.9955999999999999,
+      0.9952,
+      0.9935999999999999,
+      0.9944,
+      0.9955999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9826381042565302,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.9950399999999998,
+     "auroc_per_seed": [
+      0.9955999999999999,
+      0.9955999999999999,
+      0.994,
+      0.9947999999999999,
+      0.9952
+     ],
+     "auroc_ci_low_across_seeds": 0.9823112878000367,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9951199999999998,
+     "auroc_per_seed": [
+      0.9955999999999999,
+      0.9964,
+      0.994,
+      0.9944,
+      0.9952
+     ],
+     "auroc_ci_low_across_seeds": 0.9826029120430547,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9949599999999998,
+     "auroc_per_seed": [
+      0.9952,
+      0.996,
+      0.994,
+      0.9944,
+      0.9952
+     ],
+     "auroc_ci_low_across_seeds": 0.9819821098897729,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.9987199999999999,
+     "auroc_per_seed": [
+      0.9988,
+      0.9984,
+      0.9992,
+      0.9984,
+      0.9988
+     ],
+     "auroc_ci_low_across_seeds": 0.994276684892154,
+     "auroc_ci_high_across_seeds": 1.0
+    }
+   },
+   "mean_pooled_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.8567199999999999,
+     "auroc_per_seed": [
+      0.8543999999999999,
+      0.8536,
+      0.9144000000000001,
+      0.8612,
+      0.8
+     ],
+     "auroc_ci_low_across_seeds": 0.7820072668362336,
+     "auroc_ci_high_across_seeds": 0.9219733049572234
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.90704,
+     "auroc_per_seed": [
+      0.8956,
+      0.9043999999999999,
+      0.9239999999999999,
+      0.8999999999999999,
+      0.9112
+     ],
+     "auroc_ci_low_across_seeds": 0.8441309930015519,
+     "auroc_ci_high_across_seeds": 0.9591451244719664
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.63608,
+     "auroc_per_seed": [
+      0.6324000000000001,
+      0.6464,
+      0.6436,
+      0.6244000000000001,
+      0.6336
+     ],
+     "auroc_ci_low_across_seeds": 0.523546670949403,
+     "auroc_ci_high_across_seeds": 0.7442306372213687
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.6481600000000001,
+     "auroc_per_seed": [
+      0.6444,
+      0.6504,
+      0.6596,
+      0.6340000000000001,
+      0.6524
+     ],
+     "auroc_ci_low_across_seeds": 0.5356492693169514,
+     "auroc_ci_high_across_seeds": 0.755710032952265
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.68144,
+     "auroc_per_seed": [
+      0.6748000000000001,
+      0.6800000000000002,
+      0.6943999999999999,
+      0.6756,
+      0.6823999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.5722425673332845,
+     "auroc_ci_high_across_seeds": 0.7846289024463398
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.75264,
+     "auroc_per_seed": [
+      0.7496,
+      0.7452,
+      0.7708,
+      0.7504,
+      0.7472
+     ],
+     "auroc_ci_low_across_seeds": 0.651819838516199,
+     "auroc_ci_high_across_seeds": 0.8483877125210325
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.7933599999999998,
+     "auroc_per_seed": [
+      0.7992,
+      0.7783999999999999,
+      0.8131999999999999,
+      0.784,
+      0.7919999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.6972806779398175,
+     "auroc_ci_high_across_seeds": 0.8812541810065226
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.83984,
+     "auroc_per_seed": [
+      0.8463999999999999,
+      0.828,
+      0.8568,
+      0.8303999999999999,
+      0.8376
+     ],
+     "auroc_ci_low_across_seeds": 0.7542600959136485,
+     "auroc_ci_high_across_seeds": 0.9168246142258619
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.87184,
+     "auroc_per_seed": [
+      0.8780000000000001,
+      0.8659999999999999,
+      0.8884,
+      0.8603999999999999,
+      0.8664
+     ],
+     "auroc_ci_low_across_seeds": 0.7936887853877355,
+     "auroc_ci_high_across_seeds": 0.9401991606388783
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.8922399999999999,
+     "auroc_per_seed": [
+      0.8975999999999998,
+      0.8872,
+      0.9108,
+      0.8784000000000001,
+      0.8872
+     ],
+     "auroc_ci_low_across_seeds": 0.8178144796006936,
+     "auroc_ci_high_across_seeds": 0.9531949734925202
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.9068799999999999,
+     "auroc_per_seed": [
+      0.9132,
+      0.9012,
+      0.9236,
+      0.8911999999999999,
+      0.9051999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8374799441448786,
+     "auroc_ci_high_across_seeds": 0.9636697725215425
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.92472,
+     "auroc_per_seed": [
+      0.9328000000000001,
+      0.9179999999999999,
+      0.9384,
+      0.9128000000000001,
+      0.9216
+     ],
+     "auroc_ci_low_across_seeds": 0.8619998469626395,
+     "auroc_ci_high_across_seeds": 0.9744145724614676
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.9357600000000001,
+     "auroc_per_seed": [
+      0.9428000000000001,
+      0.9303999999999999,
+      0.9468000000000001,
+      0.9252,
+      0.9336
+     ],
+     "auroc_ci_low_across_seeds": 0.8784712721033466,
+     "auroc_ci_high_across_seeds": 0.9807137516164941
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.94392,
+     "auroc_per_seed": [
+      0.9504,
+      0.9396,
+      0.9504,
+      0.9339999999999999,
+      0.9452
+     ],
+     "auroc_ci_low_across_seeds": 0.8886285112759721,
+     "auroc_ci_high_across_seeds": 0.9848703669973607
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.95328,
+     "auroc_per_seed": [
+      0.9564,
+      0.9504,
+      0.96,
+      0.9476,
+      0.9520000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9016347347797151,
+     "auroc_ci_high_across_seeds": 0.9898921494390007
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9541600000000001,
+     "auroc_per_seed": [
+      0.958,
+      0.952,
+      0.96,
+      0.948,
+      0.9528
+     ],
+     "auroc_ci_low_across_seeds": 0.9031330662958867,
+     "auroc_ci_high_across_seeds": 0.9904041058581357
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.95824,
+     "auroc_per_seed": [
+      0.962,
+      0.9560000000000001,
+      0.9616,
+      0.9548,
+      0.9568
+     ],
+     "auroc_ci_low_across_seeds": 0.9085287612253168,
+     "auroc_ci_high_across_seeds": 0.9924383154229653
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.9604800000000001,
+     "auroc_per_seed": [
+      0.9616,
+      0.9591999999999999,
+      0.9632000000000001,
+      0.9591999999999999,
+      0.9592
+     ],
+     "auroc_ci_low_across_seeds": 0.9116991185023793,
+     "auroc_ci_high_across_seeds": 0.9933728631475536
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9612799999999998,
+     "auroc_per_seed": [
+      0.9596,
+      0.9583999999999999,
+      0.964,
+      0.962,
+      0.9623999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.914184752022609,
+     "auroc_ci_high_across_seeds": 0.9938972052911661
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9636799999999999,
+     "auroc_per_seed": [
+      0.9628,
+      0.9584,
+      0.9672,
+      0.9632,
+      0.9668
+     ],
+     "auroc_ci_low_across_seeds": 0.92043183211767,
+     "auroc_ci_high_across_seeds": 0.9944472049951715
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.96456,
+     "auroc_per_seed": [
+      0.9655999999999999,
+      0.9596,
+      0.968,
+      0.9636,
+      0.966
+     ],
+     "auroc_ci_low_across_seeds": 0.9246096988887809,
+     "auroc_ci_high_across_seeds": 0.9936842151177153
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9695199999999999,
+     "auroc_per_seed": [
+      0.9708,
+      0.9644,
+      0.9716,
+      0.97,
+      0.9708
+     ],
+     "auroc_ci_low_across_seeds": 0.9346243038764197,
+     "auroc_ci_high_across_seeds": 0.9948463029358876
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.974,
+     "auroc_per_seed": [
+      0.9755999999999999,
+      0.9656,
+      0.9784,
+      0.9736,
+      0.9768000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9437220850239278,
+     "auroc_ci_high_across_seeds": 0.9954880216620945
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.97528,
+     "auroc_per_seed": [
+      0.978,
+      0.9683999999999999,
+      0.978,
+      0.9756,
+      0.9764
+     ],
+     "auroc_ci_low_across_seeds": 0.9459766134841491,
+     "auroc_ci_high_across_seeds": 0.9954761114116739
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9776800000000001,
+     "auroc_per_seed": [
+      0.9784,
+      0.972,
+      0.9784,
+      0.9800000000000001,
+      0.9796
+     ],
+     "auroc_ci_low_across_seeds": 0.9496088138367025,
+     "auroc_ci_high_across_seeds": 0.9967685908902124
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9779199999999999,
+     "auroc_per_seed": [
+      0.9776,
+      0.9724,
+      0.9803999999999999,
+      0.9792000000000001,
+      0.98
+     ],
+     "auroc_ci_low_across_seeds": 0.9492645888574167,
+     "auroc_ci_high_across_seeds": 0.9969956216673174
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.97904,
+     "auroc_per_seed": [
+      0.9792,
+      0.9736,
+      0.9816,
+      0.98,
+      0.9808
+     ],
+     "auroc_ci_low_across_seeds": 0.9513808660793913,
+     "auroc_ci_high_across_seeds": 0.997649296073617
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.97896,
+     "auroc_per_seed": [
+      0.9788,
+      0.9732000000000001,
+      0.9812,
+      0.98,
+      0.9816
+     ],
+     "auroc_ci_low_across_seeds": 0.9518190757594533,
+     "auroc_ci_high_across_seeds": 0.9972024460065075
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.97944,
+     "auroc_per_seed": [
+      0.9803999999999999,
+      0.976,
+      0.98,
+      0.9792,
+      0.9816
+     ],
+     "auroc_ci_low_across_seeds": 0.951740072660533,
+     "auroc_ci_high_across_seeds": 0.9974229278592454
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.97936,
+     "auroc_per_seed": [
+      0.9796,
+      0.976,
+      0.9812000000000001,
+      0.9788,
+      0.9812000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9510203541218217,
+     "auroc_ci_high_across_seeds": 0.9975966018826921
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.9815200000000001,
+     "auroc_per_seed": [
+      0.9803999999999999,
+      0.9792,
+      0.9832000000000001,
+      0.9808,
+      0.984
+     ],
+     "auroc_ci_low_across_seeds": 0.9541322765596199,
+     "auroc_ci_high_across_seeds": 0.9986104546255195
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9812799999999999,
+     "auroc_per_seed": [
+      0.9803999999999999,
+      0.98,
+      0.984,
+      0.9808,
+      0.9812000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9513955980631168,
+     "auroc_ci_high_across_seeds": 0.9993526390066151
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.9817599999999999,
+     "auroc_per_seed": [
+      0.9768,
+      0.9848,
+      0.9835999999999999,
+      0.9812,
+      0.9823999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9510486115354249,
+     "auroc_ci_high_across_seeds": 0.9998385641230507
+    }
+   }
+  },
+  "ambiguous_vs_misleading": {
+   "last_token_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.5,
+     "auroc_per_seed": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "auroc_ci_low_across_seeds": 0.5,
+     "auroc_ci_high_across_seeds": 0.5
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.8406399999999999,
+     "auroc_per_seed": [
+      0.8436000000000001,
+      0.8452,
+      0.8352,
+      0.8328,
+      0.8463999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7545940763245959,
+     "auroc_ci_high_across_seeds": 0.9180109732215549
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.8438400000000001,
+     "auroc_per_seed": [
+      0.8484000000000002,
+      0.8416000000000001,
+      0.838,
+      0.8399999999999999,
+      0.8512000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.7564442743812212,
+     "auroc_ci_high_across_seeds": 0.9219210238054186
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.8685600000000001,
+     "auroc_per_seed": [
+      0.8704,
+      0.8664,
+      0.8652000000000001,
+      0.862,
+      0.8788
+     ],
+     "auroc_ci_low_across_seeds": 0.7883052464585423,
+     "auroc_ci_high_across_seeds": 0.9398661309965135
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.93736,
+     "auroc_per_seed": [
+      0.9375999999999999,
+      0.9351999999999999,
+      0.9368,
+      0.9339999999999999,
+      0.9432
+     ],
+     "auroc_ci_low_across_seeds": 0.8838535086512543,
+     "auroc_ci_high_across_seeds": 0.980792768373016
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.96344,
+     "auroc_per_seed": [
+      0.964,
+      0.9560000000000001,
+      0.9652,
+      0.9663999999999999,
+      0.9656
+     ],
+     "auroc_ci_low_across_seeds": 0.9238579196242244,
+     "auroc_ci_high_across_seeds": 0.9932244143241503
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.9600000000000002,
+     "auroc_per_seed": [
+      0.9616,
+      0.9548,
+      0.9624,
+      0.9576,
+      0.9636
+     ],
+     "auroc_ci_low_across_seeds": 0.9187622364519461,
+     "auroc_ci_high_across_seeds": 0.99117027644021
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.9628,
+     "auroc_per_seed": [
+      0.966,
+      0.9568,
+      0.962,
+      0.9616,
+      0.9676
+     ],
+     "auroc_ci_low_across_seeds": 0.9248727094681646,
+     "auroc_ci_high_across_seeds": 0.990878941464753
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.9788,
+     "auroc_per_seed": [
+      0.9816,
+      0.9732,
+      0.9756,
+      0.9796,
+      0.984
+     ],
+     "auroc_ci_low_across_seeds": 0.9549319173090016,
+     "auroc_ci_high_across_seeds": 0.9950822568855131
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.9836,
+     "auroc_per_seed": [
+      0.988,
+      0.9792,
+      0.9824,
+      0.984,
+      0.9844
+     ],
+     "auroc_ci_low_across_seeds": 0.9621342014076764,
+     "auroc_ci_high_across_seeds": 0.9970216242373716
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.99016,
+     "auroc_per_seed": [
+      0.9924000000000001,
+      0.988,
+      0.9888,
+      0.9912,
+      0.9904
+     ],
+     "auroc_ci_low_across_seeds": 0.9756525234617225,
+     "auroc_ci_high_across_seeds": 0.9991939791488704
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.99024,
+     "auroc_per_seed": [
+      0.988,
+      0.9884000000000001,
+      0.992,
+      0.9916,
+      0.9912000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9748451502328679,
+     "auroc_ci_high_across_seeds": 0.9997599999999999
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.9890400000000001,
+     "auroc_per_seed": [
+      0.9884,
+      0.9868,
+      0.9912000000000001,
+      0.9896,
+      0.9892000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.972217886938887,
+     "auroc_ci_high_across_seeds": 0.999195003555234
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.9845599999999999,
+     "auroc_per_seed": [
+      0.9847999999999999,
+      0.9832000000000001,
+      0.9848,
+      0.9856,
+      0.9843999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9639349377982768,
+     "auroc_ci_high_across_seeds": 0.9980795027511004
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.98552,
+     "auroc_per_seed": [
+      0.9868,
+      0.9844,
+      0.9836,
+      0.9876,
+      0.9852
+     ],
+     "auroc_ci_low_across_seeds": 0.9660303197147767,
+     "auroc_ci_high_across_seeds": 0.997998979734318
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.9863199999999999,
+     "auroc_per_seed": [
+      0.986,
+      0.9836,
+      0.9847999999999999,
+      0.9908,
+      0.9863999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9673541917453689,
+     "auroc_ci_high_across_seeds": 0.9986141511762398
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.9864,
+     "auroc_per_seed": [
+      0.9863999999999999,
+      0.9868000000000001,
+      0.9823999999999999,
+      0.9908,
+      0.9856
+     ],
+     "auroc_ci_low_across_seeds": 0.9675657459060799,
+     "auroc_ci_high_across_seeds": 0.9987193349278586
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.9858399999999999,
+     "auroc_per_seed": [
+      0.986,
+      0.9864,
+      0.9816,
+      0.9912000000000001,
+      0.984
+     ],
+     "auroc_ci_low_across_seeds": 0.9653738939119689,
+     "auroc_ci_high_across_seeds": 0.9987199075310225
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9868799999999999,
+     "auroc_per_seed": [
+      0.9843999999999999,
+      0.9888,
+      0.9823999999999999,
+      0.9935999999999999,
+      0.9852000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9666779626393612,
+     "auroc_ci_high_across_seeds": 0.9994255367363944
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9880799999999998,
+     "auroc_per_seed": [
+      0.9872,
+      0.9876,
+      0.9852000000000001,
+      0.9932000000000001,
+      0.9871999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.969408206963206,
+     "auroc_ci_high_across_seeds": 0.9995162479904753
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.9892800000000002,
+     "auroc_per_seed": [
+      0.9884,
+      0.99,
+      0.986,
+      0.9936,
+      0.9884
+     ],
+     "auroc_ci_low_across_seeds": 0.9722569651225861,
+     "auroc_ci_high_across_seeds": 0.999919968787515
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.98848,
+     "auroc_per_seed": [
+      0.9888,
+      0.9888000000000001,
+      0.9844,
+      0.9932000000000001,
+      0.9872
+     ],
+     "auroc_ci_low_across_seeds": 0.9698197040668699,
+     "auroc_ci_high_across_seeds": 0.9998398405823867
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.9892000000000001,
+     "auroc_per_seed": [
+      0.9888,
+      0.9888000000000001,
+      0.9852000000000001,
+      0.994,
+      0.9892000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.971978612694194,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.9890400000000001,
+     "auroc_per_seed": [
+      0.9888,
+      0.9884000000000001,
+      0.9852,
+      0.9940000000000001,
+      0.9888
+     ],
+     "auroc_ci_low_across_seeds": 0.9717231863503519,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9896,
+     "auroc_per_seed": [
+      0.99,
+      0.9888,
+      0.9856,
+      0.9944000000000001,
+      0.9892
+     ],
+     "auroc_ci_low_across_seeds": 0.9730643928708277,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.99032,
+     "auroc_per_seed": [
+      0.9908,
+      0.99,
+      0.9863999999999999,
+      0.994,
+      0.9904000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.9744529580389368,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9907999999999999,
+     "auroc_per_seed": [
+      0.9916,
+      0.9895999999999999,
+      0.9872,
+      0.9947999999999999,
+      0.9908
+     ],
+     "auroc_ci_low_across_seeds": 0.97559761952065,
+     "auroc_ci_high_across_seeds": 1.0
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.9895200000000001,
+     "auroc_per_seed": [
+      0.9896,
+      0.9872000000000001,
+      0.986,
+      0.9952000000000001,
+      0.9896
+     ],
+     "auroc_ci_low_across_seeds": 0.9728311800572037,
+     "auroc_ci_high_across_seeds": 0.9998389694041869
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.98888,
+     "auroc_per_seed": [
+      0.9904,
+      0.9864,
+      0.9852000000000001,
+      0.9944000000000001,
+      0.988
+     ],
+     "auroc_ci_low_across_seeds": 0.9715603936865518,
+     "auroc_ci_high_across_seeds": 0.9997591449410184
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.9884799999999998,
+     "auroc_per_seed": [
+      0.99,
+      0.986,
+      0.9843999999999999,
+      0.9944,
+      0.9875999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9707048322139338,
+     "auroc_ci_high_across_seeds": 0.9997552342470872
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.98736,
+     "auroc_per_seed": [
+      0.9892,
+      0.9840000000000001,
+      0.986,
+      0.992,
+      0.9856
+     ],
+     "auroc_ci_low_across_seeds": 0.9686488619908319,
+     "auroc_ci_high_across_seeds": 0.9993486369910283
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.9882399999999999,
+     "auroc_per_seed": [
+      0.9896,
+      0.9856,
+      0.9863999999999999,
+      0.9932000000000001,
+      0.9863999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9707115561531197,
+     "auroc_ci_high_across_seeds": 0.9995191083322787
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.99016,
+     "auroc_per_seed": [
+      0.9916,
+      0.9872000000000001,
+      0.988,
+      0.9944,
+      0.9896
+     ],
+     "auroc_ci_low_across_seeds": 0.973353563406158,
+     "auroc_ci_high_across_seeds": 0.9998399359743898
+    }
+   },
+   "mean_pooled_states": {
+    "0": {
+     "auroc_mean_across_seeds": 0.9172800000000001,
+     "auroc_per_seed": [
+      0.9084,
+      0.9087999999999999,
+      0.9124,
+      0.9264,
+      0.9303999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8566382010889708,
+     "auroc_ci_high_across_seeds": 0.9677445978397359
+    },
+    "1": {
+     "auroc_mean_across_seeds": 0.8651200000000001,
+     "auroc_per_seed": [
+      0.8671999999999999,
+      0.8584,
+      0.8560000000000002,
+      0.8664000000000002,
+      0.8776
+     ],
+     "auroc_ci_low_across_seeds": 0.7831032155733018,
+     "auroc_ci_high_across_seeds": 0.9361477970184067
+    },
+    "2": {
+     "auroc_mean_across_seeds": 0.7356,
+     "auroc_per_seed": [
+      0.734,
+      0.738,
+      0.7387999999999999,
+      0.7316,
+      0.7355999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.6274434954065669,
+     "auroc_ci_high_across_seeds": 0.8337708832048938
+    },
+    "3": {
+     "auroc_mean_across_seeds": 0.74048,
+     "auroc_per_seed": [
+      0.738,
+      0.7432,
+      0.7448,
+      0.7360000000000001,
+      0.7404
+     ],
+     "auroc_ci_low_across_seeds": 0.6324853117328157,
+     "auroc_ci_high_across_seeds": 0.8388855774467112
+    },
+    "4": {
+     "auroc_mean_across_seeds": 0.7511200000000001,
+     "auroc_per_seed": [
+      0.7516,
+      0.7544000000000001,
+      0.7528000000000001,
+      0.7436,
+      0.7532
+     ],
+     "auroc_ci_low_across_seeds": 0.6444717039798975,
+     "auroc_ci_high_across_seeds": 0.8494859559216102
+    },
+    "5": {
+     "auroc_mean_across_seeds": 0.7627200000000001,
+     "auroc_per_seed": [
+      0.7684,
+      0.7656,
+      0.7564000000000001,
+      0.7576,
+      0.7656000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6577264563353717,
+     "auroc_ci_high_across_seeds": 0.8589600722606432
+    },
+    "6": {
+     "auroc_mean_across_seeds": 0.7704,
+     "auroc_per_seed": [
+      0.7764,
+      0.7716,
+      0.7627999999999999,
+      0.7668,
+      0.7744000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6667789155170288,
+     "auroc_ci_high_across_seeds": 0.86513430431444
+    },
+    "7": {
+     "auroc_mean_across_seeds": 0.78416,
+     "auroc_per_seed": [
+      0.7856,
+      0.7844,
+      0.7767999999999999,
+      0.7832,
+      0.7908000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.6824219522123792,
+     "auroc_ci_high_across_seeds": 0.8756976915978628
+    },
+    "8": {
+     "auroc_mean_across_seeds": 0.80264,
+     "auroc_per_seed": [
+      0.8028000000000001,
+      0.804,
+      0.7972,
+      0.8004,
+      0.8088000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.7045210249917256,
+     "auroc_ci_high_across_seeds": 0.8907546603794934
+    },
+    "9": {
+     "auroc_mean_across_seeds": 0.81304,
+     "auroc_per_seed": [
+      0.8132,
+      0.8160000000000001,
+      0.8096,
+      0.8079999999999999,
+      0.8183999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7162558118431839,
+     "auroc_ci_high_across_seeds": 0.8998822325444239
+    },
+    "10": {
+     "auroc_mean_across_seeds": 0.8265600000000001,
+     "auroc_per_seed": [
+      0.8308000000000001,
+      0.8291999999999999,
+      0.8208,
+      0.8220000000000001,
+      0.8300000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.734010400578558,
+     "auroc_ci_high_across_seeds": 0.9105007507519668
+    },
+    "11": {
+     "auroc_mean_across_seeds": 0.8377600000000001,
+     "auroc_per_seed": [
+      0.8392000000000001,
+      0.8400000000000001,
+      0.8308,
+      0.8336,
+      0.8452
+     ],
+     "auroc_ci_low_across_seeds": 0.7472493323313629,
+     "auroc_ci_high_across_seeds": 0.9188004273577903
+    },
+    "12": {
+     "auroc_mean_across_seeds": 0.8442399999999999,
+     "auroc_per_seed": [
+      0.8460000000000001,
+      0.8476,
+      0.8388000000000001,
+      0.8371999999999999,
+      0.8515999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.7559231328660975,
+     "auroc_ci_high_across_seeds": 0.9236519465697729
+    },
+    "13": {
+     "auroc_mean_across_seeds": 0.86152,
+     "auroc_per_seed": [
+      0.8632,
+      0.866,
+      0.8559999999999999,
+      0.8556,
+      0.8668
+     ],
+     "auroc_ci_low_across_seeds": 0.7786865408942838,
+     "auroc_ci_high_across_seeds": 0.935459099089098
+    },
+    "14": {
+     "auroc_mean_across_seeds": 0.88056,
+     "auroc_per_seed": [
+      0.8844,
+      0.8844,
+      0.8756,
+      0.8744,
+      0.8839999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8032864482843138,
+     "auroc_ci_high_across_seeds": 0.947731018379881
+    },
+    "15": {
+     "auroc_mean_across_seeds": 0.88616,
+     "auroc_per_seed": [
+      0.8912000000000001,
+      0.8884,
+      0.8795999999999999,
+      0.8808,
+      0.8907999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.8115957536775433,
+     "auroc_ci_high_across_seeds": 0.9501644685373289
+    },
+    "16": {
+     "auroc_mean_across_seeds": 0.9055199999999999,
+     "auroc_per_seed": [
+      0.91,
+      0.9096,
+      0.8988,
+      0.8987999999999999,
+      0.9104
+     ],
+     "auroc_ci_low_across_seeds": 0.8382136252009923,
+     "auroc_ci_high_across_seeds": 0.9615058078252392
+    },
+    "17": {
+     "auroc_mean_across_seeds": 0.9220799999999999,
+     "auroc_per_seed": [
+      0.9272,
+      0.9248,
+      0.9152,
+      0.9164,
+      0.9267999999999998
+     ],
+     "auroc_ci_low_across_seeds": 0.8617245451775013,
+     "auroc_ci_high_across_seeds": 0.9717138583729664
+    },
+    "18": {
+     "auroc_mean_across_seeds": 0.9361600000000001,
+     "auroc_per_seed": [
+      0.9416,
+      0.9336,
+      0.9308,
+      0.9332,
+      0.9416
+     ],
+     "auroc_ci_low_across_seeds": 0.8833272980772238,
+     "auroc_ci_high_across_seeds": 0.9783320412515065
+    },
+    "19": {
+     "auroc_mean_across_seeds": 0.9455199999999999,
+     "auroc_per_seed": [
+      0.9516,
+      0.9431999999999999,
+      0.9396,
+      0.9443999999999999,
+      0.9488000000000001
+     ],
+     "auroc_ci_low_across_seeds": 0.8970159201553987,
+     "auroc_ci_high_across_seeds": 0.9836280777377595
+    },
+    "20": {
+     "auroc_mean_across_seeds": 0.95088,
+     "auroc_per_seed": [
+      0.958,
+      0.9468,
+      0.9451999999999999,
+      0.9524,
+      0.952
+     ],
+     "auroc_ci_low_across_seeds": 0.9048393897576567,
+     "auroc_ci_high_across_seeds": 0.986464868272552
+    },
+    "21": {
+     "auroc_mean_across_seeds": 0.9570399999999999,
+     "auroc_per_seed": [
+      0.9616,
+      0.9511999999999999,
+      0.952,
+      0.9608,
+      0.9595999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9147292881258678,
+     "auroc_ci_high_across_seeds": 0.9891813636273378
+    },
+    "22": {
+     "auroc_mean_across_seeds": 0.9630400000000001,
+     "auroc_per_seed": [
+      0.9676,
+      0.9572,
+      0.9596,
+      0.966,
+      0.9648
+     ],
+     "auroc_ci_low_across_seeds": 0.9223045762470564,
+     "auroc_ci_high_across_seeds": 0.9926591255935839
+    },
+    "23": {
+     "auroc_mean_across_seeds": 0.96552,
+     "auroc_per_seed": [
+      0.9688,
+      0.9616,
+      0.962,
+      0.9695999999999999,
+      0.9655999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.92543857212852,
+     "auroc_ci_high_across_seeds": 0.9937514675364376
+    },
+    "24": {
+     "auroc_mean_across_seeds": 0.9699199999999999,
+     "auroc_per_seed": [
+      0.9712,
+      0.966,
+      0.9680000000000001,
+      0.9732,
+      0.9712
+     ],
+     "auroc_ci_low_across_seeds": 0.9310179421580024,
+     "auroc_ci_high_across_seeds": 0.996525237458201
+    },
+    "25": {
+     "auroc_mean_across_seeds": 0.9711200000000002,
+     "auroc_per_seed": [
+      0.972,
+      0.9676,
+      0.9703999999999999,
+      0.9736,
+      0.972
+     ],
+     "auroc_ci_low_across_seeds": 0.9327459838923371,
+     "auroc_ci_high_across_seeds": 0.99724272300555
+    },
+    "26": {
+     "auroc_mean_across_seeds": 0.9730399999999999,
+     "auroc_per_seed": [
+      0.972,
+      0.9712000000000001,
+      0.9728,
+      0.9756,
+      0.9736
+     ],
+     "auroc_ci_low_across_seeds": 0.9358295143637709,
+     "auroc_ci_high_across_seeds": 0.9976539235023573
+    },
+    "27": {
+     "auroc_mean_across_seeds": 0.9718399999999999,
+     "auroc_per_seed": [
+      0.9716,
+      0.9692,
+      0.9716,
+      0.9752,
+      0.9716
+     ],
+     "auroc_ci_low_across_seeds": 0.9352214384334419,
+     "auroc_ci_high_across_seeds": 0.9971621346265076
+    },
+    "28": {
+     "auroc_mean_across_seeds": 0.97416,
+     "auroc_per_seed": [
+      0.9727999999999999,
+      0.9716,
+      0.9744,
+      0.9776,
+      0.9743999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.9388252333868976,
+     "auroc_ci_high_across_seeds": 0.9978138988543094
+    },
+    "29": {
+     "auroc_mean_across_seeds": 0.9753599999999999,
+     "auroc_per_seed": [
+      0.9736,
+      0.9723999999999999,
+      0.9756,
+      0.9783999999999999,
+      0.9768
+     ],
+     "auroc_ci_low_across_seeds": 0.9411963469568396,
+     "auroc_ci_high_across_seeds": 0.9978644185301002
+    },
+    "30": {
+     "auroc_mean_across_seeds": 0.97392,
+     "auroc_per_seed": [
+      0.9732000000000001,
+      0.9707999999999999,
+      0.9744,
+      0.9768,
+      0.9743999999999999
+     ],
+     "auroc_ci_low_across_seeds": 0.93876436193762,
+     "auroc_ci_high_across_seeds": 0.9976328709659071
+    },
+    "31": {
+     "auroc_mean_across_seeds": 0.97768,
+     "auroc_per_seed": [
+      0.9784,
+      0.9756,
+      0.9763999999999999,
+      0.98,
+      0.978
+     ],
+     "auroc_ci_low_across_seeds": 0.9478162952512127,
+     "auroc_ci_high_across_seeds": 0.9977347484108614
+    },
+    "32": {
+     "auroc_mean_across_seeds": 0.98424,
+     "auroc_per_seed": [
+      0.988,
+      0.9804,
+      0.9827999999999999,
+      0.9884,
+      0.9816
+     ],
+     "auroc_ci_low_across_seeds": 0.9629868469722401,
+     "auroc_ci_high_across_seeds": 0.9982956362858657
+    }
+   }
+  }
+ },
+ "_meta": {
+  "seeds": [
+   1234,
+   4567,
+   7890,
+   2345,
+   5678
+  ],
+  "n_cv_folds": 5,
+  "n_bootstrap": 1000,
+  "n_layers": 33,
+  "hidden_dim": 4096,
+  "pairs": [
+   "known_vs_unknown",
+   "known_vs_ambiguous",
+   "known_vs_misleading",
+   "unknown_vs_ambiguous",
+   "unknown_vs_misleading",
+   "ambiguous_vs_misleading"
+  ],
+  "primary_representation": "last_token_states",
+  "secondary_representation": "mean_pooled_states",
+  "lr_config": {
+   "C": 1.0,
+   "penalty": "l2 (sklearn default)",
+   "solver": "lbfgs",
+   "max_iter": 2000,
+   "preprocessing": "none (raw fp32 hidden states)"
+  },
+  "protocol": "analysis protocol"
+ },
+ "_provenance": {
+  "git_commit_at_run": "anonymized",
+  "npz_sha256": "ee2c329526043cea56ff8aa105aecf63770042d0d77364637bf729935c3fcfb6",
+  "script_sha256": "9b376635d43aefa3d10133189f7131de4d13a2681c7591435585fe7fb8dbd5cc",
+  "python_version": "3.12.3"
+ }
+}

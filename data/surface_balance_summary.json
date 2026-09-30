@@ -1,0 +1,147 @@
+{
+  "pair_aurocs": {
+    "known_vs_unknown": {
+      "per_model": {
+        "qwen7b": 0.7415999999999999,
+        "llama8b": 0.736,
+        "qwen32b": 0.76296
+      },
+      "per_model_sd": {
+        "qwen7b": 0.006778790452580759,
+        "llama8b": 0.01127120224288428,
+        "qwen32b": 0.005727687142293972
+      },
+      "max": 0.76296,
+      "gate": 0.75,
+      "passes": false
+    },
+    "known_vs_ambiguous": {
+      "per_model": {
+        "qwen7b": 0.7607200000000001,
+        "llama8b": 0.8332799999999999,
+        "qwen32b": 0.74992
+      },
+      "per_model_sd": {
+        "qwen7b": 0.017078454262608178,
+        "llama8b": 0.0159065269622253,
+        "qwen32b": 0.014106792690048275
+      },
+      "max": 0.8332799999999999,
+      "gate": 0.75,
+      "passes": false
+    },
+    "known_vs_misleading": {
+      "per_model": {
+        "qwen7b": 0.7611199999999999,
+        "llama8b": 0.86728,
+        "qwen32b": 0.78048
+      },
+      "per_model_sd": {
+        "qwen7b": 0.019215660280094464,
+        "llama8b": 0.012870804170680239,
+        "qwen32b": 0.019122175608439516
+      },
+      "max": 0.86728,
+      "gate": 0.75,
+      "passes": false
+    },
+    "unknown_vs_ambiguous": {
+      "per_model": {
+        "qwen7b": 0.7287199999999999,
+        "llama8b": 0.7525600000000001,
+        "qwen32b": 0.72432
+      },
+      "per_model_sd": {
+        "qwen7b": 0.014736946766545687,
+        "llama8b": 0.006179190885544807,
+        "qwen32b": 0.012685487771465482
+      },
+      "max": 0.7525600000000001,
+      "gate": 0.85,
+      "passes": true
+    },
+    "unknown_vs_misleading": {
+      "per_model": {
+        "qwen7b": 0.7582399999999999,
+        "llama8b": 0.78504,
+        "qwen32b": 0.76552
+      },
+      "per_model_sd": {
+        "qwen7b": 0.02435155847168718,
+        "llama8b": 0.028382078852684522,
+        "qwen32b": 0.02201875564149796
+      },
+      "max": 0.78504,
+      "gate": 0.75,
+      "passes": false
+    },
+    "ambiguous_vs_misleading": {
+      "per_model": {
+        "qwen7b": 0.718,
+        "llama8b": 0.6634400000000001,
+        "qwen32b": 0.6913600000000001
+      },
+      "per_model_sd": {
+        "qwen7b": 0.019887684631449708,
+        "llama8b": 0.030971057456922555,
+        "qwen32b": 0.02565069979552213
+      },
+      "max": 0.718,
+      "gate": 0.75,
+      "passes": true
+    }
+  },
+  "wc_spread": 1.5199999999999996,
+  "ne_spread": 0.43999999999999995,
+  "wc_per_regime": {
+    "ambiguous": 7.6,
+    "known": 7.58,
+    "misleading": 8.6,
+    "unknown": 7.08
+  },
+  "ne_per_regime": {
+    "ambiguous": 1.2,
+    "known": 1.1,
+    "misleading": 1.22,
+    "unknown": 1.54
+  },
+  "qform_kls": {
+    "known_vs_unknown": 1.3975771785200943,
+    "known_vs_ambiguous": 0.02403563384331404,
+    "known_vs_misleading": 0.02873340443849904,
+    "unknown_vs_ambiguous": 0.1436331452385122,
+    "unknown_vs_misleading": 0.18072284248113404,
+    "ambiguous_vs_misleading": 0.35566395642258875
+  },
+  "n_per_regime": {
+    "known": 50,
+    "unknown": 50,
+    "ambiguous": 50,
+    "misleading": 50
+  },
+  "subtype_counts": {
+    "known": {
+      "known_borderline": 19,
+      "known_longtail": 13,
+      "known_strong": 18
+    },
+    "unknown": {
+      "unknown_model_dependent": 10,
+      "unknown_niche_technical": 19,
+      "unknown_long_tail": 13,
+      "unknown_post_cutoff": 8
+    },
+    "ambiguous": {
+      "ambiguous_referential": 18,
+      "ambiguous_scope": 18,
+      "ambiguous_temporal": 14
+    },
+    "misleading": {
+      "misleading_misconception": 12,
+      "misleading_wrong_attribution": 12,
+      "misleading_nonexistent_entity": 10,
+      "misleading_wrong_date": 10,
+      "misleading_impossible_premise": 6
+    }
+  }
+}
